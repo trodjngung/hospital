@@ -1,0 +1,408 @@
+message_id,EN,JP,VN,contents_list_id
+LAYOUT_TEXT_1,,,,
+LAYOUT_TEXT_2,Home,ホーム,Trang chủ,h1
+LAYOUT_TEXT_3,Recruit,採用情報,Tuyển dụng,h1
+LAYOUT_TEXT_4,Product,プロダクト,Sản phẩm,h1
+LAYOUT_TEXT_5,Staff,スタッフ,Nhân viên,h1
+LAYOUT_TEXT_6,Company profile,会社情報,Giới thiệu,h1
+LAYOUT_TEXT_7,,,,
+LAYOUT_TEXT_8,Contact us,お問い合わせ,Liên hệ,h1
+LAYOUT_TEXT_9,Access,アクセス,Địa chỉ,h1
+LAYOUT_TEXT_10,LANGUAGES,LANGUAGES,LANGUAGES,l1
+LAYOUT_TEXT_10_1,English,English,English,l1
+LAYOUT_TEXT_10_2,Tiếng Việt,Tiếng Việt,Tiếng Việt,l1
+LAYOUT_TEXT_10_3,日本語,日本語,日本語,l1
+LAYOUT_TEXT_11,,,,
+LAYOUT_TEXT_12,Sitemap,サイトマップ,Sơ đồ,f1
+LAYOUT_TEXT_13,Home,ホーム,Trang chủ,f1
+LAYOUT_TEXT_14,Recruit,採用情報,Tuyển dụng,f1
+LAYOUT_TEXT_15,Product,プロダクト,Sản phẩm,f1
+LAYOUT_TEXT_16,Staff,スタッフ,Nhân viên,f1
+LAYOUT_TEXT_17,Company profile,会社情報,Giới thiệu,f1
+LAYOUT_TEXT_18,Contact us,お問い合わせ,Liên hệ,f1
+LAYOUT_TEXT_19,Access,アクセス,Địa chỉ,f1
+LAYOUT_TEXT_20,Admin,管理,Quản lý,f1
+LAYOUT_TEXT_21,Contact us,お問い合わせ,Liên hệ,f1
+LAYOUT_TEXT_22,"7F IPH, 241 Xuan Thuy Str., Cau Giay Dist., Hanoi, Vietnam.","7F IPH, 241 Xuan Thuy Str., Cau Giay Dist., Hanoi, Vietnam.","Tầng 7, IPH, 241 Xuân Thuỷ, Cầu Giấy, Hà Nội, Việt Nam",f1
+LAYOUT_TEXT_23,＋84-(0)4-3256-5182,＋84-(0)4-3256-5182,＋84-(0)4-3256-5182,f1
+LAYOUT_TEXT_24,www.tmh-techlab.vn,www.tmh-techlab.vn,www.tmh-techlab.vn,f1
+LAYOUT_TEXT_25,info@tmh-techlab.vn,info@tmh-techlab.vn,info@tmh-techlab.vn,f1
+LAYOUT_TEXT_26,https://www.facebook.com/tmhtechlab,https://www.facebook.com/tmhtechlab,https://www.facebook.com/tmhtechlab,f1
+LAYOUT_TEXT_27,"Copyright © Tribal Media House Technology Lab Co., Ltd. All rights reserved","Copyright © Tribal Media House Technology Lab Co., Ltd. All rights reserved","Copyright © Tribal Media House Technology Lab Co., Ltd. All rights reserved",f3
+LAYOUT_TEXT_28,,,,
+TOP_TEXT_1,,,,
+TOP_TEXT_2,Recruit,採用情報,Tuyển dụng,t2
+TOP_TEXT_3,,,,
+TOP_TEXT_4,Graduate recruitment,新卒採用,Dành cho sinh viên mới tốt nghiệp,t4
+TOP_TEXT_5,"Mass recruitment of students graduating in 2015 (including scheduled)!We are waiting for the application of people who would like to build their career as WEB application engineers. Don't you want to sharpen your business skills and development skills during a Japanese style environment? We are looking for students who have interests in Japan and want to develop with us together!",2015年に卒業（予定含）する学生も大募集！Webアプリケーションエンジニアとしてキャリアを積みたい方の応募をお待ちしてます。日本のスタイルで開発スキルやビジネススキルを磨いてみませんか。日本に興味があり一緒に成長できる学生を探しています！,"Tuyển dụng số lượng lớn sinh viên đã/sẽ tốt nghiệp năm 2015!
+Chúng tôi chào đón những ứng viên tìm kiếm cơ hội việc làm kỹ sư lập trình ứng dụng Web. Bạn có muốn thử sức mình với các kỹ năng phát triển, kỹ năng kinh doanh theo phong cách Nhật Bản? Chúng tôi đang tìm kiếm các bạn sinh viên có hứng thú với đất nước Nhật Bản, cùng chúng tôi phát triển và trưởng thành!",t4
+TOP_TEXT_6,,,,
+TOP_TEXT_7,Mid-career recruitment,中途採用,Dành cho ứng viên có nhu cầu chuyển việc,t6
+TOP_TEXT_8,"We are looking forward to the participation of those who want to learn the culture and procedure of work in a Japanese company, those who want to master skills effective not only in Japan, but also in the world, those who want to build rich experience as a founding member of the company, and those who want to be active as leaders or managers in the future.",日系の会社で仕事の進め方や文化を学びたい方、日本だけでなく世界に通用する技術を身に付けたい方、会社の設立メンバーとして幅広い経験を積み重ねたい方、将来リーダーやマネージャーとして活躍したい方の応募を待っています。,"Chúng tôi chào đón những ứng viên muốn phát triển sự nghiệp và học hỏi văn hoá tại doanh nghiệp Nhật Bản, ứng viên muốn tìm hiểu về các kỹ thuật không chỉ sử dụng tại Nhật Bản mà trên toàn thế giới, ứng viên muốn mở rộng kinh nghiệm của bản thân với tư cách là thành viên thiết lập công ty, ứng viên mong muốn hoạt động với tư cách nhà lãnh đạo, nhà quản lý tương lai.",t6
+TOP_TEXT_9,Product,プロダクト,Sản phẩm,t12
+TOP_TEXT_10,,,,
+TOP_TEXT_11,,,,
+TOP_TEXT_12,,,,
+TOP_TEXT_13,Album,アルバム,Album,t12
+COMPANY_TEXT_1,,,,
+COMPANY_TEXT_2,Slogan,スローガン,Khẩu hiệu,c1
+COMPANY_TEXT_3,SURPRISING & MOVING EVERY HUMAN BEING,人類にオドロキと感動を！,SURPRISING & MOVING EVERY HUMAN BEING,c1
+COMPANY_TEXT_4,Mission,ミッション,Nhiệm vụ,c2
+COMPANY_TEXT_5,Create the Future of Marketing,マーケティングの未来を作る,Create the Future of Marketing,c2
+COMPANY_TEXT_6,Vision,ビジョン,Tầm nhìn,c3
+COMPANY_TEXT_7,Be the Marketing Venture that drives Marketing Innovation,"マーケティングを変革する
+マーケティングベンチャーであれ",Be the Marketing Venture that drives Marketing Innovation,c3
+COMPANY_TEXT_8,Message,ご挨拶,Lời chào,c5
+COMPANY_TEXT_9,,,,
+COMPANY_TEXT_10,President,代表取締役社長,Tổng giám đốc,c5
+COMPANY_TEXT_11,Jotaro Sato,佐藤 譲太郎,Jotaro Sato,c5
+COMPANY_TEXT_12,"Tribal Media House, is a marketing venture whose mission is to ""Create the future of marketing"". This DNA has been inherited. TMH Tech. Lab has been providing not only domestic-class, but also world-class Technology x Marketing solutions. 
+
+Vietnam and Japan have different languages and cultures. And we cannot immediately rush there if problems arise. However, to create a cohesive team that can actively take in variety regardless of country, culture, and language is the most important element for team building as well the wall we have to surpass as a company aiming for developing solutions that can ""SURPRISING & MOVING EVERY HUMAN BEING"". 
+
+TMH Tech. Lab's is going to challenge the best solution development beyond border lines with all its strength.","トライバルメディアハウスは、「マーケティングの未来をつくる」をミッションとするマーケティングベンチャーです。このDNAを受け継ぐTMH Tech.Labは、Technology x Marketingをテーマとして、日本および世界に通用するソリューションを提供していきます。
+
+ベトナムと日本は、言語も文化も異なります。なにか問題があったときにすぐに駆けつけることもできません。しかし、国・文化・言語にとらわれることなく、また多様性を積極的に受け入れつつ、結束力のあるチームをつくること、これらは「人類にオドロキと感動を」届けるソリューション開発を目指す弊社にとって、もっとも大切なチームづくりの要素であり、なにがなんでも超えていきたい壁であると考えています。
+
+TMH Tech. Labのチャレンジは、まだはじまったばかりですが、国境を超えたグローバルなチームで最高のソリューションを開発することに、全力で取り組んでいきます。","Tribal Media House chúng tôi là công ty marketing venture với sứ mệnh ""Tạo dựng tương lai marketing"". Để tiếp nối sứ mệnh đó, TMH Tech. Lab được thành lập với chủ đề là Technology & Marketing, sẽ cung cấp các sản phẩm về giải pháp marketing ứng dụng tại Nhật Bản và trên thế giới.
+Việt Nam và Nhật Bản là hai đất nước có hai nền văn hoá và ngôn ngữ khác nhau. Khi có vấn đề gì xảy ra, tôi nghĩ cũng khó có thể giải quyết nhanh chóng được. Tuy nhiên, ở đây tôi không đề cập đến sự khác nhau về đất nước, văn hoá và con người, đối với Công ty chúng tôi để đạt được mục tiêu phát triển các giải pháp ""Mang lại sự bất ngờ và cảm động cho nhân loại"", yếu tố quan trọng nhất chính là tích cực đa dạng hoá các hoạt động, tạo dựng đội ngũ nhân viên đoàn kết, đồng lòng vượt qua mọi thử thách cho dù đó là gì chăng nữa.
+Tuy TMH Tech. Lab là công ty mới thành lập, sẽ gặp nhiều khó khăn thử thách nhưng chúng tôi sẽ dốc toàn lực để phát triển những giải pháp tối ưu bằng chính đội ngũ lập trình viên toàn cầu của mình, vượt qua mọi trở ngại về ngôn ngữ, văn hoá và vị trí địa lý giữa các quốc gia.",c5
+COMPANY_TEXT_13,Company’s outline,会社概要,Khái quát về công ty,c6
+COMPANY_TEXT_14,Company name,会社名,Tên công ty,c6
+COMPANY_TEXT_15,"Tribal Media House Technology Lab Co., Ltd.","Tribal Media House Technology Lab Co., Ltd.","Tribal Media House Technology Lab Co., Ltd.",c6
+COMPANY_TEXT_16,Address,住所,Địa chỉ,c6
+COMPANY_TEXT_17,"7F Indochina Plaza Hanoi, 241 Xuan Thuy Str., Cau Giay Dist., Hanoi, Vietnam.","7F Indochina Plaza Hanoi, 241 Xuan Thuy Str., Cau Giay Dist., Hanoi, Vietnam.","Tầng 7, IPH, 241 Xuân Thuỷ, Cầu Giấy, Hà Nội, Việt Nam",c6
+COMPANY_TEXT_18,Business,事業内容,Hoạt động kinh doanh,c6
+COMPANY_TEXT_19,Software development,ソフトウェア開発,Phát triển phần mềm,c6
+COMPANY_TEXT_20,Date of established,設立,Ngày thành lập,c6
+COMPANY_TEXT_21,23/1/2015,2015年1月23日,23/1/2015,c6
+COMPANY_TEXT_22,Company Representative,執行体制,Điều hành,c6
+COMPANY_TEXT_23,"Mr.Jotaro Sato, President",代表取締役社長　佐藤 譲太郎,Tổng giám đốc Jotaro Sato,c6
+COMPANY_TEXT_24,Investor,株主,Chủ đầu tư,c6
+COMPANY_TEXT_25,"Tribal Media House, Inc",株式会社トライバルメディアハウス,"Tribal Media House, Inc",c6
+STAFF_TEXT_0_1,Hobbies,趣味,Sở thích,s1
+STAFF_TEXT_0_2,Native place,出身,Quê quán,s1
+STAFF_TEXT_0_3,Job category / Title,職種／役職,Nghề nghiệp/ Chức vụ,s1
+STAFF_TEXT_0_4,Name,名前,Họ tên,s1
+STAFF_TEXT_0_5,Message,メッセージ,Lời nhắn,s1
+STAFF_TEXT_1_2,President,代表取締役社長,Tổng giám đốc,s3-1
+STAFF_TEXT_1_3,Jotaro Sato,佐藤 譲太郎,Jotaro Sato,s3-1
+STAFF_TEXT_1_4,reading a book / golf / snow bording,読書／ゴルフ／スノーボード / ...,Đọc sách / chơi gôn / trượt tuyết / ...,s3-1
+STAFF_TEXT_1_5,Kanagawa / Japan,神奈川県 / 日本,Kanagawa/ Nhật Bản,s3-1
+STAFF_TEXT_1_6,"I has been living in Vietnam since the establishment of our company in January 2015. I'm here to provide the best solution beyond the border line between Japan and Vietnam.",2015年1月の会社設立と共にベトナムでの生活をスタートしました。日本とベトナム、国境を越えたグローバルなチームで「Technology x Marketing」をテーマに最高のソリューションを提供するため、日々奮闘中。,"Từ tháng 1 năm 2015, tôi đã thành lập công ty TMH Tech. Lab và bắt đầu cuộc sống của mình tại Việt Nam. Tôi luôn nỗ lực hết mình để tạo ra những giải pháp phần mềm tối ưu kết hợp giữa ""Technology và Marketing"" bằng chính đội ngũ lập trình viên Nhật Bản- Việt Nam.",s3-1
+STAFF_TEXT_2_1,,,,
+STAFF_TEXT_2_2,Admin,総務,Hành chính- Nhân sự,s3-2
+STAFF_TEXT_2_3,Vu Hoai Phuong,Vu Hoai Phuong,Vũ Hoài Phương,s3-2
+STAFF_TEXT_2_4,Traveling / shopping / listening music / ...,旅行 / 買い物 / 音楽を聴く / ...,Du lịch / Mua sắm / Nghe nhạc /...,s3-2
+STAFF_TEXT_2_5,Nam Dinh / Vietnam,ナムディン / ベトナム,Nam Định / Việt Nam,s3-2
+STAFF_TEXT_2_6,Haste Makes Waste.,急いては事をし損ずる。,Dục tốc bất đạt.,s3-2
+STAFF_TEXT_3_1,,,,
+STAFF_TEXT_3_2,Communicator,通訳,Phiên dịch,s3-3
+STAFF_TEXT_3_3,Mai Huong Son,Mai Huong Son,Mai Hương Sơn,s3-3
+STAFF_TEXT_3_4,Film / reading book / traveling / ...,映画 / 読書 / 旅行 / ...,Xem phim / đọc sách / du lịch / ...,s3-3
+STAFF_TEXT_3_5,Phu Tho / Vietnam,フー・ト / ベトナム,Phú Thọ / Việt Nam,s3-3
+STAFF_TEXT_3_6,Happiness is not destination. It's the method of life.,Happiness is not destination. It's the method of life.,Happiness is not destination. It's the method of life.,s3-3
+STAFF_TEXT_4_1,,,,
+STAFF_TEXT_4_2,Engineer,エンジニア,Kỹ sư,s3-4
+STAFF_TEXT_4_3,Nguyen Huu Chi,Nguyen Huu Chi,Nguyễn Hữu Chí,s3-4
+STAFF_TEXT_4_4,Research Culture / Art / Technology / fishing / sport / ...,文化 / 芸術 / テクノロジーを調べる / 魚釣り / スポーツ / ...,"Tìm hiểu văn hoá / nghệ thuật, công nghệ / câu cá / chơi thể thao / ...",s3-4
+STAFF_TEXT_4_5,Hanoi / Vietnam,ハノイ / ベトナム,Hà Nội / Việt Nam,s3-4
+STAFF_TEXT_4_6,Learn to be happy with what you have while you pursue all that you dream.,Learn to be happy with what you have while you pursue all that you dream.,Hãy học cách hạnh phúc với những gì bạn có trong khi bạn đang theo đuổi tất cả những gì mình mơ ước.,s3-4
+STAFF_TEXT_5_1,,,,
+STAFF_TEXT_5_2,Engineer,エンジニア,Kỹ sư,s3-5
+STAFF_TEXT_5_3,Tran Quang Minh,Tran Quang Minh,Trần Quang Minh,s3-5
+STAFF_TEXT_5_4,Chatting / Playing game / Music / ...,チャット / ゲーム / 音楽を聴く / ...,Tán phét / chơi game / và nghe nhạc / ...,s3-5
+STAFF_TEXT_5_5,Hanoi / Vietnam,ハノイ / ベトナム,Hà Nội / Việt Nam,s3-5
+STAFF_TEXT_5_6,"Work hard, play hard.","Work hard, play hard.","Làm hết sức, chơi hết mình.",s3-5
+STAFF_TEXT_6_1,,,,
+STAFF_TEXT_6_2,Engineer,エンジニア,Kỹ sư,s3-6
+STAFF_TEXT_6_3,Quy Pv,Quy Pv,Quy Pv,s3-6
+STAFF_TEXT_6_4,Fried pie / baked pie / stay at home in winter and sleep while it's raining / ...,ベトナムのトラ焼き / 焼きパン / 冬に家に居る / 雨降り時に寝る / ...,Bánh rán / bánh nướng / thích ở nhà vào mùa đông và nằm ngủ khi trời đang mưa / ...,s3-6
+STAFF_TEXT_6_5,Quang Binh / Vietnam,クアンビン / ベトナム,Quảng Bình / Việt Nam,s3-6
+STAFF_TEXT_6_6,Life is waiting.,人生とは待つことである,Cuộc sống là phải chờ đợi.,s3-6
+STAFF_TEXT_7_1,,,,
+STAFF_TEXT_7_2,Engineer,エンジニア,Kỹ sư,s3-7
+STAFF_TEXT_7_3,Dinh Thi Nhinh,Dinh Thi Nhinh ,Đinh Thi Nhinh ,s3-7
+STAFF_TEXT_7_4,eat barbecue / watch cartoon / sleep when have free time / ...,BBQ / アニメ / 昼寝 / ...,Ăn đồ nướng / xem phim hoạt hình / ngủ khi có thời gian rảnh / ...,s3-7
+STAFF_TEXT_7_5,Ninh Binh / Vietnam,ニンビン / ベトナム,Ninh Bình / Việt Nam,s3-7
+STAFF_TEXT_7_6,Let’s act as you talk and think,Let’s act as you talk and think,Hãy hành động theo những gì bạn nói và nghĩ,s3-7
+STAFF_TEXT_8_1,,,,
+STAFF_TEXT_8_2,Engineer,エンジニア,Kỹ sư,s3-8
+STAFF_TEXT_8_3,Nguyen Viet Duc,Nguyen Viet Duc,Nguyễn Việt Đức,s3-8
+STAFF_TEXT_8_4,Traveling with motorbikes / America tv series / ...,バイクで旅行する / 洋画TVシリーズ / ...,Đi phượt bằng xe máy / phim truyền hình Mỹ / ...,s3-8
+STAFF_TEXT_8_5,Hanoi / Vietnam,ハノイ / ベトナム,Hà Nội / Việt Nam,s3-8
+STAFF_TEXT_8_6,"When you want to give up, remember why you started.",挫けそうな時は、それを始めた時の気持ちを思い出そう。,"Khi bạn từ bỏ, hãy nhớ tại sao mình bắt đầu.",s3-8
+STAFF_TEXT_9_1,,,,
+STAFF_TEXT_9_2,Engineer,エンジニア,Kỹ sư,s3-9
+STAFF_TEXT_9_3,Khuat Thi Thu Hang,Khuat Thi Thu Hang,Khuất Thị Thu Hằng,s3-9
+STAFF_TEXT_9_4,Traveling / Listening music / Reading book / Watching movie / ...,旅行 / 音楽を聴く / 漫画を読む / 映画を見る / ...,Du lịch / Nghe nhạc / Đọc truyện / Xem phim / ...,s3-9
+STAFF_TEXT_9_5,Hanoi / Vietnam,ハノイ / ベトナム,Hà Nội / Việt Nam,s3-9
+STAFF_TEXT_9_6,I can't go back to yesterday because i was a different person then,昨日の私には戻れない。なぜなら、その時はもう違う私だから。,"Tôi không thể quay trở về ngày hôm qua, bởi vì lúc ấy tôi là một người rất khác",s3-9
+STAFF_TEXT_10_1,,,,
+STAFF_TEXT_10_2,Engineer,エンジニア,Kỹ sư,
+STAFF_TEXT_10_3,,,,
+STAFF_TEXT_10_4,,,,
+STAFF_TEXT_10_5,,,,
+STAFF_TEXT_10_6,,,,
+PRODUCT_TEXT_1,,,,
+PRODUCT_TEXT_2,cocosquare,cocosquare（ココスクウェア）,cocosquare,p1
+PRODUCT_TEXT_3,"Cocosquare is a Co-creation marketing platform that allows you to conduct MROC(Marketing Research Online Community), qualitative research, and quantitative research by means of its discussion and survey functions. Moreover, Cocosquare improves user engagement by supporting long-term discussions that build relationship and mutual understanding between your brand and customers.",「cocosquare（ココスクウェア）」は、共創（Co-creation）をコンセプトとして、企業と顧客が様々な体験を通じた中長期的な関係構築を実現するコミュニティプラットフォームをASP（SaaS）で提供しています。,"Cocosquare (Nền tảng đồng sáng tạo Marketing) có tính năng chủ yếu là thực hiện điều tra về chất (Dùng MROC và thảo luận) và điều tra về lượng (dùng phiếu khảo sát và bầu chọn). Đồng thời, tăng cường nâng cao sự tham gia đóng góp của người sử dụng bằng cách hỗ trợ thiết lập mối quan hệ và sự hiểu biết lẫn nhau giữa người sử dụng và doanh nghiệp (thương hiệu) thông qua việc đối thoại trung và dài kỳ.",p1
+PRODUCT_TEXT_4,http://cocosquare.tribalmedia.co.jp,http://cocosquare.tribalmedia.co.jp,http://cocosquare.tribalmedia.co.jp,p3
+PRODUCT_TEXT_5,,,,
+PRODUCT_TEXT_6,Engage Manager,Engage Manager（エンゲージマネージャー）,Engage Manager,p4
+PRODUCT_TEXT_7,"Engage Manager is an integrated social media management tool that simplifies the management of social media accounts. With Engage Manager, you can manage various social media accounts in one place and get support for tasks ranging from daily operations to strategic decision making.",Engage Managerは、ソーシャルメディアの運用業務をシンプルにするために生まれたソーシャルメディア統合管理ツールです。企業のあらゆるソーシャルメディアアカウントを一元的に管理し、日々の運用から戦略的な意思決定まで、ソーシャルメディアに携わる方々を強力にサポートします。,"Là công cụ quản lý tổng hợp tất cả phương tiện truyền thông xã hội mới được tạo lập trong nước, nhằm đơn giản hoá nghiệp vụ vận hành quản lý phương tiện truyền thông. Hỗ trợ mạnh mẽ người hoạt động trong lĩnh vực phương tiện truyền thông xã hội từ việc quản lý chung tất cả các tài khoản đăng nhập phương tiện truyền thông xã hội trong doanh nghiệp, vận hành quản lý hàng ngày đến những quyết định mang tính chiến lược.",p4
+PRODUCT_TEXT_8,http://engagemanager.tribalmedia.co.jp,http://engagemanager.tribalmedia.co.jp,http://engagemanager.tribalmedia.co.jp,p6
+PRODUCT_TEXT_9,,,,
+PRODUCT_TEXT_10,Boom Research,ブームリサーチ（Boom Research）,Boom Research,p7
+PRODUCT_TEXT_11,"Boom Research is an analytical tool that helps you to collect and analyze word-of-mouth data across various platforms such as Blogs, Twitter, and Q&A sites in Japan. With Boom Research, anyone can easily make professional reports that support various departments such as marketing, advertising, and public relations in terms of managing risk and measuring campaign effectiveness. ",Boom Researchは、国内のあらゆるクチコミデータを収集し、直感的な簡単操作でプロの分析を行うことができるクチコミ分析ツールです。クリックひとつで本格的なレポートを作成でき、効果測定からリスク管理まで、広報・宣伝・マーケティングに携わる方々を強力にサポートします。,"Là công cụ phân tích phương thức truyền miệng, có thể thu thập tất cả các dữ liệu truyền miệng trong nước, tiến hành phân tích chuyên nghiệp bằng các thao tác đơn giản trực quan. Hỗ trợ mạnh mẽ cho người hoạt động trong các lĩnh vực quan hệ công chúng, tuyên truyền, marketing từ việc có thể lập báo cáo một cách chuyên nghiệp chỉ bằng một cái click chuột, tính toán hiệu quả đến quản lý rủi ro. ",p7
+PRODUCT_TEXT_12,http://boomresearch.tribalmedia.co.jp,http://boomresearch.tribalmedia.co.jp,http://boomresearch.tribalmedia.co.jp,p9
+CONTACT_TEXT_1,Thank you for contact.,お問い合わせありがとうございます。,Cảm ơn bạn đã liên hệ với chúng tôi!,co1
+CONTACT_TEXT_2,Name,名前,Họ tên,co1
+CONTACT_TEXT_3,Your name,山田 太郎,Tên của bạn,co1
+CONTACT_TEXT_4,E-mail,メールアドレス,E-mail,co1
+CONTACT_TEXT_5,sample@tmh-techlab.vn,sample@tmh-techlab.vn,sample@tmh-techlab.vn,co1
+CONTACT_TEXT_6,Phone number,電話番号,Điện thoại,co1
+CONTACT_TEXT_7,0000-123-4567,0000-123-4567,0000-123-4567,co1
+CONTACT_TEXT_8,University / Company,学校/会社名,Tên trường/ Tên công ty,co1
+CONTACT_TEXT_9,,,,
+CONTACT_TEXT_10,Position,役職名,Vị trí,co1
+CONTACT_TEXT_11,,,,
+CONTACT_TEXT_12,Division,部署名,Tên bộ phận,co1
+CONTACT_TEXT_13,,,,
+CONTACT_TEXT_14,Type of contact,お問い合わせ種別,Loại liên lạc,co1
+CONTACT_TEXT_15,Type of contact,お問い合わせ種別,Loại liên lạc,co1
+CONTACT_TEXT_15_1,Recruit,採用,Tuyển dụng,co1
+CONTACT_TEXT_15_2,Other,その他,Khác,co1
+CONTACT_TEXT_16,Note,備考,Lời nhắn,co1
+CONTACT_TEXT_17,Please enter your message.,テキストを入力してください。,Vui lòng nhập văn bản vào đây.,co1
+CONTACT_TEXT_18,Send,送信,Gửi,co1
+CONTACT_TEXT_19,Please enter your name.,名前を入力してください,Vui lòng nhập tên.,co1
+CONTACT_TEXT_20,Please enter your email address.,メールアドレスを入力してください,Vui lòng nhập địa chỉ email.,co1
+CONTACT_TEXT_21,Please select.,選択してください,Vui lòng lựa chọn.,co1
+ACCESS_TEXT_1,,,,
+ACCESS_TEXT_2,Office,オフィス,Văn phòng,a2
+ACCESS_TEXT_3,"7F Indochina Plaza Hanoi, 241 Xuan Thuy Str., Cau Giay Dist., Hanoi, Vietnam.","7F Indochina Plaza Hanoi, 241 Xuan Thuy Str., Cau Giay Dist., Hanoi, Vietnam.","Tầng 7, IPH, 241 Xuân Thuỷ, Cầu Giấy, Hà Nội, Việt Nam",a2
+ACCESS_TEXT_4,info@tmh-techlab.vn,info@tmh-techlab.vn,info@tmh-techlab.vn,a2
+ACCESS_TEXT_5,＋84-(0)4-3256-5182,＋84-(0)4-3256-5182,＋84-(0)4-3256-5182,a2
+ACCESS_TEXT_6,Working hours,営業時間,Thời gian làm việc,a2
+ACCESS_TEXT_7,Monday-Friday: 8h30 〜 17h30,月〜金曜日：8:30 〜 17:30,Thứ hai - Thứ sáu: 8:30 ~ 17:30,a2
+ACCESS_TEXT_8,"Saturday, Sunday, Holiday: Close",土日祝日休み,"Thứ bảy, Chủ nhật, các ngày lễ: Nghỉ",a2
+ACCESS_TEXT_9,"21.036186,105.782660","21.036186,105.782660","21.036186,105.782660",a1
+ACCESS_TEXT_10,"Tribal Media House Technology Lab Co., Ltd.","Tribal Media House Technology Lab Co., Ltd.","Tribal Media House Technology Lab Co., Ltd.",a1
+ACCESS_TEXT_11,"7F Indochina Plaza Hanoi, 241 Xuan Thuy Str., Cau Giay Dist., Hanoi, Vietnam.","7F Indochina Plaza Hanoi, 241 Xuan Thuy Str., Cau Giay Dist., Hanoi, Vietnam.","Tầng 7, IPH, 241 Xuân Thuỷ, Cầu Giấy, Hà Nội, Việt Nam",a1
+ACCESS_TEXT_12,info@tmh-techlab.vn,info@tmh-techlab.vn,info@tmh-techlab.vn,a1
+ACCESS_TEXT_13,＋84-(0)4-3256-5182,＋84-(0)4-3256-5182,＋84-(0)4-3256-5182,a1
+ACCESS_TEXT_14,http://www.tmh-techlab.vn,http://www.tmh-techlab.vn,http://www.tmh-techlab.vn,a1
+ERROR_TEXT_1,Error,エラー,Lỗi,er1
+ERROR_TEXT_2,Error,エラーが発生しました。,Đã phát sinh lỗi.,er1
+ERROR_TEXT_3,Back to Home,ホームへ戻る,Quay về Trang chủ,er1
+THANKS_R_TEXT_1,Thank you for apply.,ご応募ありがとうございました。,Cảm ơn bạn đã ứng tuyển.,th-1
+THANKS_R_TEXT_2,"An automatic reply mail will be mailed later. 
+If the reply mail is not received, normal process is not made, then you can contact us through related form or info@tmh-techlab.vn. 
+We will contact you after confirming the application content, so please wait patiently. Please feel free to contact us if there is any other question.","この後自動返信メールをお送りしております。
+メールの返信がない場合は通常の処理が出来ておりませんので、 
+再度フォームよりお問合せいただくか、info@tmh-techlab.vn までご連絡ください。
+
+応募内容を確認し折り返し連絡いたしますので、今しばらくお待ち下さい。
+その他、何かご不明な点等ございましたら、お気軽にお問い合わせ下さい。","Sau đây chúng tôi sẽ gửi email trả lời tự động.
+Trường hợp không nhận được email trả lời, do không thể xử lý thông thường. vui lòng thực hiện lại một lần nữa theo mẫu và liên hệ tới địa chỉ info@tmh-techlab.vn.
+Chúng tôi sẽ liên hệ lại sau khi xác nhận nội dung ứng tuyển.
+Ngoài ra, nếu có thắc mắc vui lòng liên hệ với chúng tôi.",th-1
+THANKS_R_TEXT_3,Back to Home,ホームへ戻る,Quay về Trang chủ,th-1
+THANKS_C_TEXT_1,Thank you for contact.,お問合せありがとうございます。,Cảm ơn bạn đã liên hệ với chúng tôi.,th-2
+THANKS_C_TEXT_2,"An automatic reply mail will be mailed later. 
+If the reply mail is not received, normal process is not made, then you can contact us through related form or info@tmh-techlab.vn. 
+We will contact you after confirming the application content, so please wait patiently. Please feel free to contact us if there is any other question.","この後自動返信メールをお送りしております。
+メールの返信がない場合は通常の処理が出来ておりませんので、 
+再度フォームよりお問合せいただくか、info@tmh-techlab.vn までご連絡ください。
+ 
+お問い合わせ内容を確認し折り返し連絡いたしますので、今しばらくお待ち下さい。
+その他、何かご不明な点等ございましたら、お気軽にお問い合わせ下さい。","Sau đây chúng tôi sẽ gửi email trả lời tự động.
+Trường hợp không nhận được email trả lời, do không thể xử lý thông thường. vui lòng thực hiện lại một lần nữa theo mẫu và liên hệ tới địa chỉ info@tmh-techlab.vn.
+Chúng tôi sẽ liên hệ lại sau khi xác nhận nội dung ứng tuyển.
+Ngoài ra, nếu có thắc mắc vui lòng liên hệ với chúng tồi.",th-2
+THANKS_C_TEXT_3,Back to home,ホームへ戻る,Quay về Trang chủ,th-2
+RECRUIT_TEXT_1,,,,
+RECRUIT_TEXT_2,Made in Tribal Media House,Made in Tribal Media House,Made in Tribal Media House,r2
+RECRUIT_TEXT_3,Message,メッセージ,Lời nhắn,r3
+RECRUIT_TEXT_4,"""Tribal Media House Technology Lab"" is a subsidiary of Tribal Media House, which has been supporting the marketing activities as a digital marketing partner and solution vendor, and it has been newly founded in January aiming to strengthen system development force, improve in-house products, and improve the speed of developing new programs. 
+We are looking forward to the participation of those who want to learn the culture and procedures of work in a Japanese company, those who want to master skills effective not only in Japan, but also in the world, those who want to build rich experience as founders of the company, and those who want to be active as leaders or managers in the future.","「Tribal Media House Technology Lab」は、日本およびグローバル市場へのマーケティング活動を支援するデジタルマーケティングパートナー／ソリューションベンダーである「トライバルメディアハウス」の子会社として、システム開発力の強化、自社プロダクトの改良および新規プロダクトの開発スピード向上を目的として1月に設立した新しい会社です。
+
+日系の会社で仕事の進め方や文化を学びたい方、日本だけでなく世界に通用する技術を身に付けたい方、会社の設立メンバーとして幅広い経験を積み重ねたい方、将来リーダーやマネージャーとして活躍したい方の応募を待っています。","""Tribal Media House Technology Lab"" là công ty mới được thành lập tháng 01/2015 với mục đích tăng cường phát triển hệ thống, cải tiến các dự án từ công ty mẹ và nâng cao tốc độ phát triển dự án mới, trực thuộc công  ty Tribal Media House (Là công ty chuyên cung cấp các giải pháp/ đối tác về marketing kỹ thuật số hỗ trợ các hoạt động marketing tại Nhật Bản và trên thị trường thế giới). Chúng tôi chào đón những ứng viên muốn phát triển sự nghiệp và học hỏi văn hoá tại doanh nghiệp Nhật Bản, ứng viên muốn tìm hiểu, nắm vững về các kỹ thuật không chỉ sử dụng tại Nhật Bản mà trên toàn thế giới, ứng viên muốn mở rộng kinh nghiệm của bản thân với vai trò là thành viên thiết lập công ty, ứng viên mong muốn hoạt động nghiệp vụ với vai trò như nhà lãnh đạo, nhà quản lý trong tương lai.",r3
+RECRUIT_TEXT_5,,,,
+RECRUIT_TEXT_6,,,,
+RECRUIT_TEXT_7,,,,
+RECRUIT_TEXT_8,Our development environment,私達の開発環境,Môi trường phát triển của chúng tôi,r19
+RECRUIT_TEXT_9,One day of a engineer,エンジニアの一日,Một ngày làm việc của Kỹ sư lập trình,r18
+RECRUIT_TEXT_10,Personality requested,求める人物像,Đối tượng tuyển dụng,r21
+RECRUIT_TEXT_11,Terms of conditions,募集要項,Yêu cầu tuyển dụng,r4
+RECRUIT_TEXT_12,Position,職種,Vị trí công việc,r4
+RECRUIT_TEXT_13,Engineer,エンジニア,Kỹ sư,r4
+RECRUIT_TEXT_14,Necessary skills,必須スキル,Kỹ năng cần thiết,r4
+RECRUIT_TEXT_15,"More than one year web application engineering experience using PHPHTML/CSS","PHP を使用した1年間以上の webアプリケーション開発経験
+HTML/CSS","Có kinh nghiệm lập trình ứng dụng web sử dụng PHP trên 1 năm
+HTML/CSS",r4
+RECRUIT_TEXT_16,Others,その他スキル,Kỹ năng khác,r4
+RECRUIT_TEXT_17,"Development experience using CakePHP
+Development experience using JavaScript (jQuery or AngularJs, NodeJs etc.).
+Development experience using using the API of Facebook or Twitter, etc.
+Database design using MySQL or PostgreSQL
+Experience of setting or building, etc. of a Linux server","CakePHP を使用した開発経験
+JavaScript (jQuery や AngularJs,NodeJs) などを使用した開発経験
+Facebook や Twitter などの API を使用した開発経験
+MySQL や PostgreSQL を使用したデータベース設計
+Linuxサーバの設定や構築などの経験","Có kinh nghiệm lập trình sử dụng Cake PHP.
+Có kinh nghiệm lập trình sử dụng JavaScript (jQuery và AngularJs, NodeJs).
+Có kinh nghiệm lập trình sử dụng API như của Facebook, Twitter,..
+Thiết kế cơ sở dữ liệu sử dụng MySQL, PostgreSQL.
+Có kinh nghiệm tạo Linux server,...",r4
+RECRUIT_TEXT_18,Application form,応募フォーム,Mẫu ứng tuyển,r5
+RECRUIT_TEXT_19,Name,名前,Họ tên,r5
+RECRUIT_TEXT_20,Your name,山田　太郎,Tên của bạn,r5
+RECRUIT_TEXT_21,Age,年齢,Tuổi,r5
+RECRUIT_TEXT_22,Not selected,選択されていません,Không được lựa chọn.,r5
+RECRUIT_TEXT_23,University / Company,学校／会社名,Tên trường / Tên công ty,r5
+RECRUIT_TEXT_24, , , ,r5
+RECRUIT_TEXT_25,E-mail,メールアドレス,E-mail,r5
+RECRUIT_TEXT_26,recruit@tmh-techlab.vn,recruit@tmh-techlab.vn,recruit@tmh-techlab.vn,r5
+RECRUIT_TEXT_27,Phone No,電話番号,Điện thoại,r5
+RECRUIT_TEXT_28,0000-123-4567,0000-123-4567,0000-123-4567,r5
+RECRUIT_TEXT_29,Memo,備考,Lời nhắn,r5
+RECRUIT_TEXT_30,Please fill in the text.,テキストを入力してください。,Hãy nhập văn bản vào đây.,r5
+RECRUIT_TEXT_31,Uploading your resume (PDF),履歴書アップロード（PDF）,Tải hồ sơ,r5
+RECRUIT_TEXT_32,Select file,ファイル選択,Chọn file,r5
+RECRUIT_TEXT_33,Send,送信,Gửi,r5
+RECRUIT_TEXT_34,Not selected,ファイルが選択されていません,Không có file nào được chọn.,r5
+RECRUIT_TEXT_50_1,Development Cycle,開発サイクル,Chu trình phát triển,r19
+RECRUIT_TEXT_50_2,"We are also incorporating agile development. We are dividing development projects into tickets, and then repeat the process of development, test, and deployment. The accuracy of the development can be improved by repeating this iteration.","私達はアジャイル開発を取り入れています。
+開発工程を小さく分割しチケット化、開発・テスト・デプロイを繰り返しながら開発します。この繰り返し（イテレーション）を繰り返し行うことで開発の精度を上げていきます。","Chúng tôi áp dụng theo phương thức Ajail deverlopment.
+Trong quá trình phát triển chúng tôi phân công công việc bằng ticket, vừa trao đổi công việc qua chu trình Dev- Test- Deploy vừa phát triển. Bằng chu trình công việc lặp đi lặp lai như vậy, chúng tôi đang nâng cao độ chính xác trong công việc.",r19
+RECRUIT_50_3,1. Ticket,1. チケット,1. Ticket,r19
+RECRUIT_50_4,Task tickets are issued through Backlog. A ticket agent will proceed the development based on this ticket.,Backlog を使ってタスクのチケットを発行します。チケットの担当者はこのチケットを元に開発を進めていきます。,Phát hành ticket công việc bằng Backlog. Người thực hiện sẽ tiến hành công việc dựa theo những ticket này.,r19
+RECRUIT_50_5,2. Development & Refactoring,2. 開発&リファクタリング,2. Phát triển và cải thiện,r19
+RECRUIT_50_6,"The IDE of Eclipse,etc. will be used to carry out the development. Development and refactoring are repeated to improve the quality of source code. Developed programs are committed and pushed through Git.",Eclipse などの IDE を使い開発を進めていきます。開発とリファクタリングを繰り返しながらソースコードの質を高めて行きます。開発が完了したものは Git でコミット＆プッシュします。,Tiến hành phát triển sử dụng IDE như Eclipse. Vừa tiền hành phát triển và tái cấu trúc mã nguồn vừa nâng cao chất lượng mã nguồn. Phần hoàn thành phát triển sẽ được đẩy lên Git.,r19
+RECRUIT_50_7,3. Test,3. テスト,3. Kiểm tra,r19
+RECRUIT_50_8,Test procedure is automated through PHPUnit and Selenium.,PHPUnit や Selenium などでテストを自動化して行きます。,"Tiến hành kiểm tra tự động bằng PHPUnit, Selenium,...",r19
+RECRUIT_50_9,4. Deploy,4. デプロイ,4. Triển khai,r19
+RECRUIT_50_10,Jenkins is used to carry out tests and staging and upload to the actual server.,Jenkins でテストの実行やステージングや本番サーバへアップロードをします。,"Thực hiện kiểm tra bằng Jenkins, upload lên server stage và product.",r19
+RECRUIT_50_11,Tool,ツール,Công cụ,r20
+RECRUIT_50_12,The development environment is changing everyday since IT technology is also evolving all the time. The changing development can only be responded flexibly by actively taking in new technologies and keep trying. The following is part of the tools used by us.,"IT テクノロジーが日々進化する中で、開発の環境も日々変化しています。
+新しい技術を積極的に取り入れトライすることで、変化する開発に柔軟に対応していきます。
+以下は、私達が利用しているツールの一部です。","Công nghệ thông tin ngày càng phát triển thì môi trường phát triển cũng biến đổi theo. 
+Chúng tôi sẽ đối ứng linh hoạt với sự thay đổi đó bằng cách thử sức với kỹ thuật mới đó. 
+Dưới đây là một số công cụ chúng tôi đang sử dụng.",r20
+RECRUIT_50_13,"CSS
+javascript
+AngularJs","CSS
+javascript
+AngularJs","CSS
+javascript
+AngularJs",r20
+RECRUIT_50_14,"memcached
+vagrant
+backlog
+selenium","memcached
+vagrant
+backlog
+selenium","memcached
+vagrant
+backlog
+selenium",r20
+RECRUIT_50_15,"bower
+grunt
+compass","bower
+grunt
+compass","bower
+grunt
+compass",r20
+RECRUIT_60_1,8:30,8:30,8:30,r22
+RECRUIT_60_2,11:55,11:55,11:55,r22
+RECRUIT_60_3,13:00,13:00,13:00,r22
+RECRUIT_60_4,,,,
+RECRUIT_60_5,Start,出社,Đến công ty,r22
+RECRUIT_60_6,Whole staff morning meeting & Japanese study sessions,全体朝礼&日本語の勉強会,Họp buổi sáng và học tiếng Nhật,r22
+RECRUIT_60_7,Developer's Meeting,開発ミーティング,Họp nhóm Dev,r22
+RECRUIT_60_8,Development,開発,Thực hiện công việc,r22
+RECRUIT_60_9,Lunch time,お昼休み,Nghỉ trưa,r22
+RECRUIT_60_10,Development,午後の就業開始,Bắt đầu công việc buổi chiều,r22
+RECRUIT_60_11,Fruit time,フルーツタイム,Nghỉ giữa giờ,r22
+RECRUIT_60_12,5:30,5:30,5:30,r22
+RECRUIT_60_13,Finish,終業,Kết thúc công việc,r22
+RECRUIT_70_1,Personality requested,求める人物像,Đối tượng tuyển dụng,r21
+RECRUIT_70_2,"TMH Tech. Lab thinks that ""challenge"", ""teamwork"", and ""commitment"" are the most important elements for the growth of individuals as well as the company. We are looking forward sincerely to the meetings with people who can sympathize and respect the following 3 points.",TMH Tech. Labでは、「チャレンジ」、「チームワーク」、「コミットメント」が、個人、そして会社の成長に欠かせない要素である感えています。以下の３つに共感し、尊重することができる方との出会いを心から楽しみにしています。,"Tại TMH Tech. Lab có ba yếu tố không thể thiếu để phát triển bản thân và công ty, đó là ""Sự thử thách"", ""Hoạt động nhóm"" và "" Cam kết"". Chúng tôi vui mừng chào đón những ứng viên cùng tôn trọng và sở hữu ba yếu tố dưới đây.",r21
+RECRUIT_70_3,Challenge,チャレンジ,Thử thách,r21
+RECRUIT_70_4,"The technologies and environment for developing new services are changing everyday. And more complex and advanced development can only be possible because of this evolution. TMH Tech. Lab has always been taking in new technologies actively and challenging advanced development. Therefore, we would rather respect the active challenge of new technologies without fear of failure than carrying on as before with the fear of failure.","新しいサービスを開発する為の技術・環境は、日々進化しています。そして、これらの進化によって、より高度で複雑な開発が可能になってきました。
+TMH Tech. Labでは新しいテクノロジーを積極的に取り入れ、高度な開発にチャレンジしていきます。そのため、失敗を恐れ従来のやり方を踏襲するよりも、積極的に新しい技術を学び、失敗を恐れずにチャレンジすることを尊重します。","Ngày càng có nhiều công nghệ kỹ thuật, môi trường được thay đổi nhằm phát triển loại hình dịch vụ mới. Do đó, việc lập trình trở nên phức tạp và yêu cầu trình độ ở mức cao hơn nữa.
+Tại TMH Tech. Lab, chúng tôi luôn thử thách bản thân và tích cực áp dụng các công nghệ kỹ thuật. Vì vậy, ngoài việc duy trì phương pháp vốn có, chúng tôi chủ động tích cực học hỏi kỹ thuật mới và thử thách chúng mà không ngại thất bại.",r21
+RECRUIT_70_5,Teamwork,チームワーク,Hoạt động nhóm,r21
+RECRUIT_70_6,"A single man cannot complete a project alone, no matter how small it is. With the collaboration of designers, directors, engineers, and other colleagues, ideas can be polished and a service that more people would like to use can be produced. TMH Tech. Lab trusts colleagues and respects them, and is looking for collages who can help each other and inspire each other.","どんなに小さなプロジェクトでも１人で作ることはありません。
+デザイナーやディレクター、エンジニアなどより多くの仲間と連携することで、アイディアが磨かれ、より多くの人に使ってもらえるサービスを作ることができます。TMH Tech. Labでは、仲間を尊重し、信頼し、互いに刺激し合い、助け合うことができる仲間を求めています。","Dù là dự án quy mô nhỏ thế nào đi nữa thỉ một người cũng không thể hoàn thành được dự án đó. 
+Chúng ta chỉ có thể tạo ra dịch vụ cho nhiều người dùng, đưa ra những ý tưởng mới bằng sự hợp tác chung sức từ nhiều người, nhiều bộ phận từ nhà thiết kế, quản lý giám sát, kỹ sư lập trình,... Tại TMH Tech. Lab, chúng tôi hoan nghênh những thành viên cùng tôn trọng, cùng tin tưởng, cùng khích lệ và giúp đỡ nhau.",r21
+RECRUIT_70_7,Commit,コミットメント,Cam kết,r21
+RECRUIT_70_8,"TMH Tech. Lab asks for the responsibility to commit to the expectations and requests (of qualities, schedules, etc.) of clients and teams as well as the awareness as professionals. The company is not a field for learning. It's the field to give full play to your best ability after actively improving your skills in business and engineering. Of course, we will also actively support your growth and improvement in business skills, engineering skills, and communication skills through supporting programs. In addition, we can promise to prepared a field where your skills and passions can be given full play.","TMH Tech. Labは、クライアントやチームからの要求・期待（品質、スケジュールなど）にコミットする責任感とプロフェッショナルとしての意識を持つことを求めます。
+会社は学びのフィールドではありません。自らのビジネススキル、エンジニアリングのスキルを能動的に高め、そのパフォーマンスを発揮するフィールドです。
+もちろん、私たちはビジネススキル、エンジニアリングスキル、コミュニケーションスキルの向上をサポートするプログラムを積極的に実施し成長をサポートしていきます。また、みなさんの能力や情熱を思い切り発散できるフィールドを用意することを約束します。","TMH Tech. Lab đòi hỏi mọi thành viên phải ý thức được sự chuyên nghiệp và tính trách nhiệm cam kết hoàn thành yêu cầu và kỳ vọng (về chất lượng, quy trình,..) từ khách hàng và tổ nhóm.
+Công ty không phải là môi trường để học tập mà là nơi để mọi người nâng cao kỹ năng về công việc, về kỹ thuật công nghệ và phát huy thể hiện những kỹ năng đó. Chúng tôi sẽ tích cực hỗ trợ mọi người thực hiện và phát triển kỹ năng của bản thân trong công việc và giao tiếp. Chúng tôi cam kết tạo ra môi trường làm việc để phát huy khả năng và nhiệt huyết của mọi người.",r21
+MAIL_COMMON_TEXT_1,"Tribal Media House Technology Lab Co., Ltd.","Tribal Media House Technology Lab Co., Ltd.","Tribal Media House Technology Lab Co., Ltd.",e1
+MAIL_COMMON_TEXT_2,"7F Indochina Plaza Hanoi, 241 Xuan Thuy Str., Cau Giay Dist., Hanoi, Vietnam.","7F Indochina Plaza Hanoi, 241 Xuan Thuy Str., Cau Giay Dist., Hanoi, Vietnam.","Tầng 7, IPH, 241 Xuân Thuỷ, Cầu Giấy, Hà Nội, Việt Nam",e1
+MAIL_COMMON_TEXT_3,info@tmh-techlab.vn,info@tmh-techlab.vn,info@tmh-techlab.vn,e1
+MAIL_COMMON_TEXT_4,＋84-(0)4-3256-5182,＋84-(0)4-3256-5182,＋84-(0)4-3256-5182,e1
+MAIL_COMMON_TEXT_5,http://www.tmh-techlab.vn,http://www.tmh-techlab.vn,http://www.tmh-techlab.vn,e1
+MAIL_CONTACT_SUBJECT,Thank you for your inquiry.,お問合せありがとうございます。,Cảm ơn bạn đã liên hệ với chúng tôi.,e2
+MAIL_CONTACT_TEXT_1,Thank you for your inquiry.,お問合せありがとうございます。,Cảm ơn bạn đã liên hệ với chúng tôi.,e2
+MAIL_CONTACT_TEXT_2,Name,名前,Họ tên,e2
+MAIL_CONTACT_TEXT_3,E-mail,メールアドレス,E-mail,e2
+MAIL_CONTACT_TEXT_4,Phone number,電話番号,Điện thoại,e2
+MAIL_CONTACT_TEXT_5,University / Company,学校/会社名,Tên trường/ Tên công ty,e2
+MAIL_CONTACT_TEXT_6,Position,役職名,Vị trí,e2
+MAIL_CONTACT_TEXT_7,Division,部署名,Tên bộ phận,e2
+MAIL_CONTACT_TEXT_8,Type of contact,お問い合わせ種別,Loại liên lạc,e2
+MAIL_CONTACT_TEXT_9,Note,備考,Lời nhắn,e2
+MAIL_RECRUIT_SUBJECT,Thank you for apply.,ご応募ありがとうございました。,Cảm ơn bạn đã ứng tuyển.,e3
+MAIL_RECRUIT_TEXT_1,Thank you for apply.,ご応募ありがとうございました。,Cảm ơn bạn đã ứng tuyển.,e3
+MAIL_RECRUIT_TEXT_2,Name,名前,Họ tên,e3
+MAIL_RECRUIT_TEXT_3,Age,年齢,Tuổi,e3
+MAIL_RECRUIT_TEXT_4,University / Company,学校／会社名,Tên trường / Tên công ty,e3
+MAIL_RECRUIT_TEXT_5,E-mail,メールアドレス,E-mail,e3
+MAIL_RECRUIT_TEXT_6,Phone No,電話番号,Điện thoại,e3
+MAIL_RECRUIT_TEXT_7,Memo,備考,Lời nhắn,e3
+TITLE_1,Technology x Marketing / Tribal Media House Technology Lab,Technology x Marketing / Tribal Media House Technology Lab,Technology x Marketing / Tribal Media House Technology Lab,ttl1
+TITLE_2,Recruit | TMH Tech. Lab,採用｜TMH Tech. Lab,Tuyển dụng｜TMH Tech. Lab,ttl1
+TITLE_3,Product | TMH Tech. Lab,プロダクト｜TMH Tech. Lab,Sản phẩm｜TMH Tech. Lab,ttl1
+TITLE_4,Staff | TMH Tech. Lab,スタッフ｜TMH Tech. Lab,Nhân viên｜TMH Tech. Lab,ttl1
+TITLE_5,Company | TMH Tech. Lab,会社概要｜TMH Tech. Lab,Khái quát về Công ty｜TMH Tech. Lab,ttl1
+TITLE_6,Contact | TMH Tech. Lab,お問い合わせ｜TMH Tech. Lab,Liên hệ｜TMH Tech. Lab,ttl1
+TITLE_7,Access | TMH Tech. Lab,アクセス｜TMH Tech. Lab,Địa chỉ｜TMH Tech. Lab,ttl1
+TITLE_8,Error  | TMH Tech. Lab,エラー｜TMH Tech. Lab,Lỗi｜TMH Tech. Lab,ttl1
+TITLE_9,Contact | TMH Tech. Lab,お問い合わせ｜TMH Tech. Lab,Liên hệ｜TMH Tech. Lab,ttl1
+TITLE_10,Recruit | TMH Tech. Lab,採用｜TMH Tech. Lab,Tuyển dụng｜TMH Tech. Lab,ttl1
+TOPIC_PATH_1,Home,ホーム,Trang chủ,tp1
+TOPIC_PATH_2,Recruit,採用情報,Tuyển dụng,tp1
+TOPIC_PATH_3,Product,プロダクト,Sản phẩm,tp1
+TOPIC_PATH_4,Staff,スタッフ,Nhân viên,tp1
+TOPIC_PATH_5,Company profile,会社情報,Giới thiệu,tp1
+TOPIC_PATH_6,Contact us,お問い合わせ,Liên hệ,tp1
+TOPIC_PATH_7,Access,アクセス,Địa chỉ,tp1
+TOPIC_PATH_8,Error,エラー,Lỗi,tp1
+TOPIC_PATH_9,Contact us,お問い合わせ,Liên hệ,tp1
+TOPIC_PATH_10,Recruit,採用情報,Tuyển dụng,tp1
+META_AUTHOR,"Tribal Media House Technology Lab Co., Ltd","Tribal Media House Technology Lab Co., Ltd","Tribal Media House Technology Lab Co., Ltd",o5
+META_DESCRIPTION_1,Tribal Media House Technology Lab has founded in Vietnam and we has been providing Marketing solutions.,トライバルメディアハウステクノロジーラボは、ベトナムに拠点を構え、日本および世界へテクノロジー x マーケティングをテーマにソリューションを開発しています。,Tribal Media Technology Lab được thành lập tại Việt Nam và đang phát triển giải pháp phần mềm với đề tài là Technology và Marketing hướng đến thị trường Nhật Bản và Thế giới.,o5
+META_DESCRIPTION_2,This is the recruitment page of Tribal Media House Technology Lab.,トライバルメディアハウステクノロジーラボの採用情報です,Thông tin tuyển dụng của Tribal Media House Technology Lab,o5
+META_DESCRIPTION_3,This is the Product Introduction section of Tribal Media House Technology Lab.,トライバルメディアハウステクノロジーラボのプロダクト紹介です,Giới thiệu sản phẩm của Tribal Media House Technology Lab,o5
+META_DESCRIPTION_4,This is the Staff page of Tribal Media House Technology Lab.,トライバルメディアハウステクノロジーラボのスタッフ紹介です,Giới thiệu nhân viên Tribal Media House Technology Lab,o5
+META_DESCRIPTION_5,This is Company Profile page of Tribal Media House Technology Lab.,トライバルメディアハウステクノロジーラボの会社概要です,Khái quát về Công ty TNHH Tribal Media House Technology Lab,o5
+META_DESCRIPTION_6,This is the inquiry page to Tribal Media House Technology Lab.,トライバルメディアハウステクノロジーラボへの問い合わせページです,Trang liên hệ với Công ty TNHH Tribal Media House Technology Lab,o5
+META_DESCRIPTION_7,This is the Access information page of Tribal Media House Technology Lab.,トライバルメディアハウステクノロジーラボのアクセス情報です,Thông tin địa chỉ Công ty TNHH Tribal Media House Technology Lab,o5
+META_KEYWORD_1,"Tribal Media House Technology Lab,TMH Tech. Lab,Engage Manager,cocosquare","Tribal Media House Technology Lab,TMH Tech. Lab,トライバルメディアハウステクノロジーラボ,Engage Manager,エンゲージマネージャー,cocosquare,ココスクウェア","Tribal Media House,Engage Manager,cocosquare",o5
+META_KEYWORD_2,"Tribal Media House Technology Lab,TMH Tech. Lab,Recruit","Tribal Media House Technology Lab,TMH Tech. Lab,トライバルメディアハウステクノロジーラボ,採用","Tribal Media House Technology Lab,TMH Tech. Lab, Tuyển dụng",o5
+META_KEYWORD_3,"Tribal Media House Technology Lab,TMH Tech. Lab,Engage Manager,cocosquare","Tribal Media House Technology Lab,TMH Tech. Lab,トライバルメディアハウステクノロジーラボ,Engage Manager,エンゲージマネージャー,cocosquare,ココスクウェア","Tribal Media House Technology Lab,TMH Tech. Lab,Engage Manager,cocosquare",o5
+META_KEYWORD_4,"Tribal Media House Technology Lab,TMH Tech. Lab,Staff","Tribal Media House Technology Lab,TMH Tech. Lab,トライバルメディアハウステクノロジーラボ,スタッフ","Tribal Media House Technology Lab,TMH Tech. Lab, Nhân viên",o5
+META_KEYWORD_5,"Tribal Media House Technology Lab,TMH Tech. Lab,Company profile","Tribal Media House Technology Lab,TMH Tech. Lab,トライバルメディアハウステクノロジーラボ,会社概要","Tribal Media House Technology Lab,TMH Tech. Lab, Khái quát về Công ty",o5
+META_KEYWORD_6,"Tribal Media House Technology Lab,TMH Tech. Lab,Contact","Tribal Media House Technology Lab,TMH Tech. Lab,トライバルメディアハウステクノロジーラボ,お問い合わせ","Tribal Media House Technology Lab,TMH Tech. Lab, Liên hệ",o5
+META_KEYWORD_7,"Tribal Media House Technology Lab,TMH Tech. Lab,Access","Tribal Media House Technology Lab,TMH Tech. Lab,トライバルメディアハウステクノロジーラボ,アクセス","Tribal Media House Technology Lab,TMH Tech. Lab, Địa chỉ",o5
+OG_1,Technology x Marketing / Tribal Media House Technology Lab,Technology x Marketing / Tribal Media House Technology Lab,Technology x Marketing / Tribal Media House Technology Lab,o5
+OG_2,Tribal Media House Technology Lab has founded in Vietnam and we has been providing Marketing solutions.,トライバルメディアハウステクノロジーラボは、ベトナムに拠点を構え、日本および世界へテクノロジー x マーケティングをテーマにソリューションを開発しています。,Tribal Media Technology Lab được thành lập tại Việt Nam và đang phát triển giải pháp phần mềm với đề tài là Technology và Marketing hướng đến thị trường Nhật Bản và Thế giới.,o4
+OG_3,http://www.tmh-techlab.vn,http://www.tmh-techlab.vn,http://www.tmh-techlab.vn,o4
+OG_4,http://www.tmh-techlab.vn/img/common/OGP_img.jpg,http://www.tmh-techlab.vn/img/common/OGP_img.jpg,http://www.tmh-techlab.vn/img/common/OGP_img.jpg,o4
+GA_CODE,UA-65079300-1,UA-65079300-1,UA-65079300-1,o2

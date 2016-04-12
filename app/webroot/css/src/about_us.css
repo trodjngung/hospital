@@ -1,0 +1,68 @@
+
+.about_us{
+}
+
+.about_us .panel-body {
+  padding: 2px;
+}
+.about_us h1 {
+  font-size: 30px;
+  line-height: 35px;
+  color: #060606;
+}
+.pcenter {
+	  margin: auto;
+	  margin-top: 8px;
+}
+.pcenter_title{
+	margin: auto;
+	margin-top: 8px;
+	font-weight: bold;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+	  height: 50px;
+}
+
+
+
+
+body { 
+   color: #333; 
+   font-size: 13px;
+   line-height: 1.6;
+}
+
+body.header-fixed-space {
+  padding-top: 94px;
+}
+
+@media (max-width: 991px) {
+  body.header-fixed-space {
+    padding-top: 0;
+  }
+}
+p, 
+li,
+li a,
+label { 
+   color: #555;
+}
+
+a {
+   color: #72c02c;
+   text-decoration: none;  
+}
+
+a,
+a:focus, 
+a:hover, 
+a:active {
+   outline: 0 !important;
+}
+a:focus {
+  text-decoration: none;
+}
+a:hover {
+   color: #72c02c;
+   text-decoration: underline;
+}

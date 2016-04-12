@@ -1,0 +1,437 @@
+@CHARSET "UTF-8";
+
+#recruit .box{
+	padding: 30px 0 0px 0;
+}
+#recruit .box h2{
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	margin:20px auto 50px auto;
+	#font-weight: bold;
+	#color: #72c02c;
+	position: relative;
+}
+#recruit .box h2:after{
+	left: 50%;
+	z-index: 1;
+	width: 60px;
+	height: 2px;
+	content: " ";
+	bottom: -8px;
+	margin-left: -30px;
+	text-align: center;
+	position: absolute;
+	background: #72c02c;
+}
+
+#recruit .message_box{
+	background: url('/img/recruit/IMG_r1.jpg');
+	background-position: center;
+	background-size: cover;
+}
+#recruit .message_box .message{
+	margin: 120px auto 150px auto;
+	text-align: center;
+	font-size: 2.2em;
+}
+#recruit .our_message .title{
+	font-size: 18px;
+	margin-bottom: 12px;
+	text-transform: capitalize;
+}
+#recruit .our_message .opt{
+	#width: 100%;
+	#border: thin solid green;
+	height: 300px;
+	text-align: center;
+	font-size: 2.0em;
+	#line-height: 300px;
+	cursor: pointer;
+	
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+#recruit .our_message .opt span{
+	margin-top: 110px;
+	display: block;
+	background-color: rgba(232, 232, 232, 0.7);
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#recruit .opt-dev:after{
+	background: url('/img/recruit/IMG_r6.jpg');
+}
+#recruit .opt-timeline:after{
+	background: url('/img/recruit/IMG_r7.jpg');
+}
+#recruit .opt-finding:after{
+	background: url('/img/recruit/IMG_r8.jpg');
+}
+#recruit .opt:after{
+	position: absolute;
+	content: "";
+	#opacity: 0.5;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	z-index: -1;
+}
+#recruit .opt:hover:after{
+	opacity: 0.5;
+}
+#recruit .devbox{
+	padding: 15px;
+	background-color: #eee;
+	margin-top: 15px;
+	min-height: 120px;
+}
+#recruit .devtitle{
+	font-weight:bold;
+	margin-bottom:6px;
+}
+#recruit .opt-content .row{
+	margin-bottom: 20px;
+}
+#cd-timeline h3{
+	border-bottom: thin solid #eee;
+	font-size: 1.2em;
+}
+#cd-timeline .cd-date{
+	font-size: 1.3em;
+}
+#recruit .cd-timeline-content img{
+	width: 200px;
+	margin: 5px;
+	height:135px;
+}
+#recruit .ftitle{
+	text-align: center;
+  	font-size: 1.2em;
+  	line-height: 45px;
+}
+#recruit .findingbox{
+	margin-bottom: 30px;
+}
+#recruit .btn-choosefile{
+	border-radius: 0;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	height:36px;
+}
+
+
+
+
+
+
+#recruit .dbox{
+	padding: 15px;
+}
+#recruit .dbox .title {
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	text-transform: capitalize;
+}
+#recruit .dbox .content {
+}
+
+#recruit .our_tools .message{
+	margin-top: 30px;
+}
+#recruit .tool{
+	margin-top:30px;
+}
+#recruit .our_tools .lbox{
+	border: thin solid #eee;
+	width: 62px;
+	height: 62px;
+	float: left;
+	margin: 6px;
+	border-radius:0px;
+}
+#recruit .our_tools .lbox img{
+	width:60px;
+	height:60px;
+}
+#recruit .staff_box{
+	margin: 12px auto 12px auto;
+}
+#recruit .staff_box .message{
+	font-style: italic;
+}
+#recruit .staff_box .person_info{
+	margin-top: 15px;
+}
+#recruit .avatar{
+	width: 65px;
+	height: 65px;
+	border: thin solid #eee;
+	float: left;
+	padding:2px;
+}
+#recruit .info{
+	float: left;
+	margin: 22px auto auto 10px;
+	text-transform: capitalize;
+}
+#recruit .app_box {
+	margin-top:22px;
+}
+#recruit .app_title{
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom:10px;
+	text-transform: capitalize;
+}
+#recruit .app_content{
+	margin-top:6px;
+	margin-left:35px;
+}
+#recruit .apply_button{
+	border: none;
+	background-color:#72c02c;
+	font-size:14px;
+	text-transform: capitalize;
+	color:white;
+	line-height:40px;
+	width: 200px;
+	height: 40px;
+	margin: 10px auto 40px auto;
+	cursor: pointer;
+}
+#recruit .clear{
+	clear:both;
+}
+
+#recruit .flip-container {
+	perspective: 1000;
+}
+#recruit .flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+#recruit .flip-container, .front, .back {
+	width: 60px;
+	height: 60px;
+}
+#recruit .flipper {
+	transition: 0.5s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+#recruit .front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#recruit .front {
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+
+#recruit .back {
+	transform: rotateY(180deg);
+	text-align: center;
+	line-height: 60px;
+	font-weight: bold;
+	background-color: #72c02c;
+	color: white;
+	font-size:11px;
+}
+#recruit .table{
+	margin: 35px auto;
+}
+#recruit .table tr td{
+	padding:20px;
+}
+#recruit .table tr:first-child td{
+	border-top: none;
+}
+#recruit .table tr td:first-child{
+	background-color:rgb(235, 237, 237);
+	vertical-align:middle;
+}
+#recruit .table tr td:last-child{
+	background-color:rgb(245, 247, 247);
+	line-height:20px;
+}
+
+#recruit #note{
+	width:90% !important;
+	height:200px !important;
+}
+#recruit .table_form .input{
+	width: 90%;
+}
+#recruit .table_form tr td:first-child{
+	font-weight: bold;
+	text-transform: capitalize;
+}
+#recruit table.table_form{
+	margin: 30px; auto;
+	width: 100%;
+}
+#recruit table.table_form tr td{
+	padding: 7px;
+}
+#recruit table.table_form .form-control[name='gender']{
+	width: 250px;
+}
+#recruit table.table_form .form-control[name='birthday']{
+	width: 250px;
+}
+#recruit table.table_form .form-control{
+	display: inline;
+	#width: auto;
+	border-radius: 0;
+	-webkit-appearance: none;
+}
+#recruit .box .alert-success{
+	border: thin solid #72c02c;
+	width: 70%;
+	margin: 30px auto 40px auto;
+	font-size: 14px;
+	color: #72c02c;
+}
+#recruit .required{
+	color: red;
+}
+
+
+.timeline-v1 {
+    padding: 20px 0px;
+    list-style: outside none none;
+    position: relative;
+}
+.timeline-v1 > li {
+    margin-bottom: 40px;
+    position: relative;
+    width: 50%;
+    float: left;
+    clear: left;
+}
+.timeline-v1 > li.timeline-inverted > .timeline-badge {
+    left: -12px;
+}
+.timeline-v1 > li.timeline-inverted > .timeline-panel {
+    #float: right;
+    float: left;
+    margin-left:35px;
+}
+.timeline-v1 > li > .timeline-badge {
+    color: #CCC;
+    width: 24px;
+    height: 24px;
+    line-height: 50px;
+    font-size: 1.4em;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    top: 19px;
+    right: -12px;
+    z-index: 9;
+}
+timeline-v1 {
+    list-style: outside none none;
+}
+.timeline-v1 > li > .timeline-panel {
+    #width: 94%;
+    #float: left;
+    float: right;
+    margin-right: 35px;
+    border: 1px solid #D4D4D4;
+    position: relative;
+}
+.timeline-v1 > li:nth-child(2) {
+    margin-top: 80px;
+}
+.timeline-v1 > li.timeline-inverted {
+    float: right;
+    clear: right;
+    margin-bottom: 40px;
+}
+.timeline-v1::before {
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: #EEE;
+    left: 50%;
+    margin-left: -1.5px;
+}
+.timeline-v1 > li::before, .timeline-v1 > li::after {
+    content: " ";
+    display: table;
+}
+.timeline-v1 > li::after {
+    clear: both;
+}
+.timeline-v1 > li > .timeline-panel:after {
+  position: absolute;
+  top: 27px;
+  right: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+.timeline-v1 > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline-v1 > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+.timeline-v1 > li > .timeline-panel:before {
+  position: absolute;
+  top: 26px;
+  right: -15px;
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #ccc;
+  border-right: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  content: " ";
+}
+.timeline-v1 .timeline-footer {
+    padding: 7px 12px;
+    overflow: hidden;
+    border-top: 1px solid #CCC;
+}
+.timeline-v1 .timeline-footer .fa{
+	margin-right:10px;
+}
+.timeline-v1 h3{
+	font-size: 16px;
+	text-align: center;
+	margin: 10px;
+}
+.timeline-v1 .timeline-heading{
+	padding: 3px;
+}
+.timeline-v1 .timeline-heading img{
+	width: 250px;
+	margin: 1%;
+	float: right;
+}
+.timeline-v1 .timeline-inverted .timeline-heading img{
+	float: left;
+}

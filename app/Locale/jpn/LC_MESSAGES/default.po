@@ -1,0 +1,986 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION"
+"POT-Creation-Date: 2015-11-05, 15:46:36 +07:00"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ"
+"Last-Translator: NAME <EMAIL@ADDRESS>"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
+msgid "message_id"
+msgstr "JP"
+
+msgid "LAYOUT_TEXT_1"
+msgstr ""
+
+msgid "LAYOUT_TEXT_2"
+msgstr "ホーム"
+
+msgid "LAYOUT_TEXT_3"
+msgstr "採用情報"
+
+msgid "LAYOUT_TEXT_4"
+msgstr "プロダクト"
+
+msgid "LAYOUT_TEXT_5"
+msgstr "スタッフ"
+
+msgid "LAYOUT_TEXT_6"
+msgstr "会社情報"
+
+msgid "LAYOUT_TEXT_7"
+msgstr ""
+
+msgid "LAYOUT_TEXT_8"
+msgstr "お問い合わせ"
+
+msgid "LAYOUT_TEXT_9"
+msgstr "アクセス"
+
+msgid "LAYOUT_TEXT_10"
+msgstr "LANGUAGES"
+
+msgid "LAYOUT_TEXT_10_1"
+msgstr "English"
+
+msgid "LAYOUT_TEXT_10_2"
+msgstr "Tiếng Việt"
+
+msgid "LAYOUT_TEXT_10_3"
+msgstr "日本語"
+
+msgid "LAYOUT_TEXT_11"
+msgstr ""
+
+msgid "LAYOUT_TEXT_12"
+msgstr "サイトマップ"
+
+msgid "LAYOUT_TEXT_13"
+msgstr "ホーム"
+
+msgid "LAYOUT_TEXT_14"
+msgstr "採用情報"
+
+msgid "LAYOUT_TEXT_15"
+msgstr "プロダクト"
+
+msgid "LAYOUT_TEXT_16"
+msgstr "スタッフ"
+
+msgid "LAYOUT_TEXT_17"
+msgstr "会社情報"
+
+msgid "LAYOUT_TEXT_18"
+msgstr "お問い合わせ"
+
+msgid "LAYOUT_TEXT_19"
+msgstr "アクセス"
+
+msgid "LAYOUT_TEXT_20"
+msgstr "管理"
+
+msgid "LAYOUT_TEXT_21"
+msgstr "お問い合わせ"
+
+msgid "LAYOUT_TEXT_22"
+msgstr "7F IPH, 241 Xuan Thuy Str., Cau Giay Dist., Hanoi, Vietnam."
+
+msgid "LAYOUT_TEXT_23"
+msgstr "＋84-(0)4-3256-5182"
+
+msgid "LAYOUT_TEXT_24"
+msgstr "www.tmh-techlab.vn"
+
+msgid "LAYOUT_TEXT_25"
+msgstr "info@tmh-techlab.vn"
+
+msgid "LAYOUT_TEXT_26"
+msgstr "https://www.facebook.com/tmhtechlab"
+
+msgid "LAYOUT_TEXT_27"
+msgstr "Copyright © Tribal Media House Technology Lab Co., Ltd. All rights reserved"
+
+msgid "LAYOUT_TEXT_28"
+msgstr ""
+
+msgid "TOP_TEXT_1"
+msgstr ""
+
+msgid "TOP_TEXT_2"
+msgstr "採用情報"
+
+msgid "TOP_TEXT_3"
+msgstr ""
+
+msgid "TOP_TEXT_4"
+msgstr "新卒採用"
+
+msgid "TOP_TEXT_5"
+msgstr "2015年に卒業（予定含）する学生も大募集！Webアプリケーションエンジニアとしてキャリアを積みたい方の応募をお待ちしてます。日本のスタイルで開発スキルやビジネススキルを磨いてみませんか。日本に興味があり一緒に成長できる学生を探しています！"
+
+msgid "TOP_TEXT_6"
+msgstr ""
+
+msgid "TOP_TEXT_7"
+msgstr "中途採用"
+
+msgid "TOP_TEXT_8"
+msgstr "日系の会社で仕事の進め方や文化を学びたい方、日本だけでなく世界に通用する技術を身に付けたい方、会社の設立メンバーとして幅広い経験を積み重ねたい方、将来リーダーやマネージャーとして活躍したい方の応募を待っています。"
+
+msgid "TOP_TEXT_9"
+msgstr "プロダクト"
+
+msgid "TOP_TEXT_10"
+msgstr ""
+
+msgid "TOP_TEXT_11"
+msgstr ""
+
+msgid "TOP_TEXT_12"
+msgstr ""
+
+msgid "TOP_TEXT_13"
+msgstr "アルバム"
+
+msgid "COMPANY_TEXT_1"
+msgstr ""
+
+msgid "COMPANY_TEXT_2"
+msgstr "スローガン"
+
+msgid "COMPANY_TEXT_3"
+msgstr "人類にオドロキと感動を！"
+
+msgid "COMPANY_TEXT_4"
+msgstr "ミッション"
+
+msgid "COMPANY_TEXT_5"
+msgstr "マーケティングの未来を作る"
+
+msgid "COMPANY_TEXT_6"
+msgstr "ビジョン"
+
+msgid "COMPANY_TEXT_7"
+msgstr "マーケティングを変革する<br>マーケティングベンチャーであれ"
+
+msgid "COMPANY_TEXT_8"
+msgstr "ご挨拶"
+
+msgid "COMPANY_TEXT_9"
+msgstr ""
+
+msgid "COMPANY_TEXT_10"
+msgstr "代表取締役社長"
+
+msgid "COMPANY_TEXT_11"
+msgstr "佐藤 譲太郎"
+
+msgid "COMPANY_TEXT_12"
+msgstr "トライバルメディアハウスは、「マーケティングの未来をつくる」をミッションとするマーケティングベンチャーです。このDNAを受け継ぐTMH Tech.Labは、Technology x Marketingをテーマとして、日本および世界に通用するソリューションを提供していきます。<br><br>ベトナムと日本は、言語も文化も異なります。なにか問題があったときにすぐに駆けつけることもできません。しかし、国・文化・言語にとらわれることなく、また多様性を積極的に受け入れつつ、結束力のあるチームをつくること、これらは「人類にオドロキと感動を」届けるソリューション開発を目指す弊社にとって、もっとも大切なチームづくりの要素であり、なにがなんでも超えていきたい壁であると考えています。<br><br>TMH Tech. Labのチャレンジは、まだはじまったばかりですが、国境を超えたグローバルなチームで最高のソリューションを開発することに、全力で取り組んでいきます。"
+
+msgid "COMPANY_TEXT_13"
+msgstr "会社概要"
+
+msgid "COMPANY_TEXT_14"
+msgstr "会社名"
+
+msgid "COMPANY_TEXT_15"
+msgstr "Tribal Media House Technology Lab Co., Ltd."
+
+msgid "COMPANY_TEXT_16"
+msgstr "住所"
+
+msgid "COMPANY_TEXT_17"
+msgstr "7F Indochina Plaza Hanoi, 241 Xuan Thuy Str., Cau Giay Dist., Hanoi, Vietnam."
+
+msgid "COMPANY_TEXT_18"
+msgstr "事業内容"
+
+msgid "COMPANY_TEXT_19"
+msgstr "ソフトウェア開発"
+
+msgid "COMPANY_TEXT_20"
+msgstr "設立"
+
+msgid "COMPANY_TEXT_21"
+msgstr "2015年1月23日"
+
+msgid "COMPANY_TEXT_22"
+msgstr "執行体制"
+
+msgid "COMPANY_TEXT_23"
+msgstr "代表取締役社長　佐藤 譲太郎"
+
+msgid "COMPANY_TEXT_24"
+msgstr "株主"
+
+msgid "COMPANY_TEXT_25"
+msgstr "株式会社トライバルメディアハウス"
+
+msgid "STAFF_TEXT_0_1"
+msgstr "趣味"
+
+msgid "STAFF_TEXT_0_2"
+msgstr "出身"
+
+msgid "STAFF_TEXT_0_3"
+msgstr "職種／役職"
+
+msgid "STAFF_TEXT_0_4"
+msgstr "名前"
+
+msgid "STAFF_TEXT_0_5"
+msgstr "メッセージ"
+
+msgid "STAFF_TEXT_1_2"
+msgstr "代表取締役社長"
+
+msgid "STAFF_TEXT_1_3"
+msgstr "佐藤 譲太郎"
+
+msgid "STAFF_TEXT_1_4"
+msgstr "読書／ゴルフ／スノーボード / ..."
+
+msgid "STAFF_TEXT_1_5"
+msgstr "神奈川県 / 日本"
+
+msgid "STAFF_TEXT_1_6"
+msgstr "2015年1月の会社設立と共にベトナムでの生活をスタートしました。日本とベトナム、国境を越えたグローバルなチームで「Technology x Marketing」をテーマに最高のソリューションを提供するため、日々奮闘中。"
+
+msgid "STAFF_TEXT_2_1"
+msgstr ""
+
+msgid "STAFF_TEXT_2_2"
+msgstr "総務"
+
+msgid "STAFF_TEXT_2_3"
+msgstr "Vu Hoai Phuong"
+
+msgid "STAFF_TEXT_2_4"
+msgstr "旅行 / 買い物 / 音楽を聴く / ..."
+
+msgid "STAFF_TEXT_2_5"
+msgstr "ナムディン / ベトナム"
+
+msgid "STAFF_TEXT_2_6"
+msgstr "急いては事をし損ずる。"
+
+msgid "STAFF_TEXT_3_1"
+msgstr ""
+
+msgid "STAFF_TEXT_3_2"
+msgstr "通訳"
+
+msgid "STAFF_TEXT_3_3"
+msgstr "Mai Huong Son"
+
+msgid "STAFF_TEXT_3_4"
+msgstr "映画 / 読書 / 旅行 / ..."
+
+msgid "STAFF_TEXT_3_5"
+msgstr "フー・ト / ベトナム"
+
+msgid "STAFF_TEXT_3_6"
+msgstr "Happiness is not destination. It's the method of life."
+
+msgid "STAFF_TEXT_4_1"
+msgstr ""
+
+msgid "STAFF_TEXT_4_2"
+msgstr "エンジニア"
+
+msgid "STAFF_TEXT_4_3"
+msgstr "Nguyen Huu Chi"
+
+msgid "STAFF_TEXT_4_4"
+msgstr "文化 / 芸術 / テクノロジーを調べる / 魚釣り / スポーツ / ..."
+
+msgid "STAFF_TEXT_4_5"
+msgstr "ハノイ / ベトナム"
+
+msgid "STAFF_TEXT_4_6"
+msgstr "Learn to be happy with what you have while you pursue all that you dream."
+
+msgid "STAFF_TEXT_5_1"
+msgstr ""
+
+msgid "STAFF_TEXT_5_2"
+msgstr "エンジニア"
+
+msgid "STAFF_TEXT_5_3"
+msgstr "Tran Quang Minh"
+
+msgid "STAFF_TEXT_5_4"
+msgstr "チャット / ゲーム / 音楽を聴く / ..."
+
+msgid "STAFF_TEXT_5_5"
+msgstr "ハノイ / ベトナム"
+
+msgid "STAFF_TEXT_5_6"
+msgstr "Work hard, play hard."
+
+msgid "STAFF_TEXT_6_1"
+msgstr ""
+
+msgid "STAFF_TEXT_6_2"
+msgstr "エンジニア"
+
+msgid "STAFF_TEXT_6_3"
+msgstr "Quy Pv"
+
+msgid "STAFF_TEXT_6_4"
+msgstr "ベトナムのトラ焼き / 焼きパン / 冬に家に居る / 雨降り時に寝る / ..."
+
+msgid "STAFF_TEXT_6_5"
+msgstr "クアンビン / ベトナム"
+
+msgid "STAFF_TEXT_6_6"
+msgstr "人生とは待つことである"
+
+msgid "STAFF_TEXT_7_1"
+msgstr ""
+
+msgid "STAFF_TEXT_7_2"
+msgstr "エンジニア"
+
+msgid "STAFF_TEXT_7_3"
+msgstr "Dinh Thi Nhinh "
+
+msgid "STAFF_TEXT_7_4"
+msgstr "BBQ / アニメ / 昼寝 / ..."
+
+msgid "STAFF_TEXT_7_5"
+msgstr "ニンビン / ベトナム"
+
+msgid "STAFF_TEXT_7_6"
+msgstr "Let’s act as you talk and think"
+
+msgid "STAFF_TEXT_8_1"
+msgstr ""
+
+msgid "STAFF_TEXT_8_2"
+msgstr "エンジニア"
+
+msgid "STAFF_TEXT_8_3"
+msgstr "Nguyen Viet Duc"
+
+msgid "STAFF_TEXT_8_4"
+msgstr "バイクで旅行する / 洋画TVシリーズ / ..."
+
+msgid "STAFF_TEXT_8_5"
+msgstr "ハノイ / ベトナム"
+
+msgid "STAFF_TEXT_8_6"
+msgstr "挫けそうな時は、それを始めた時の気持ちを思い出そう。"
+
+msgid "STAFF_TEXT_9_1"
+msgstr ""
+
+msgid "STAFF_TEXT_9_2"
+msgstr "エンジニア"
+
+msgid "STAFF_TEXT_9_3"
+msgstr "Khuat Thi Thu Hang"
+
+msgid "STAFF_TEXT_9_4"
+msgstr "旅行 / 音楽を聴く / 漫画を読む / 映画を見る / ..."
+
+msgid "STAFF_TEXT_9_5"
+msgstr "ハノイ / ベトナム"
+
+msgid "STAFF_TEXT_9_6"
+msgstr "昨日の私には戻れない。なぜなら、その時はもう違う私だから。"
+
+msgid "STAFF_TEXT_10_1"
+msgstr ""
+
+msgid "STAFF_TEXT_10_2"
+msgstr "エンジニア"
+
+msgid "STAFF_TEXT_10_3"
+msgstr ""
+
+msgid "STAFF_TEXT_10_4"
+msgstr ""
+
+msgid "STAFF_TEXT_10_5"
+msgstr ""
+
+msgid "STAFF_TEXT_10_6"
+msgstr ""
+
+msgid "PRODUCT_TEXT_1"
+msgstr ""
+
+msgid "PRODUCT_TEXT_2"
+msgstr "cocosquare（ココスクウェア）"
+
+msgid "PRODUCT_TEXT_3"
+msgstr "「cocosquare（ココスクウェア）」は、共創（Co-creation）をコンセプトとして、企業と顧客が様々な体験を通じた中長期的な関係構築を実現するコミュニティプラットフォームをASP（SaaS）で提供しています。"
+
+msgid "PRODUCT_TEXT_4"
+msgstr "http://cocosquare.tribalmedia.co.jp"
+
+msgid "PRODUCT_TEXT_5"
+msgstr ""
+
+msgid "PRODUCT_TEXT_6"
+msgstr "Engage Manager（エンゲージマネージャー）"
+
+msgid "PRODUCT_TEXT_7"
+msgstr "Engage Managerは、ソーシャルメディアの運用業務をシンプルにするために生まれたソーシャルメディア統合管理ツールです。企業のあらゆるソーシャルメディアアカウントを一元的に管理し、日々の運用から戦略的な意思決定まで、ソーシャルメディアに携わる方々を強力にサポートします。"
+
+msgid "PRODUCT_TEXT_8"
+msgstr "http://engagemanager.tribalmedia.co.jp"
+
+msgid "PRODUCT_TEXT_9"
+msgstr ""
+
+msgid "PRODUCT_TEXT_10"
+msgstr "ブームリサーチ（Boom Research）"
+
+msgid "PRODUCT_TEXT_11"
+msgstr "Boom Researchは、国内のあらゆるクチコミデータを収集し、直感的な簡単操作でプロの分析を行うことができるクチコミ分析ツールです。クリックひとつで本格的なレポートを作成でき、効果測定からリスク管理まで、広報・宣伝・マーケティングに携わる方々を強力にサポートします。"
+
+msgid "PRODUCT_TEXT_12"
+msgstr "http://boomresearch.tribalmedia.co.jp"
+
+msgid "CONTACT_TEXT_1"
+msgstr "お問い合わせありがとうございます。"
+
+msgid "CONTACT_TEXT_2"
+msgstr "名前"
+
+msgid "CONTACT_TEXT_3"
+msgstr "山田 太郎"
+
+msgid "CONTACT_TEXT_4"
+msgstr "メールアドレス"
+
+msgid "CONTACT_TEXT_5"
+msgstr "sample@tmh-techlab.vn"
+
+msgid "CONTACT_TEXT_6"
+msgstr "電話番号"
+
+msgid "CONTACT_TEXT_7"
+msgstr "0000-123-4567"
+
+msgid "CONTACT_TEXT_8"
+msgstr "学校/会社名"
+
+msgid "CONTACT_TEXT_9"
+msgstr ""
+
+msgid "CONTACT_TEXT_10"
+msgstr "役職名"
+
+msgid "CONTACT_TEXT_11"
+msgstr ""
+
+msgid "CONTACT_TEXT_12"
+msgstr "部署名"
+
+msgid "CONTACT_TEXT_13"
+msgstr ""
+
+msgid "CONTACT_TEXT_14"
+msgstr "お問い合わせ種別"
+
+msgid "CONTACT_TEXT_15"
+msgstr "お問い合わせ種別"
+
+msgid "CONTACT_TEXT_15_1"
+msgstr "採用"
+
+msgid "CONTACT_TEXT_15_2"
+msgstr "その他"
+
+msgid "CONTACT_TEXT_16"
+msgstr "備考"
+
+msgid "CONTACT_TEXT_17"
+msgstr "テキストを入力してください。"
+
+msgid "CONTACT_TEXT_18"
+msgstr "送信"
+
+msgid "CONTACT_TEXT_19"
+msgstr "名前を入力してください"
+
+msgid "CONTACT_TEXT_20"
+msgstr "メールアドレスを入力してください"
+
+msgid "CONTACT_TEXT_21"
+msgstr "選択してください"
+
+msgid "ACCESS_TEXT_1"
+msgstr ""
+
+msgid "ACCESS_TEXT_2"
+msgstr "オフィス"
+
+msgid "ACCESS_TEXT_3"
+msgstr "7F Indochina Plaza Hanoi, 241 Xuan Thuy Str., Cau Giay Dist., Hanoi, Vietnam."
+
+msgid "ACCESS_TEXT_4"
+msgstr "info@tmh-techlab.vn"
+
+msgid "ACCESS_TEXT_5"
+msgstr "＋84-(0)4-3256-5182"
+
+msgid "ACCESS_TEXT_6"
+msgstr "営業時間"
+
+msgid "ACCESS_TEXT_7"
+msgstr "月〜金曜日：8:30 〜 17:30"
+
+msgid "ACCESS_TEXT_8"
+msgstr "土日祝日休み"
+
+msgid "ACCESS_TEXT_9"
+msgstr "21.036186,105.782660"
+
+msgid "ACCESS_TEXT_10"
+msgstr "Tribal Media House Technology Lab Co., Ltd."
+
+msgid "ACCESS_TEXT_11"
+msgstr "7F Indochina Plaza Hanoi, 241 Xuan Thuy Str., Cau Giay Dist., Hanoi, Vietnam."
+
+msgid "ACCESS_TEXT_12"
+msgstr "info@tmh-techlab.vn"
+
+msgid "ACCESS_TEXT_13"
+msgstr "＋84-(0)4-3256-5182"
+
+msgid "ACCESS_TEXT_14"
+msgstr "http://www.tmh-techlab.vn"
+
+msgid "ERROR_TEXT_1"
+msgstr "エラー"
+
+msgid "ERROR_TEXT_2"
+msgstr "エラーが発生しました。"
+
+msgid "ERROR_TEXT_3"
+msgstr "ホームへ戻る"
+
+msgid "THANKS_R_TEXT_1"
+msgstr "ご応募ありがとうございました。"
+
+msgid "THANKS_R_TEXT_2"
+msgstr "この後自動返信メールをお送りしております。<br>メールの返信がない場合は通常の処理が出来ておりませんので、 <br>再度フォームよりお問合せいただくか、info@tmh-techlab.vn までご連絡ください。<br><br>応募内容を確認し折り返し連絡いたしますので、今しばらくお待ち下さい。<br>その他、何かご不明な点等ございましたら、お気軽にお問い合わせ下さい。"
+
+msgid "THANKS_R_TEXT_3"
+msgstr "ホームへ戻る"
+
+msgid "THANKS_C_TEXT_1"
+msgstr "お問合せありがとうございます。"
+
+msgid "THANKS_C_TEXT_2"
+msgstr "この後自動返信メールをお送りしております。<br>メールの返信がない場合は通常の処理が出来ておりませんので、 <br>再度フォームよりお問合せいただくか、info@tmh-techlab.vn までご連絡ください。<br> <br>お問い合わせ内容を確認し折り返し連絡いたしますので、今しばらくお待ち下さい。<br>その他、何かご不明な点等ございましたら、お気軽にお問い合わせ下さい。"
+
+msgid "THANKS_C_TEXT_3"
+msgstr "ホームへ戻る"
+
+msgid "RECRUIT_TEXT_1"
+msgstr ""
+
+msgid "RECRUIT_TEXT_2"
+msgstr "Made in Tribal Media House"
+
+msgid "RECRUIT_TEXT_3"
+msgstr "メッセージ"
+
+msgid "RECRUIT_TEXT_4"
+msgstr "「Tribal Media House Technology Lab」は、日本およびグローバル市場へのマーケティング活動を支援するデジタルマーケティングパートナー／ソリューションベンダーである「トライバルメディアハウス」の子会社として、システム開発力の強化、自社プロダクトの改良および新規プロダクトの開発スピード向上を目的として1月に設立した新しい会社です。<br><br>日系の会社で仕事の進め方や文化を学びたい方、日本だけでなく世界に通用する技術を身に付けたい方、会社の設立メンバーとして幅広い経験を積み重ねたい方、将来リーダーやマネージャーとして活躍したい方の応募を待っています。"
+
+msgid "RECRUIT_TEXT_5"
+msgstr ""
+
+msgid "RECRUIT_TEXT_6"
+msgstr ""
+
+msgid "RECRUIT_TEXT_7"
+msgstr ""
+
+msgid "RECRUIT_TEXT_8"
+msgstr "私達の開発環境"
+
+msgid "RECRUIT_TEXT_9"
+msgstr "エンジニアの一日"
+
+msgid "RECRUIT_TEXT_10"
+msgstr "求める人物像"
+
+msgid "RECRUIT_TEXT_11"
+msgstr "募集要項"
+
+msgid "RECRUIT_TEXT_12"
+msgstr "職種"
+
+msgid "RECRUIT_TEXT_13"
+msgstr "エンジニア"
+
+msgid "RECRUIT_TEXT_14"
+msgstr "必須スキル"
+
+msgid "RECRUIT_TEXT_15"
+msgstr "PHP を使用した1年間以上の webアプリケーション開発経験<br>HTML/CSS"
+
+msgid "RECRUIT_TEXT_16"
+msgstr "その他スキル"
+
+msgid "RECRUIT_TEXT_17"
+msgstr "CakePHP を使用した開発経験<br>JavaScript (jQuery や AngularJs,NodeJs) などを使用した開発経験<br>Facebook や Twitter などの API を使用した開発経験<br>MySQL や PostgreSQL を使用したデータベース設計<br>Linuxサーバの設定や構築などの経験"
+
+msgid "RECRUIT_TEXT_18"
+msgstr "応募フォーム"
+
+msgid "RECRUIT_TEXT_19"
+msgstr "名前"
+
+msgid "RECRUIT_TEXT_20"
+msgstr "山田　太郎"
+
+msgid "RECRUIT_TEXT_21"
+msgstr "年齢"
+
+msgid "RECRUIT_TEXT_22"
+msgstr "選択されていません"
+
+msgid "RECRUIT_TEXT_23"
+msgstr "学校／会社名"
+
+msgid "RECRUIT_TEXT_24"
+msgstr " "
+
+msgid "RECRUIT_TEXT_25"
+msgstr "メールアドレス"
+
+msgid "RECRUIT_TEXT_26"
+msgstr "recruit@tmh-techlab.vn"
+
+msgid "RECRUIT_TEXT_27"
+msgstr "電話番号"
+
+msgid "RECRUIT_TEXT_28"
+msgstr "0000-123-4567"
+
+msgid "RECRUIT_TEXT_29"
+msgstr "備考"
+
+msgid "RECRUIT_TEXT_30"
+msgstr "テキストを入力してください。"
+
+msgid "RECRUIT_TEXT_31"
+msgstr "履歴書アップロード（PDF）"
+
+msgid "RECRUIT_TEXT_32"
+msgstr "ファイル選択"
+
+msgid "RECRUIT_TEXT_33"
+msgstr "送信"
+
+msgid "RECRUIT_TEXT_34"
+msgstr "ファイルが選択されていません"
+
+msgid "RECRUIT_TEXT_50_1"
+msgstr "開発サイクル"
+
+msgid "RECRUIT_TEXT_50_2"
+msgstr "私達はアジャイル開発を取り入れています。<br>開発工程を小さく分割しチケット化、開発・テスト・デプロイを繰り返しながら開発します。この繰り返し（イテレーション）を繰り返し行うことで開発の精度を上げていきます。"
+
+msgid "RECRUIT_50_3"
+msgstr "1. チケット"
+
+msgid "RECRUIT_50_4"
+msgstr "Backlog を使ってタスクのチケットを発行します。チケットの担当者はこのチケットを元に開発を進めていきます。"
+
+msgid "RECRUIT_50_5"
+msgstr "2. 開発&リファクタリング"
+
+msgid "RECRUIT_50_6"
+msgstr "Eclipse などの IDE を使い開発を進めていきます。開発とリファクタリングを繰り返しながらソースコードの質を高めて行きます。開発が完了したものは Git でコミット＆プッシュします。"
+
+msgid "RECRUIT_50_7"
+msgstr "3. テスト"
+
+msgid "RECRUIT_50_8"
+msgstr "PHPUnit や Selenium などでテストを自動化して行きます。"
+
+msgid "RECRUIT_50_9"
+msgstr "4. デプロイ"
+
+msgid "RECRUIT_50_10"
+msgstr "Jenkins でテストの実行やステージングや本番サーバへアップロードをします。"
+
+msgid "RECRUIT_50_11"
+msgstr "ツール"
+
+msgid "RECRUIT_50_12"
+msgstr "IT テクノロジーが日々進化する中で、開発の環境も日々変化しています。<br>新しい技術を積極的に取り入れトライすることで、変化する開発に柔軟に対応していきます。<br>以下は、私達が利用しているツールの一部です。"
+
+msgid "RECRUIT_50_13"
+msgstr "CSS<br>javascript<br>AngularJs"
+
+msgid "RECRUIT_50_14"
+msgstr "memcached<br>vagrant<br>backlog<br>selenium"
+
+msgid "RECRUIT_50_15"
+msgstr "bower<br>grunt<br>compass"
+
+msgid "RECRUIT_60_1"
+msgstr "8:30"
+
+msgid "RECRUIT_60_2"
+msgstr "11:55"
+
+msgid "RECRUIT_60_3"
+msgstr "13:00"
+
+msgid "RECRUIT_60_4"
+msgstr ""
+
+msgid "RECRUIT_60_5"
+msgstr "出社"
+
+msgid "RECRUIT_60_6"
+msgstr "全体朝礼&日本語の勉強会"
+
+msgid "RECRUIT_60_7"
+msgstr "開発ミーティング"
+
+msgid "RECRUIT_60_8"
+msgstr "開発"
+
+msgid "RECRUIT_60_9"
+msgstr "お昼休み"
+
+msgid "RECRUIT_60_10"
+msgstr "午後の就業開始"
+
+msgid "RECRUIT_60_11"
+msgstr "フルーツタイム"
+
+msgid "RECRUIT_60_12"
+msgstr "5:30"
+
+msgid "RECRUIT_60_13"
+msgstr "終業"
+
+msgid "RECRUIT_70_1"
+msgstr "求める人物像"
+
+msgid "RECRUIT_70_2"
+msgstr "TMH Tech. Labでは、「チャレンジ」、「チームワーク」、「コミットメント」が、個人、そして会社の成長に欠かせない要素である感えています。以下の３つに共感し、尊重することができる方との出会いを心から楽しみにしています。"
+
+msgid "RECRUIT_70_3"
+msgstr "チャレンジ"
+
+msgid "RECRUIT_70_4"
+msgstr "新しいサービスを開発する為の技術・環境は、日々進化しています。そして、これらの進化によって、より高度で複雑な開発が可能になってきました。<br>TMH Tech. Labでは新しいテクノロジーを積極的に取り入れ、高度な開発にチャレンジしていきます。そのため、失敗を恐れ従来のやり方を踏襲するよりも、積極的に新しい技術を学び、失敗を恐れずにチャレンジすることを尊重します。"
+
+msgid "RECRUIT_70_5"
+msgstr "チームワーク"
+
+msgid "RECRUIT_70_6"
+msgstr "どんなに小さなプロジェクトでも１人で作ることはありません。<br>デザイナーやディレクター、エンジニアなどより多くの仲間と連携することで、アイディアが磨かれ、より多くの人に使ってもらえるサービスを作ることができます。TMH Tech. Labでは、仲間を尊重し、信頼し、互いに刺激し合い、助け合うことができる仲間を求めています。"
+
+msgid "RECRUIT_70_7"
+msgstr "コミットメント"
+
+msgid "RECRUIT_70_8"
+msgstr "TMH Tech. Labは、クライアントやチームからの要求・期待（品質、スケジュールなど）にコミットする責任感とプロフェッショナルとしての意識を持つことを求めます。<br>会社は学びのフィールドではありません。自らのビジネススキル、エンジニアリングのスキルを能動的に高め、そのパフォーマンスを発揮するフィールドです。<br>もちろん、私たちはビジネススキル、エンジニアリングスキル、コミュニケーションスキルの向上をサポートするプログラムを積極的に実施し成長をサポートしていきます。また、みなさんの能力や情熱を思い切り発散できるフィールドを用意することを約束します。"
+
+msgid "MAIL_COMMON_TEXT_1"
+msgstr "Tribal Media House Technology Lab Co., Ltd."
+
+msgid "MAIL_COMMON_TEXT_2"
+msgstr "7F Indochina Plaza Hanoi, 241 Xuan Thuy Str., Cau Giay Dist., Hanoi, Vietnam."
+
+msgid "MAIL_COMMON_TEXT_3"
+msgstr "info@tmh-techlab.vn"
+
+msgid "MAIL_COMMON_TEXT_4"
+msgstr "＋84-(0)4-3256-5182"
+
+msgid "MAIL_COMMON_TEXT_5"
+msgstr "http://www.tmh-techlab.vn"
+
+msgid "MAIL_CONTACT_SUBJECT"
+msgstr "お問合せありがとうございます。"
+
+msgid "MAIL_CONTACT_TEXT_1"
+msgstr "お問合せありがとうございます。"
+
+msgid "MAIL_CONTACT_TEXT_2"
+msgstr "名前"
+
+msgid "MAIL_CONTACT_TEXT_3"
+msgstr "メールアドレス"
+
+msgid "MAIL_CONTACT_TEXT_4"
+msgstr "電話番号"
+
+msgid "MAIL_CONTACT_TEXT_5"
+msgstr "学校/会社名"
+
+msgid "MAIL_CONTACT_TEXT_6"
+msgstr "役職名"
+
+msgid "MAIL_CONTACT_TEXT_7"
+msgstr "部署名"
+
+msgid "MAIL_CONTACT_TEXT_8"
+msgstr "お問い合わせ種別"
+
+msgid "MAIL_CONTACT_TEXT_9"
+msgstr "備考"
+
+msgid "MAIL_RECRUIT_SUBJECT"
+msgstr "ご応募ありがとうございました。"
+
+msgid "MAIL_RECRUIT_TEXT_1"
+msgstr "ご応募ありがとうございました。"
+
+msgid "MAIL_RECRUIT_TEXT_2"
+msgstr "名前"
+
+msgid "MAIL_RECRUIT_TEXT_3"
+msgstr "年齢"
+
+msgid "MAIL_RECRUIT_TEXT_4"
+msgstr "学校／会社名"
+
+msgid "MAIL_RECRUIT_TEXT_5"
+msgstr "メールアドレス"
+
+msgid "MAIL_RECRUIT_TEXT_6"
+msgstr "電話番号"
+
+msgid "MAIL_RECRUIT_TEXT_7"
+msgstr "備考"
+
+msgid "TITLE_1"
+msgstr "Technology x Marketing / Tribal Media House Technology Lab"
+
+msgid "TITLE_2"
+msgstr "採用｜TMH Tech. Lab"
+
+msgid "TITLE_3"
+msgstr "プロダクト｜TMH Tech. Lab"
+
+msgid "TITLE_4"
+msgstr "スタッフ｜TMH Tech. Lab"
+
+msgid "TITLE_5"
+msgstr "会社概要｜TMH Tech. Lab"
+
+msgid "TITLE_6"
+msgstr "お問い合わせ｜TMH Tech. Lab"
+
+msgid "TITLE_7"
+msgstr "アクセス｜TMH Tech. Lab"
+
+msgid "TITLE_8"
+msgstr "エラー｜TMH Tech. Lab"
+
+msgid "TITLE_9"
+msgstr "お問い合わせ｜TMH Tech. Lab"
+
+msgid "TITLE_10"
+msgstr "採用｜TMH Tech. Lab"
+
+msgid "TOPIC_PATH_1"
+msgstr "ホーム"
+
+msgid "TOPIC_PATH_2"
+msgstr "採用情報"
+
+msgid "TOPIC_PATH_3"
+msgstr "プロダクト"
+
+msgid "TOPIC_PATH_4"
+msgstr "スタッフ"
+
+msgid "TOPIC_PATH_5"
+msgstr "会社情報"
+
+msgid "TOPIC_PATH_6"
+msgstr "お問い合わせ"
+
+msgid "TOPIC_PATH_7"
+msgstr "アクセス"
+
+msgid "TOPIC_PATH_8"
+msgstr "エラー"
+
+msgid "TOPIC_PATH_9"
+msgstr "お問い合わせ"
+
+msgid "TOPIC_PATH_10"
+msgstr "採用情報"
+
+msgid "META_AUTHOR"
+msgstr "Tribal Media House Technology Lab Co., Ltd"
+
+msgid "META_DESCRIPTION_1"
+msgstr "トライバルメディアハウステクノロジーラボは、ベトナムに拠点を構え、日本および世界へテクノロジー x マーケティングをテーマにソリューションを開発しています。"
+
+msgid "META_DESCRIPTION_2"
+msgstr "トライバルメディアハウステクノロジーラボの採用情報です"
+
+msgid "META_DESCRIPTION_3"
+msgstr "トライバルメディアハウステクノロジーラボのプロダクト紹介です"
+
+msgid "META_DESCRIPTION_4"
+msgstr "トライバルメディアハウステクノロジーラボのスタッフ紹介です"
+
+msgid "META_DESCRIPTION_5"
+msgstr "トライバルメディアハウステクノロジーラボの会社概要です"
+
+msgid "META_DESCRIPTION_6"
+msgstr "トライバルメディアハウステクノロジーラボへの問い合わせページです"
+
+msgid "META_DESCRIPTION_7"
+msgstr "トライバルメディアハウステクノロジーラボのアクセス情報です"
+
+msgid "META_KEYWORD_1"
+msgstr "Tribal Media House Technology Lab,TMH Tech. Lab,トライバルメディアハウステクノロジーラボ,Engage Manager,エンゲージマネージャー,cocosquare,ココスクウェア"
+
+msgid "META_KEYWORD_2"
+msgstr "Tribal Media House Technology Lab,TMH Tech. Lab,トライバルメディアハウステクノロジーラボ,採用"
+
+msgid "META_KEYWORD_3"
+msgstr "Tribal Media House Technology Lab,TMH Tech. Lab,トライバルメディアハウステクノロジーラボ,Engage Manager,エンゲージマネージャー,cocosquare,ココスクウェア"
+
+msgid "META_KEYWORD_4"
+msgstr "Tribal Media House Technology Lab,TMH Tech. Lab,トライバルメディアハウステクノロジーラボ,スタッフ"
+
+msgid "META_KEYWORD_5"
+msgstr "Tribal Media House Technology Lab,TMH Tech. Lab,トライバルメディアハウステクノロジーラボ,会社概要"
+
+msgid "META_KEYWORD_6"
+msgstr "Tribal Media House Technology Lab,TMH Tech. Lab,トライバルメディアハウステクノロジーラボ,お問い合わせ"
+
+msgid "META_KEYWORD_7"
+msgstr "Tribal Media House Technology Lab,TMH Tech. Lab,トライバルメディアハウステクノロジーラボ,アクセス"
+
+msgid "OG_1"
+msgstr "Technology x Marketing / Tribal Media House Technology Lab"
+
+msgid "OG_2"
+msgstr "トライバルメディアハウステクノロジーラボは、ベトナムに拠点を構え、日本および世界へテクノロジー x マーケティングをテーマにソリューションを開発しています。"
+
+msgid "OG_3"
+msgstr "http://www.tmh-techlab.vn"
+
+msgid "OG_4"
+msgstr "http://www.tmh-techlab.vn/img/common/OGP_img.jpg"
+
+msgid "GA_CODE"
+msgstr "UA-65079300-1"
+

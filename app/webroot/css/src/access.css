@@ -1,0 +1,16 @@
+.access{
+	margin: 20px auto 20px auto;
+}
+.access .headline1{	
+  display: block;
+  margin: 10px 0 25px 0; 	
+}
+.access .headline1 h2{
+  margin: 0 0 -2px 0;
+  padding-bottom: 5px;
+  display: inline-block;
+  border-bottom: 2px solid #72c02c;
+}
+.access .fa{
+	width: 20px;
+}

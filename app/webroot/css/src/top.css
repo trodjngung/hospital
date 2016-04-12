@@ -1,0 +1,155 @@
+/**** Carousel 
+**********************/
+@media ( min-width : 768px) {
+	.carousel-indicators {
+		bottom: 10px;
+	}
+}
+
+.carousel {
+	box-shadow: none;
+	border-bottom: 2px solid #ddd;
+	width: 100%;
+	height: 360px;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.carousel .carousel-control {
+	top: 50%;
+	margin-top: -22.5px;
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	bottom: 0;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	background: rgba(0, 0, 0, 0.3);
+	filter: alpha(opacity = 50);
+}
+
+.carousel .item {
+	margin: 0 10px;
+	height: 360px;
+}
+
+.carousel .item.first-item {
+	background: transparent url(/img/top/cover.png) no-repeat 50% 50%;
+}
+
+.carousel .carousel-control.right:hover, .carousel .carousel-control.left:hover {
+	opacity: 1;
+}
+
+.carousel .carousel-control.right {
+	border-radius: 3px 0 0 3px;
+}
+
+.carousel .carousel-control.left {
+	border-radius: 0 3px 3px 0;
+}
+
+.carousel-control .glyphicon-chevron-right {
+	margin-right: -15px;
+}
+
+.carousel-control .glyphicon-chevron-left {
+	margin-left: -15px;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+	width: 30px;
+	height: 30px;
+	margin-top: -17px;
+	font-size: 30px
+}
+
+/**** Thumbnails 
+**********************/
+#top .content .box:nth-child(even) {
+	background: #f9f9f9;
+	border-top: solid 1px #eee;
+	border-bottom: solid 1px #eee;
+}
+
+#top .content .box:nth-child(even) .caption {
+	background: #fff;
+}
+
+#top .overflow-hidden {
+	overflow: hidden;
+}
+
+#top .thumbnail-style {
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+#top .thumbnail-style.products {
+	border: 1px solid #e5e5e5;
+	background-color: #fff
+}
+
+#top .thumbnail-style:hover {
+	box-shadow: 0 0 8px #ddd;
+	-webkit-transition: box-shadow 0.2s ease-in-out;
+	-moz-transition: box-shadow 0.2s ease-in-out;
+	-o-transition: box-shadow 0.2s ease-in-out;
+	transition: box-shadow 0.2s ease-in-out;
+}
+#top .top-products .thumbnail-style:hover {
+	opacity: 0.7;
+	box-shadow: 0 0 20px #cccccc;
+	-webkit-transition: box-shadow opacity 0.2s ease-in-out;
+	-moz-transition: box-shadow opacity 0.2s ease-in-out;
+	-o-transition: box-shadow opacity 0.2s ease-in-out;
+	transition: box-shadow opacity 0.2s ease-in-out;
+}
+
+#top .thumbnail-style .caption {
+	padding: 20px 5px 10px;
+	margin-top: 1px;
+	border-bottom: 2px solid #fff;
+	border-radius: 0 0 4px 4px !important;
+}
+
+#top .thumbnail-style .caption h3 a, #top .thumbnail-style .caption p {
+	color: #555;
+}
+
+#top .top-recruit .thumbnail-style:hover .caption {
+	border-bottom: solid 2px #72c02c;
+}
+
+#top .thumbnail-style .caption h3 {
+	margin: 6px 0 8px 0;
+	text-shadow: none;
+	line-height: 27px;
+	font-weight: normal;
+	font-size: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	/** white-space: nowrap; **/
+	width: 100%;
+}
+
+#top .thumbnail-style .caption h3 a {
+	font-size: 16px;
+}
+
+#top .thumbnail-style .thumbnail-img {
+	position: relative;
+	margin: 0;
+}
+
+#top .thumbnail-style img {
+	position: relative;
+	-webkit-transition: all 0.8s ease-in-out;
+	-moz-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+	-ms-transition: all 0.8s ease-in-out;
+	transition: all 0.8s ease-in-out;
+}

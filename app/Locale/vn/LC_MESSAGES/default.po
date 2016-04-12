@@ -1,0 +1,1183 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION"
+"POT-Creation-Date: 2015-11-05, 15:46:36 +07:00"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ"
+"Last-Translator: NAME <EMAIL@ADDRESS>"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
+
+msgid "BODY_TXT_1"
+msgstr "TIN TỨC"
+
+msgid "BODY_TXT_2"
+msgstr "SỰ KIỆN"
+
+msgid "BODY_TXT_3"
+msgstr "GIẢNG VIÊN"
+
+msgid "BODY_TXT_4"
+msgstr "NHIỆM VỤ"
+
+msgid "BODY_TXT_5"
+msgstr "HOẠT ĐỘNG"
+
+msgid "message_id"
+msgstr "VN"
+
+msgid "namecompany"
+msgstr "Công Ty Phát Triển Công Nghệ Và Truyền Thông Việt-Oregon"
+
+msgid "KD_1"
+msgstr "LIÊN HỆ KINH DOANH"
+
+msgid "KD_3"
+msgstr "Nhân viên kinh doanh"
+
+msgid "KD_2"
+msgstr "Lan Nguyễn"
+
+msgid "KD_4"
+msgstr "Chuyên viên kinh doanh về Marketting Online Google Adwords, SEO, Design Web, Facebook advertising, Twitter advertising."
+
+msgid "KD_5"
+msgstr "Việt Nguyễn"
+
+msgid "KD_6"
+msgstr "Nhân viên kinh doanh"
+
+msgid "KD_7"
+msgstr "Chuyên viên kinh doanh về phát triển phần mềm ứng dụng theo nhu cầu khách hàng, phát triển sản phẩm của công ty."
+
+
+msgid "SLIDE_TEXT_1"
+msgstr "VIET-OREGON COMPANY"
+
+msgid "SLIDE_TEXT_2"
+msgstr "TƯƠNG LAI CỦA MARKETTING ONLINE !"
+
+msgid "SLIDE_TEXT_3"
+msgstr "Quảng cáo Adwords "
+
+msgid "SLIDE_TEXT_4"
+msgstr "Tối ưu hoá công cụ tìm kiếm SEO "
+
+msgid "SLIDE_TEXT_5"
+msgstr "Thiết kế Web Doanh nghiệp/Công Ty/Phần mềm theo yêu cầu khách hàng  "
+
+msgid "SLIDE_TEXT_6"
+msgstr "DỰ ÁN NGHIÊN CỨU ! "
+
+msgid "SLIDE_TEXT_7"
+msgstr "VOT&C-Twitter/ Quản lý marketing trên Twitter"
+
+msgid "SLIDE_TEXT_8"
+msgstr "VOT&C-Facebook/ Quản lý marketing trên Facebook"
+
+msgid "SLIDE_TEXT_9"
+msgstr "VOT&C-Website/ Read Website Analytics"
+
+msgid "SLIDE_TEXT_10"
+msgstr "VOT&C-Wolfram/ WolframAlpha - Công cụ tìm kiếm toán học"
+
+msgid "SLIDE_TEXT_11"
+msgstr "TUYỂN DỤNG 2016!"
+
+msgid "SLIDE_TEXT_12"
+msgstr "Dành cho sinh viên thực tập hoặc sinh viên mới tốt nghiệp"
+
+msgid "SLIDE_TEXT_13"
+msgstr "Dành cho ứng viên có nhu cầu chuyển việc, muốn có công việc tốt hơn"
+
+
+msgid "LAYOUT_TEXT_1"
+msgstr "Tin Tức"
+
+msgid "LAYOUT_TEXT_2"
+msgstr "TRANG CHỦ"
+
+msgid "LAYOUT_TEXT_3"
+msgstr "sự kiện"
+
+msgid "LAYOUT_TEXT_4"
+msgstr "Lịch học"
+
+msgid "LAYOUT_TEXT_5"
+msgstr "Tin tức"
+
+msgid "LAYOUT_TEXT_6"
+msgstr "giảng viên"
+
+msgid "LAYOUT_TEXT_6_1"
+msgstr "Hội Nhóm"
+
+msgid "LAYOUT_TEXT_7"
+msgstr "Giới thiệu"
+
+msgid "LAYOUT_TEXT_8"
+msgstr "Liên hệ"
+
+msgid "LAYOUT_TEXT_9"
+msgstr "Địa chỉ"
+
+msgid "LAYOUT_TEXT_10"
+msgstr "LANGUAGES"
+
+msgid "LAYOUT_TEXT_10_1"
+msgstr "English"
+
+msgid "LAYOUT_TEXT_10_2"
+msgstr "Tiếng Việt"
+
+msgid "LAYOUT_TEXT_10_3"
+msgstr "日本語"
+
+msgid "LAYOUT_TEXT_11"
+msgstr ""
+
+msgid "LAYOUT_TEXT_12"
+msgstr "Sơ đồ"
+msgid "LAYOUT_TEXT_133"
+msgstr "Tin Tức"
+
+msgid "LAYOUT_TEXT_13"
+msgstr "Trang chủ"
+
+msgid "LAYOUT_TEXT_14"
+msgstr "Lịch Học"
+
+msgid "LAYOUT_TEXT_15"
+msgstr "Sự Kiện"
+
+msgid "LAYOUT_TEXT_16"
+msgstr "Giảng Viên"
+
+msgid "LAYOUT_TEXT_17"
+msgstr "Giới thiệu"
+
+msgid "LAYOUT_TEXT_18"
+msgstr "Hội Nhóm "
+
+msgid "LAYOUT_TEXT_19"
+msgstr "Địa chỉ"
+
+msgid "LAYOUT_TEXT_20"
+msgstr "Quản lý"
+
+msgid "LAYOUT_TEXT_21"
+msgstr "Liên hệ"
+
+msgid "LAYOUT_TEXT_22"
+msgstr " PCC Rock Creek Building #2 17705 NW Springville Rd Portland, OR 97229 "
+
+msgid "LAYOUT_TEXT_23"
+msgstr "503-997-2260"
+
+msgid "LAYOUT_TEXT_24"
+msgstr "www.vscso.org "
+
+msgid "LAYOUT_TEXT_25"
+msgstr "info@vscsoorg.vn"
+
+msgid "LAYOUT_TEXT_26"
+msgstr "https://www.facebook.com/vscso-org"
+
+msgid "LAYOUT_TEXT_27"
+msgstr "2016 © Thiết kế bởi Công Ty TNHH Đầu Tư Phát Triển Công Nghệ Truyền Thông Việt - Oregon ... "
+
+msgid "LAYOUT_TEXT_28"
+msgstr ""
+
+msgid "TOP_TEXT_1"
+msgstr "Tin Tức"
+
+msgid "TOP_TEXT_2"
+msgstr "Tuyển dụng"
+
+msgid "TOP_TEXT_3"
+msgstr ""
+
+msgid "TOP_TEXT_4"
+msgstr "Dành cho sinh viên thực tập hoặc sinh viên mới tốt nghiệp"
+
+msgid "TOP_TEXT_5"
+msgstr "Tuyển dụng năm 2016 ! <br>Tuyển dụng nhân viên là sinh viên làm part time hoặc những sinh viên mới ra trường chưa có nhiều kinh nghiệm, được đào tạo trong một những môi trường hàng đầu về Marketting Online (Adwords, SEO). <br> Đào tạo nhân viên thành kỹ sư chuyên nghiệp về PHP, Adroid và IOS. <br> Đăng kí tuyển dụng tại đây. "
+
+msgid "TOP_TEXT_6"
+msgstr ""
+
+msgid "TOP_TEXT_7"
+msgstr "Dành cho ứng viên có nhu cầu chuyển việc, muốn có công việc tốt hơn"
+
+msgid "TOP_TEXT_8"
+msgstr "Tuyển dụng năm 2016 ! <br>Công ty chào đón những nhân viên giàu kinh nghiệm muốn tìm môi trường làm việc chuyên nghiệp, bảo trợ lao động cao. Những nhân viên có kinh nghiệm cao mong muốn gắn bó lâu dài với công ty sẽ được nắm giữ những vị trí chủ chốt của công ty. <br> Hãy tự tin tham gia Viet-Oregon Technology and Communication Develop Company. <br>Đăng kí tuyển dụng tại đây. "
+
+msgid "TOP_TEXT_9"
+msgstr "DỊCH VỤ"
+
+msgid "TOP_TEXT_10"
+msgstr ""
+
+msgid "TOP_TEXT_11"
+msgstr ""
+
+msgid "TOP_TEXT_12"
+msgstr ""
+
+msgid "TOP_TEXT_13"
+msgstr "Dự án nghiên cứu"
+
+msgid "COMPANY_TEXT_1"
+msgstr ""
+
+msgid "COMPANY_TEXT_2"
+msgstr "DỊCH VỤ"
+
+msgid "COMPANY_TEXT_3"
+msgstr "MAKERTING ONLINE ADWORDS, SEO, SEM, TWITTER, FACEBOOK"
+
+msgid "COMPANY_TEXT_4"
+msgstr "DỰ ÁN NGHIÊN CỨU"
+
+msgid "COMPANY_TEXT_5"
+msgstr "QUẢN LÝ MARKETING TRÊN TWITTER, FACEBOOK, READ WEBSITE ANALYTICS, WOLFRAMALPHA"
+
+msgid "COMPANY_TEXT_6"
+msgstr "UY TÍN"
+
+msgid "COMPANY_TEXT_7"
+msgstr "LÀM VIỆC THEO MÔ HÌNH AGILE, ĐÚNG YÊU CẦU CỦA KHÁCH HÀNG, UY TÍN, TRÁCH NHIỆM"
+
+msgid "COMPANY_TEXT_8"
+msgstr "LỜI NHẮN GỬI ĐỐI TÁC VÀ QUÝ KHÁCH HÀNG"
+
+msgid "COMPANY_TEXT_9"
+msgstr ""
+
+msgid "COMPANY_TEXT_10"
+msgstr "Giám Đốc"
+
+msgid "COMPANY_TEXT_11"
+msgstr "Chí Nguyễn"
+
+msgid "COMPANY_TEXT_12"
+msgstr "Công Ty Phát Triển Công Nghệ Và Truyền Thông Việt-Oregon chúng tôi là công ty tiếp nhận những dự án từ Oregon, Portland, Hoà Kỳ. Chúng tôi hiện tại nhận đơn đặt hàng từ Oregon và phát triển công nghệ theo tiêu chuẩn quốc tế. Ngoài ra chúng tôi cũng tạo những sản phẩm của riêng mình, đó là những dự án Quản lý marketing trên Twitter, Facebook, Read Website Analytics phân tích cách đọc báo mạng hiện tại, Công cụ tìm kiếm toán học - WolframAlpha. <br> Bên cạnh đó chúng tôi là đối tác ưu ái của Google, Twitter, tiếp nhận marketing trên Google (adwords), tối ưu hoá tìm kiếm trên google(Search Engine Optimization), thiết kế giao diện website doanh nghiệp, công ty, shop kinh doanh, cửa hàng, giao diện được cấp bản quyền từ công ty UNIFY - California, US. <br> Chúng tôi phát triển mô hình sản phẩm phần mềm theo mô hình Agile tuân theo quy chuẩn của khách hàng, luôn lắng nghe, thay đổi theo yêu cầu, mong muốn mang đến phần mềm hoàn hảo nhất tới khách hàng.<br> Cám ơn tất cả quý đối tác đã theo dõi, ủng hộ Công Ty Phát Triển Công Nghệ Và Truyền Thông Việt-Oregon chúng tôi.   "
+
+msgid "COMPANY_TEXT_13"
+msgstr "Khái quát về công ty"
+
+msgid "COMPANY_TEXT_14"
+msgstr "Tên công ty"
+
+msgid "COMPANY_TEXT_15"
+msgstr "Công Ty Phát Triển Công Nghệ Và Truyền Thông Việt-Oregon"
+
+msgid "COMPANY_TEXT_16"
+msgstr "Địa chỉ"
+
+msgid "COMPANY_TEXT_17"
+msgstr "Tầng 14, IPH 241 Xuân Thuỷ,Cầu Giấy, Hà Nội "
+
+msgid "COMPANY_TEXT_18"
+msgstr "Hoạt động kinh doanh"
+
+msgid "COMPANY_TEXT_19"
+msgstr "Phát triển phần mềm, Marketing online"
+
+msgid "COMPANY_TEXT_20"
+msgstr "Ngày thành lập"
+
+msgid "COMPANY_TEXT_21"
+msgstr "23/1/2015"
+
+msgid "COMPANY_TEXT_22"
+msgstr "Điều hành"
+
+msgid "COMPANY_TEXT_23"
+msgstr "Ông Chí Nguyễn"
+
+msgid "COMPANY_TEXT_24"
+msgstr "Chủ đầu tư"
+
+msgid "COMPANY_TEXT_25"
+msgstr "Jive Software, Inc"
+
+msgid "STAFF_TEXT_0_1"
+msgstr "Sở thích"
+
+msgid "STAFF_TEXT_0_2"
+msgstr "Quê quán"
+
+msgid "STAFF_TEXT_0_3"
+msgstr "Nghề nghiệp/ Chức vụ"
+
+msgid "STAFF_TEXT_0_4"
+msgstr "Họ tên"
+
+msgid "STAFF_TEXT_0_5"
+msgstr "Lời nhắn"
+
+msgid "STAFF_TEXT_1_2"
+msgstr "Giám đốc"
+
+msgid "STAFF_TEXT_1_3"
+msgstr "Chí Nguyễn"
+
+msgid "STAFF_TEXT_1_4"
+msgstr "Tìm hiểu văn hoá / nghệ thuật, công nghệ / câu cá / chơi thể thao / ..."
+
+msgid "STAFF_TEXT_1_5"
+msgstr "Hà Nội / Việt Nam"
+
+msgid "STAFF_TEXT_1_6"
+msgstr "Từ tháng 1 năm 2015, chúng tôi thành lập công ty Công Ty Phát Triển Công Nghệ Và Truyền Thông Việt-Oregon và bắt đầu phát triển phần mềm và truyền thông Marketting Online.  Chúng tôi luôn nỗ lực hết mình để tạo ra những giải pháp phần mềm tối ưu kết hợp giữa "Technology và Marketing" bằng chính đội ngũ kỹ thuật của công ty."
+
+msgid "STAFF_TEXT_2_1"
+msgstr ""
+
+msgid "STAFF_TEXT_2_2"
+msgstr "Chuyên Viên Kỹ Thuật Cao USA"
+
+msgid "STAFF_TEXT_2_3"
+msgstr "Hải Nguyễn"
+
+msgid "STAFF_TEXT_2_4"
+msgstr "Đọc sách / chơi gôn / trượt tuyết / ..."
+
+msgid "STAFF_TEXT_2_5"
+msgstr "Oregon/ USA"
+
+msgid "STAFF_TEXT_2_6"
+msgstr "Dục tốc bất đạt."
+
+msgid "STAFF_TEXT_3_1"
+msgstr ""
+
+msgid "STAFF_TEXT_3_2"
+msgstr "Chuyên viên Kinh doanh USA "
+
+msgid "STAFF_TEXT_3_3"
+msgstr "Vinh Jone"
+
+msgid "STAFF_TEXT_3_4"
+msgstr "Xem phim / đọc sách / du lịch / ..."
+
+msgid "STAFF_TEXT_3_5"
+msgstr "Oregon/ USA"
+
+msgid "STAFF_TEXT_3_6"
+msgstr "Happiness is not destination. It's the method of life."
+
+msgid "STAFF_TEXT_4_1"
+msgstr ""
+
+msgid "STAFF_TEXT_4_2"
+msgstr "Kỹ sư"
+
+msgid "STAFF_TEXT_4_3"
+msgstr "Hưng Nguyễn"
+
+msgid "STAFF_TEXT_4_4"
+msgstr "code / câu cá / chơi thể thao / ..."
+
+msgid "STAFF_TEXT_4_5"
+msgstr "Oregon / USA"
+
+msgid "STAFF_TEXT_4_6"
+msgstr "Hãy học cách hạnh phúc với những gì bạn có trong khi bạn đang theo đuổi tất cả những gì mình mơ ước."
+
+msgid "STAFF_TEXT_5_1"
+msgstr ""
+
+msgid "STAFF_TEXT_5_2"
+msgstr "Kỹ sư"
+
+msgid "STAFF_TEXT_5_3"
+msgstr "Kelvin Jone"
+
+msgid "STAFF_TEXT_5_4"
+msgstr "Code / chơi game / và nghe nhạc / ..."
+
+msgid "STAFF_TEXT_5_5"
+msgstr "Oregon / USA"
+
+msgid "STAFF_TEXT_5_6"
+msgstr "Làm hết sức, chơi hết mình."
+
+msgid "STAFF_TEXT_6_1"
+msgstr ""
+
+msgid "STAFF_TEXT_6_2"
+msgstr "Trưởng phòng kinh doanh"
+
+msgid "STAFF_TEXT_6_3"
+msgstr "Dương Tuấn"
+
+msgid "STAFF_TEXT_6_4"
+msgstr "Bánh rán / bánh nướng / thích ở nhà vào mùa đông và nằm ngủ khi trời đang mưa / ..."
+
+msgid "STAFF_TEXT_6_5"
+msgstr "Hà Nội / Việt Nam"
+
+msgid "STAFF_TEXT_6_6"
+msgstr "Cuộc sống là phải chờ đợi."
+
+msgid "STAFF_TEXT_7_1"
+msgstr ""
+
+msgid "STAFF_TEXT_7_2"
+msgstr "Hành Chính - Nhân Sự"
+
+msgid "STAFF_TEXT_7_3"
+msgstr "Nguyễn Thị Liễu "
+
+msgid "STAFF_TEXT_7_4"
+msgstr "Cafe / Karaoke / ngủ khi có thời gian rảnh / ..."
+
+msgid "STAFF_TEXT_7_5"
+msgstr "Hà Nội / Việt Nam"
+
+msgid "STAFF_TEXT_7_6"
+msgstr "Hãy hành động theo những gì bạn nói và nghĩ"
+
+msgid "STAFF_TEXT_8_1"
+msgstr ""
+
+msgid "STAFF_TEXT_8_2"
+msgstr "Nhân Viên Kinh Doanh"
+
+msgid "STAFF_TEXT_8_3"
+msgstr "Nguyễn Xuân Lâm"
+
+msgid "STAFF_TEXT_8_4"
+msgstr "Đi phượt bằng xe máy / phim truyền hình Mỹ / ..."
+
+msgid "STAFF_TEXT_8_5"
+msgstr "Hà Nội / Việt Nam"
+
+msgid "STAFF_TEXT_8_6"
+msgstr "Khi bạn từ bỏ, hãy nhớ tại sao mình bắt đầu."
+
+msgid "STAFF_TEXT_9_1"
+msgstr ""
+
+msgid "STAFF_TEXT_9_2"
+msgstr "Kỹ thuật SEO/Adwords"
+
+msgid "STAFF_TEXT_9_3"
+msgstr "Nguyễn Hữu Hoàng"
+
+msgid "STAFF_TEXT_9_4"
+msgstr "Du lịch / Nghe nhạc / Đọc truyện / Xem phim / ..."
+
+msgid "STAFF_TEXT_9_5"
+msgstr "Hà Nội / Việt Nam"
+
+msgid "STAFF_TEXT_9_6"
+msgstr "Tôi không thể quay trở về ngày hôm qua, bởi vì lúc ấy tôi là một người rất khác"
+
+msgid "STAFF_TEXT_10_1"
+msgstr ""
+
+msgid "STAFF_TEXT_10_2"
+msgstr "Kỹ thuật SEO"
+
+msgid "STAFF_TEXT_10_3"
+msgstr "Hoa Tiến Thành"
+
+msgid "STAFF_TEXT_10_4"
+msgstr "AOE / EA SPORT / ..."
+
+msgid "STAFF_TEXT_10_5"
+msgstr "Hải Dương / Việt Nam"
+
+msgid "STAFF_TEXT_10_6"
+msgstr "Bạn cũ bạn tốt , rượu cũ rượu ngon"
+
+
+msgid "STAFF_TEXT_11_1"
+msgstr ""
+
+msgid "STAFF_TEXT_11_2"
+msgstr "Kỹ thuật Lập Trình"
+
+msgid "STAFF_TEXT_11_3"
+msgstr "Phạm Văn Quy"
+
+msgid "STAFF_TEXT_11_4"
+msgstr "Đọc truyện / Xem phim / ..."
+
+msgid "STAFF_TEXT_11_5"
+msgstr "Quảng Bình / Việt Nam"
+
+msgid "STAFF_TEXT_11_6"
+msgstr " Mưu sự tại nhân, thành sự tại thiên"
+
+msgid "STAFF_TEXT_12_1"
+msgstr ""
+
+msgid "STAFF_TEXT_12_2"
+msgstr "Nhân Viên Kinh Doanh"
+
+msgid "STAFF_TEXT_12_3"
+msgstr "Vu Van Canh"
+
+msgid "STAFF_TEXT_12_4"
+msgstr "Đi phượt / Xem phim / ..."
+
+msgid "STAFF_TEXT_12_5"
+msgstr "Hà Nội/ Việt Nam"
+
+msgid "STAFF_TEXT_12_6"
+msgstr " Yêu nhau quá đỗi nên mê, tỉnh ra mới biết kẻ chê người cười"
+
+msgid "PRODUCT_TEXT_1"
+msgstr ""
+
+msgid "PRODUCT_TEXT_2"
+msgstr "Quảng cáo Google Adwords"
+
+msgid "PRODUCT_TEXT_3"
+msgstr "Google AdWords là một dịch vụ thương mại của Google cho phép khách hàng mua những quảng cáo bằng chữ hoặc hình ảnh tại các kết quả tìm kiếm hoặc các trang web do các đối tác Google Adsense cung cấp. Để sử dụng được dịch vụ AdWords, người dùng phải đăng ký một tài khoản Gmail. Năm 2000, Google đã giới thiệu AdWords, một chương trình tự phục vụ nhằm tạo các chiến dịch quảng cáo trực tuyến. Ngày nay, giải pháp quảng cáo của Google, bao gồm quảng cáo hiển thị, quảng cáo trên điện thoại di động và quảng cáo video cũng như quảng cáo văn bản thuần túy mà Google đã giới thiệu hơn một thập kỷ trước, giúp hàng nghìn doanh nghiệp phát triển và thành công."
+
+msgid "PRODUCT_TEXT_4"
+msgstr "Xem thêm ..."
+
+msgid "PRODUCT_TEXT_5"
+msgstr ""
+
+msgid "PRODUCT_TEXT_6"
+msgstr "Tối ưu hóa công cụ tìm kiếm Google"
+
+msgid "PRODUCT_TEXT_7"
+msgstr "Đội ngũ SEO của công ty nhận đẩy SEO cho các doanh nghiệp trên mọi lĩnh vực. Chúng tôi là những chuyên viên SEO mũ trắng, không tồn tại hacker mang đến sản phẩm trường kì cho khách hàng.<br> Chúng tôi làm việc uy tín, tận tâm đưa quyền lợi, thành công cho khách hàng là hàng đầu. "
+
+msgid "PRODUCT_TEXT_8"
+msgstr "Xem thêm ..."
+
+msgid "PRODUCT_TEXT_9"
+msgstr ""
+
+msgid "PRODUCT_TEXT_10"
+msgstr "Thiết Kế Website Công Ty Doanh nghiệp"
+
+msgid "PRODUCT_TEXT_11"
+msgstr "Công ty là đối tác uy tín của Unify, California, USA. Được uỷ quyền sử dụng thư viện giao diện của Unify, ngoài ra chúng tôi cũng design giao diện theo đúng sự lựa chọn của khách hàng."
+
+msgid "PRODUCT_TEXT_12"
+msgstr "Xem thêm ..."
+
+msgid "PRODUCT_TEXT_13"
+msgstr "VOT&C-Twitter/ Quản lý marketing trên Twitter "
+
+msgid "PRODUCT_TEXT_133"
+msgstr "Ngày nay Twitter ngày càng phát triển và phổ biến, những lợi ích mang đến từ marketting trên twtter sẽ rất lớn. <br> Chúng tôi cung cấp phần mềm VOT&C-Twitter. VOT&C-Twitter là cổng giao tiếp trực tiếp với Twitter ads, mang đến cho quý khách hàng những chiến dịch quảng cáo tốt nhất. "
+
+msgid "PRODUCT_TEXT_14"
+msgstr "VOT&C-Facebook/ Quản lý marketing trên Facebook "
+
+msgid "PRODUCT_TEXT_144"
+msgstr "Những lợi ích từ markerting trên Facebook hiện nay đã rất phổ biến. Rất nhiều doanh nghiệp nhỏ, cửa hàng sử dụng hình thức này để quảng cáo sản phẩm của mình. Chúng tôi cung cấp phần mềm VOT&C-Facebook.<br> VOT&C-Facebook sẽ quản lí marketting của bạn trên Facebook đưa ra những chiến dịch quảng cáo tốt nhất cho bạn. Chỉ trong thời gian ngắn quảng cáo sẽ tới hàng triệu người đẩy cao mạnh mẽ việc kinh doanh của bạn. "
+
+msgid "PRODUCT_TEXT_15"
+msgstr "VOT&C-Website/ Read Website Analytics "
+
+msgid "PRODUCT_TEXT_155"
+msgstr "Ngày nay, rất nhiều tin tức spam nhiều trên báo mạng. VOT&C-Website/ Read Website Analytics sẽ lọc tin tức theo sở thích của khách hàng, cung cấp những tin tức nóng hổi nhất đưa đến cho khách hàng những lợi ích từ thay đổi trong cuộc sống. Chúng tôi sẽ phát triển trên Android và IOS đê tương tác trực tiếp trên điện thoại của khách hàng."
+
+msgid "PRODUCT_TEXT_16"
+msgstr "VOT&C-Wolfram/ WolframAlpha - Công cụ tìm kiếm toán học "
+
+msgid "PRODUCT_TEXT_166"
+msgstr "VOT&C-Wolfram/ WolframAlpha - Công cụ tìm kiếm toán học. WolframAlpha hỗ trợ học sinh, sinh viên trong việc học tập ngoài ra còn rất nhiều lợi ích từ kinh tế, văn hoá, xã hội. "
+
+msgid "CONTACT_TEXT_1"
+msgstr "Cảm ơn bạn đã liên hệ với chúng tôi!"
+
+msgid "CONTACT_TEXT_2"
+msgstr "Họ tên"
+
+msgid "CONTACT_TEXT_3"
+msgstr "Tên của bạn"
+
+msgid "CONTACT_TEXT_4"
+msgstr "E-mail"
+
+msgid "CONTACT_TEXT_5"
+msgstr "sample@viet-oregon.vn"
+
+msgid "CONTACT_TEXT_6"
+msgstr "Điện thoại"
+
+msgid "CONTACT_TEXT_7"
+msgstr "0000-123-4567"
+
+msgid "CONTACT_TEXT_8"
+msgstr "Tên trường/ Tên công ty"
+
+msgid "CONTACT_TEXT_9"
+msgstr ""
+
+msgid "CONTACT_TEXT_10"
+msgstr "Vị trí"
+
+msgid "CONTACT_TEXT_11"
+msgstr ""
+
+msgid "CONTACT_TEXT_12"
+msgstr "Tên bộ phận"
+
+msgid "CONTACT_TEXT_13"
+msgstr ""
+
+msgid "CONTACT_TEXT_14"
+msgstr "Loại liên lạc"
+
+msgid "CONTACT_TEXT_15"
+msgstr "Loại liên lạc"
+
+msgid "CONTACT_TEXT_15_1"
+msgstr "Tuyển dụng"
+
+msgid "CONTACT_TEXT_15_2"
+msgstr "Khác"
+
+msgid "CONTACT_TEXT_16"
+msgstr "Lời nhắn"
+
+msgid "CONTACT_TEXT_17"
+msgstr "Vui lòng nhập văn bản vào đây."
+
+msgid "CONTACT_TEXT_18"
+msgstr "Gửi"
+
+msgid "CONTACT_TEXT_19"
+msgstr "Vui lòng nhập tên."
+
+msgid "CONTACT_TEXT_20"
+msgstr "Vui lòng nhập địa chỉ email."
+
+msgid "CONTACT_TEXT_21"
+msgstr "Vui lòng lựa chọn."
+
+msgid "ACCESS_TEXT_1"
+msgstr ""
+
+msgid "ACCESS_TEXT_2"
+msgstr "Văn phòng"
+
+msgid "ACCESS_TEXT_3"
+msgstr "Tầng 14, IPH 241 Xuân Thuỷ,Cầu Giấy, Hà Nội "
+
+msgid "ACCESS_TEXT_4"
+msgstr "info@vietoregon-tech.vn"
+
+msgid "ACCESS_TEXT_5"
+msgstr "＋84-(0)4-3256-5182"
+
+msgid "ACCESS_TEXT_6"
+msgstr "Thời gian làm việc"
+
+msgid "ACCESS_TEXT_7"
+msgstr "Thứ hai - Thứ sáu: 8:30 ~ 17:30"
+
+msgid "ACCESS_TEXT_8"
+msgstr "Thứ bảy, Chủ nhật, các ngày lễ: Nghỉ"
+
+msgid "ACCESS_TEXT_9"
+msgstr "21.036186,105.782660"
+
+msgid "ACCESS_TEXT_10"
+msgstr "Viet-Oregon Technology and Communication Develop Company., Ltd."
+
+msgid "ACCESS_TEXT_11"
+msgstr "Tầng 14, IPH 241 Xuân Thuỷ,Cầu Giấy, Hà Nội "
+
+msgid "ACCESS_TEXT_12"
+msgstr "info@vietoregon-tech.vn"
+
+msgid "ACCESS_TEXT_13"
+msgstr "＋84-(0)4-3265-5102"
+
+msgid "ACCESS_TEXT_14"
+msgstr "http://www.viet-oregon.teach.com"
+
+msgid "ERROR_TEXT_1"
+msgstr "Lỗi"
+
+msgid "ERROR_TEXT_2"
+msgstr "Đã phát sinh lỗi."
+
+msgid "ERROR_TEXT_3"
+msgstr "Quay về Trang chủ"
+
+msgid "THANKS_R_TEXT_1"
+msgstr "Cảm ơn bạn đã ứng tuyển."
+
+msgid "THANKS_R_TEXT_2"
+msgstr "Sau đây chúng tôi sẽ gửi email trả lời tự động.<br>Trường hợp không nhận được email trả lời, do không thể xử lý thông thường. vui lòng thực hiện lại một lần nữa theo mẫu và liên hệ tới địa chỉ info@vietoregon-tech.vn.<br>Chúng tôi sẽ liên hệ lại sau khi xác nhận nội dung ứng tuyển.<br>Ngoài ra, nếu có thắc mắc vui lòng liên hệ với chúng tôi."
+
+msgid "THANKS_R_TEXT_3"
+msgstr "Quay về Trang chủ"
+
+msgid "THANKS_C_TEXT_1"
+msgstr "Cảm ơn bạn đã liên hệ với chúng tôi."
+
+msgid "THANKS_C_TEXT_2"
+msgstr "Sau đây chúng tôi sẽ gửi email trả lời tự động.<br>Trường hợp không nhận được email trả lời, do không thể xử lý thông thường. vui lòng thực hiện lại một lần nữa theo mẫu và liên hệ tới địa chỉ info@vietoregon-tech.vn.<br>Chúng tôi sẽ liên hệ lại sau khi xác nhận nội dung ứng tuyển.<br>Ngoài ra, nếu có thắc mắc vui lòng liên hệ với chúng tồi."
+
+msgid "THANKS_C_TEXT_3"
+msgstr "Quay về Trang chủ"
+
+msgid "RECRUIT_TEXT_1"
+msgstr ""
+
+msgid "RECRUIT_TEXT_2"
+msgstr "Công Ty Phát Triển Công Nghệ Và Truyền Thông Việt-Oregon"
+
+msgid "RECRUIT_TEXT_3"
+msgstr "Lời nhắn"
+
+msgid "RECRUIT_TEXT_4"
+msgstr ""Viet-Oregon Technology and Communication Develop Company" là công ty mới được thành lập tháng 01/2015 với mục đích tăng cường phát triển hệ thống, cải tiến các dự án từ công ty mẹ và nâng cao tốc độ phát triển dự án mới, trực thuộc công  ty Tribal Media House (Là công ty chuyên cung cấp các giải pháp/ đối tác về marketing kỹ thuật số hỗ trợ các hoạt động marketing tại Nhật Bản và trên thị trường thế giới). Chúng tôi chào đón những ứng viên muốn phát triển sự nghiệp và học hỏi văn hoá tại doanh nghiệp Nhật Bản, ứng viên muốn tìm hiểu, nắm vững về các kỹ thuật không chỉ sử dụng tại Nhật Bản mà trên toàn thế giới, ứng viên muốn mở rộng kinh nghiệm của bản thân với vai trò là thành viên thiết lập công ty, ứng viên mong muốn hoạt động nghiệp vụ với vai trò như nhà lãnh đạo, nhà quản lý trong tương lai."
+
+msgid "RECRUIT_TEXT_5"
+msgstr ""
+
+msgid "RECRUIT_TEXT_6"
+msgstr ""
+
+msgid "RECRUIT_TEXT_7"
+msgstr ""
+
+msgid "RECRUIT_TEXT_8"
+msgstr "Môi trường phát triển của chúng tôi"
+
+msgid "RECRUIT_TEXT_9"
+msgstr "Một ngày làm việc của Kỹ sư lập trình"
+
+msgid "RECRUIT_TEXT_10"
+msgstr "Đối tượng Tuyển dụng"
+
+msgid "RECRUIT_TEXT_11"
+msgstr "Tuyển dụng kỹ sư"
+
+msgid "RECRUIT_TEXT_111"
+msgstr "Tuyển dụng nhân viên truyền thông Adwords, SEO"
+
+msgid "RECRUIT_TEXT_12"
+msgstr "Vị trí công việc"
+
+msgid "RECRUIT_TEXT_13"
+msgstr "Kỹ sư"
+
+msgid "RECRUIT_TEXT_133"
+msgstr "Truyền thông Adwords, SEO"
+
+msgid "RECRUIT_TEXT_14"
+msgstr "Kỹ năng cần thiết"
+
+msgid "RECRUIT_TEXT_15"
+msgstr "Có kinh nghiệm lập trình ứng dụng web sử dụng PHP trên 1 năm<br>HTML/CSS"
+
+msgid "RECRUIT_TEXT_155"
+msgstr "Có kinh nghiệm sử dụng google adwords, google analytics, google keyword tool, google webmaster, blogspot, youtube, facebook ..."
+
+msgid "RECRUIT_TEXT_16"
+msgstr "Kỹ năng khác"
+
+msgid "RECRUIT_TEXT_17"
+msgstr "Có kinh nghiệm lập trình sử dụng Cake PHP.<br>Có kinh nghiệm lập trình sử dụng JavaScript (jQuery và AngularJs, NodeJs).<br>Có kinh nghiệm lập trình sử dụng API như của Facebook, Twitter,..<br>Thiết kế cơ sở dữ liệu sử dụng MySQL, PostgreSQL.<br>Có kinh nghiệm tạo Linux server,..."
+
+msgid "RECRUIT_TEXT_177"
+msgstr "Hiểu biết về onpage/offpage. <br>Biết lựa chọn phân tích website/diễn đàn...<br>Lập kế hoạch và triển khai đẩy từ khóa cho website.<br>Sử dụng tốt các công cụ để tối ưu website của chính mình và phân tích đối thủ."
+
+msgid "RECRUIT_TEXT_18"
+msgstr "Mẫu ứng tuyển"
+
+msgid "RECRUIT_TEXT_19"
+msgstr "Họ tên"
+
+msgid "RECRUIT_TEXT_20"
+msgstr "Tên của bạn"
+
+msgid "RECRUIT_50_111"
+msgstr "Công cụ"
+
+msgid "RECRUIT_TEXT_21"
+msgstr "Tuổi"
+
+msgid "RECRUIT_TEXT_22"
+msgstr "Không được lựa chọn."
+
+msgid "RECRUIT_TEXT_23"
+msgstr "Tên trường / Tên công ty"
+
+msgid "RECRUIT_TEXT_24"
+msgstr " "
+
+msgid "RECRUIT_TEXT_25"
+msgstr "E-mail"
+
+msgid "RECRUIT_TEXT_26"
+msgstr "recruit@vietoregon-tech.vn"
+
+msgid "RECRUIT_TEXT_27"
+msgstr "Điện thoại"
+
+msgid "RECRUIT_TEXT_28"
+msgstr "0000-123-4567"
+
+msgid "RECRUIT_TEXT_29"
+msgstr "Lời nhắn"
+
+msgid "RECRUIT_TEXT_30"
+msgstr "Hãy nhập văn bản vào đây."
+
+msgid "RECRUIT_TEXT_31"
+msgstr "Tải hồ sơ"
+
+msgid "RECRUIT_TEXT_32"
+msgstr "Chọn file"
+
+msgid "RECRUIT_TEXT_33"
+msgstr "Gửi"
+
+msgid "RECRUIT_TEXT_34"
+msgstr "Không có file nào được chọn."
+
+msgid "RECRUIT_TEXT_50_1"
+msgstr "Chu trình phát triển"
+
+msgid "RECRUIT_TEXT_50_2"
+msgstr "Chúng tôi áp dụng theo phương thức Ajail deverlopment.<br>Trong quá trình phát triển chúng tôi phân công công việc bằng ticket, vừa trao đổi công việc qua chu trình Dev- Test- Deploy vừa phát triển. Bằng chu trình công việc lặp đi lặp lai như vậy, chúng tôi đang nâng cao độ chính xác trong công việc."
+
+msgid "RECRUIT_50_3"
+msgstr "1. Ticket"
+
+msgid "RECRUIT_50_4"
+msgstr "Phát hành ticket công việc bằng Backlog. Người thực hiện sẽ tiến hành công việc dựa theo những ticket này."
+
+msgid "RECRUIT_50_5"
+msgstr "2. Phát triển và cải thiện"
+
+msgid "RECRUIT_50_6"
+msgstr "Tiến hành phát triển sử dụng IDE như Eclipse. Vừa tiền hành phát triển và tái cấu trúc mã nguồn vừa nâng cao chất lượng mã nguồn. Phần hoàn thành phát triển sẽ được đẩy lên Git."
+
+msgid "RECRUIT_50_7"
+msgstr "3. Kiểm tra"
+
+msgid "RECRUIT_50_8"
+msgstr "Tiến hành kiểm tra tự động bằng PHPUnit, Selenium,..."
+
+msgid "RECRUIT_50_9"
+msgstr "4. Triển khai"
+
+msgid "RECRUIT_50_10"
+msgstr "Thực hiện kiểm tra bằng Jenkins, upload lên server stage và product."
+
+msgid "RECRUIT_50_11"
+msgstr "Công cụ"
+
+msgid "RECRUIT_50_12"
+msgstr "Những công nghệ lập trình"
+
+msgid "RECRUIT_50_122"
+msgstr "Những công nghệ SEO"
+
+msgid "RECRUIT_50_13"
+msgstr "CSS<br>javascript<br>AngularJs"
+
+msgid "RECRUIT_50_14"
+msgstr "memcached<br>vagrant<br>backlog<br>selenium"
+
+msgid "RECRUIT_50_15"
+msgstr "bower<br>grunt<br>compass"
+
+msgid "RECRUIT_60_1"
+msgstr "8:30"
+
+msgid "RECRUIT_60_2"
+msgstr "11:55"
+
+msgid "RECRUIT_60_3"
+msgstr "13:00"
+
+msgid "RECRUIT_60_4"
+msgstr ""
+
+msgid "RECRUIT_60_5"
+msgstr "Đến công ty"
+
+msgid "RECRUIT_60_6"
+msgstr "Họp buổi sáng và học tiếng Nhật"
+
+msgid "RECRUIT_60_7"
+msgstr "Họp nhóm Dev"
+
+msgid "RECRUIT_60_8"
+msgstr "Thực hiện công việc"
+
+msgid "RECRUIT_60_9"
+msgstr "Nghỉ trưa"
+
+msgid "RECRUIT_60_10"
+msgstr "Bắt đầu công việc buổi chiều"
+
+msgid "RECRUIT_60_11"
+msgstr "Nghỉ giữa giờ"
+
+msgid "RECRUIT_60_12"
+msgstr "5:30"
+
+msgid "RECRUIT_60_13"
+msgstr "Kết thúc công việc"
+
+msgid "RECRUIT_70_1"
+msgstr "Đối tượng tuyển dụng"
+
+msgid "RECRUIT_70_2"
+msgstr "Tại TMH Tech. Lab có ba yếu tố không thể thiếu để phát triển bản thân và công ty, đó là "Sự thử thách", "Hoạt động nhóm" và " Cam kết". Chúng tôi vui mừng chào đón những ứng viên cùng tôn trọng và sở hữu ba yếu tố dưới đây."
+
+msgid "RECRUIT_70_3"
+msgstr "Thử thách"
+
+msgid "RECRUIT_70_4"
+msgstr "Ngày càng có nhiều công nghệ kỹ thuật, môi trường được thay đổi nhằm phát triển loại hình dịch vụ mới. Do đó, việc lập trình trở nên phức tạp và yêu cầu trình độ ở mức cao hơn nữa.<br>Tại TMH Tech. Lab, chúng tôi luôn thử thách bản thân và tích cực áp dụng các công nghệ kỹ thuật. Vì vậy, ngoài việc duy trì phương pháp vốn có, chúng tôi chủ động tích cực học hỏi kỹ thuật mới và thử thách chúng mà không ngại thất bại."
+
+msgid "RECRUIT_70_5"
+msgstr "Hoạt động nhóm"
+
+msgid "RECRUIT_70_6"
+msgstr "Dù là dự án quy mô nhỏ thế nào đi nữa thỉ một người cũng không thể hoàn thành được dự án đó. <br>Chúng ta chỉ có thể tạo ra dịch vụ cho nhiều người dùng, đưa ra những ý tưởng mới bằng sự hợp tác chung sức từ nhiều người, nhiều bộ phận từ nhà thiết kế, quản lý giám sát, kỹ sư lập trình,... Tại TMH Tech. Lab, chúng tôi hoan nghênh những thành viên cùng tôn trọng, cùng tin tưởng, cùng khích lệ và giúp đỡ nhau."
+
+msgid "RECRUIT_70_7"
+msgstr "Cam kết"
+
+msgid "RECRUIT_70_8"
+msgstr "TMH Tech. Lab đòi hỏi mọi thành viên phải ý thức được sự chuyên nghiệp và tính trách nhiệm cam kết hoàn thành yêu cầu và kỳ vọng (về chất lượng, quy trình,..) từ khách hàng và tổ nhóm.<br>Công ty không phải là môi trường để học tập mà là nơi để mọi người nâng cao kỹ năng về công việc, về kỹ thuật công nghệ và phát huy thể hiện những kỹ năng đó. Chúng tôi sẽ tích cực hỗ trợ mọi người thực hiện và phát triển kỹ năng của bản thân trong công việc và giao tiếp. Chúng tôi cam kết tạo ra môi trường làm việc để phát huy khả năng và nhiệt huyết của mọi người."
+
+msgid "MAIL_COMMON_TEXT_1"
+msgstr "Viet-Oregon Technology and Communication Develop Company Co., Ltd."
+
+msgid "MAIL_COMMON_TEXT_2"
+msgstr "Tầng 14, IPH 241 Xuân Thuỷ,Cầu Giấy, Hà Nội "
+
+msgid "MAIL_COMMON_TEXT_3"
+msgstr "info@vietoregon-tech.vn"
+
+msgid "MAIL_COMMON_TEXT_4"
+msgstr "＋84-(0)4-3256-5182"
+
+msgid "MAIL_COMMON_TEXT_5"
+msgstr "http://www.viet-oregon.teach.com"
+
+msgid "MAIL_CONTACT_SUBJECT"
+msgstr "Cảm ơn bạn đã liên hệ với chúng tôi."
+
+msgid "MAIL_CONTACT_TEXT_1"
+msgstr "Cảm ơn bạn đã liên hệ với chúng tôi."
+
+msgid "MAIL_CONTACT_TEXT_2"
+msgstr "Họ tên"
+
+msgid "MAIL_CONTACT_TEXT_3"
+msgstr "E-mail"
+
+msgid "MAIL_CONTACT_TEXT_4"
+msgstr "Điện thoại"
+
+msgid "MAIL_CONTACT_TEXT_5"
+msgstr "Tên trường/ Tên công ty"
+
+msgid "MAIL_CONTACT_TEXT_6"
+msgstr "Vị trí"
+
+msgid "MAIL_CONTACT_TEXT_7"
+msgstr "Tên bộ phận"
+
+msgid "MAIL_CONTACT_TEXT_8"
+msgstr "Loại liên lạc"
+
+msgid "MAIL_CONTACT_TEXT_9"
+msgstr "Lời nhắn"
+
+msgid "MAIL_RECRUIT_SUBJECT"
+msgstr "Cảm ơn bạn đã ứng tuyển."
+
+msgid "MAIL_RECRUIT_TEXT_1"
+msgstr "Cảm ơn bạn đã ứng tuyển."
+
+msgid "MAIL_RECRUIT_TEXT_2"
+msgstr "Họ tên"
+
+msgid "MAIL_RECRUIT_TEXT_3"
+msgstr "Tuổi"
+
+msgid "MAIL_RECRUIT_TEXT_4"
+msgstr "Tên trường / Tên công ty"
+
+msgid "MAIL_RECRUIT_TEXT_5"
+msgstr "E-mail"
+
+msgid "MAIL_RECRUIT_TEXT_6"
+msgstr "Điện thoại"
+
+msgid "MAIL_RECRUIT_TEXT_7"
+msgstr "Lời nhắn"
+
+msgid "TITLE_0"
+msgstr "News"
+
+msgid "TITLE_1"
+msgstr "Technology x Marketing / Viet-Oregon Technology and Communication Develop Company"
+
+msgid "TITLE_2"
+msgstr "Tuyển dụng"
+
+msgid "TITLE_3"
+msgstr "Sản phẩm"
+
+msgid "TITLE_4"
+msgstr "Nhân Sự"
+
+msgid "TITLE_5"
+msgstr "Khái quát về Công ty"
+
+msgid "TITLE_6"
+msgstr "Liên hệ"
+
+msgid "TITLE_7"
+msgstr "Địa chỉ"
+
+msgid "TITLE_8"
+msgstr "Lỗi"
+
+msgid "TITLE_9"
+msgstr "Liên hệ"
+
+msgid "TITLE_10"
+msgstr "Tuyển dụng"
+msgid "TITLE_13"
+msgstr "Thiết kế web"
+
+msgid "TOPIC_PATH_0"
+msgstr "Tin Tức"
+
+msgid "TOPIC_PATH_17"
+msgstr "Wolfram"
+
+msgid "TOPIC_PATH_11"
+msgstr "Adwords"
+
+msgid "TOPIC_PATH_12"
+msgstr "SEO"
+
+msgid "TOPIC_PATH_13"
+msgstr "Design Web"
+
+msgid "TOPIC_PATH_14"
+msgstr "VOT&C-Twitter/ Quản lý marketing trên Twitter"
+
+msgid "TOPIC_PATH_15"
+msgstr "VOT&C-Facebook/ Quản lý marketing trên Facebook"
+
+msgid "TOPIC_PATH_16"
+msgstr "Read website anylitics"
+
+msgid "TOPIC_PATH_1"
+msgstr "Trang chủ"
+
+msgid "TOPIC_PATH_2"
+msgstr "Tuyển dụng"
+
+msgid "TOPIC_PATH_3"
+msgstr "DỰ ÁN - DỊCH VỤ"
+
+msgid "TOPIC_PATH_4"
+msgstr "Nhân viên"
+
+msgid "TOPIC_PATH_5"
+msgstr "Giới thiệu"
+
+msgid "TOPIC_PATH_6"
+msgstr "Liên hệ"
+
+msgid "TOPIC_PATH_7"
+msgstr "Địa chỉ"
+
+msgid "TOPIC_PATH_8"
+msgstr "Lỗi"
+
+msgid "TOPIC_PATH_9"
+msgstr "Liên hệ"
+
+msgid "TOPIC_PATH_10"
+msgstr "Tuyển dụng"
+
+msgid "META_AUTHOR"
+msgstr "Viet-Oregon Technology and Communication Develop Company Co., Ltd"
+
+msgid "META_DESCRIPTION_1"
+msgstr "Viet-Oregon Technology and Communication được thành lập tại Việt Nam và đang phát triển giải pháp phần mềm với đề tài là Technology và Marketing hướng đến thị trường Nhật Bản và Thế giới."
+
+msgid "META_DESCRIPTION_2"
+msgstr "Thông tin tuyển dụng của Viet-Oregon Technology and Communication Develop Company"
+
+msgid "META_DESCRIPTION_3"
+msgstr "Giới thiệu sản phẩm của Viet-Oregon Technology and Communication Develop Company"
+
+msgid "META_DESCRIPTION_4"
+msgstr "Giới thiệu nhân viên Viet-Oregon Technology and Communication Develop Company"
+
+msgid "META_DESCRIPTION_5"
+msgstr "Khái quát về Công Ty Phát Triển Công Nghệ Và Truyền Thông Việt-Oregon
+"
+
+msgid "META_DESCRIPTION_6"
+msgstr "Trang liên hệ với Công Ty Phát Triển Công Nghệ Và Truyền Thông Việt-Oregon
+"
+
+msgid "META_DESCRIPTION_7"
+msgstr "Thông tin địa chỉ Công Ty Phát Triển Công Nghệ Và Truyền Thông Việt-Oregon
+"
+
+msgid "META_KEYWORD_1"
+msgstr "Viet-Oregon Technology and Communication Develop Company"
+
+msgid "META_KEYWORD_2"
+msgstr "Viet-Oregon Technology and Communication Develop Company , Tuyển dụng"
+
+msgid "META_KEYWORD_3"
+msgstr "Viet-Oregon Technology and Communication Develop Company ,Engage Manager,cocosquare"
+
+msgid "META_KEYWORD_4"
+msgstr "Viet-Oregon Technology and Communication Develop Company , Nhân viên"
+
+msgid "META_KEYWORD_5"
+msgstr "Viet-Oregon Technology and Communication Develop Company , Khái quát về Công ty"
+
+msgid "META_KEYWORD_6"
+msgstr "Viet-Oregon Technology and Communication Develop Company , Liên hệ"
+
+msgid "META_KEYWORD_7"
+msgstr "Viet-Oregon Technology and Communication Develop Company , Địa chỉ"
+
+msgid "OG_1"
+msgstr "Technology x Marketing / Viet-Oregon Technology and Communication"
+
+msgid "OG_2"
+msgstr "Viet-Oregon Technology and Communication được thành lập tại Việt Nam và đang phát triển giải pháp phần mềm với đề tài là Technology và Marketing hướng đến thị trường Nhật Bản và Thế giới."
+
+msgid "OG_3"
+msgstr "http://www.viet-oregon.teach.com"
+
+msgid "OG_4"
+msgstr "http://www.viet-oregon.teach.com/img/common/OGP_img.jpg"
+
+msgid "GA_CODE"
+msgstr "UA-65079300-1"
+

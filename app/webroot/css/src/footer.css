@@ -1,0 +1,147 @@
+@media ( max-width : 768px) {
+	.xs-margin-bottom-30 {
+		margin-bottom: 30px;
+	}
+}
+
+.footer {
+	padding: 30px 0;
+	background: #252525;
+}
+
+.footer p {
+	color: #999;
+}
+
+/*Heading Footer*/
+.footer .heading-footer {
+	text-align: left;
+	position: relative;
+	margin-bottom: 30px;
+	padding-bottom: 2px;
+}
+
+.footer .heading-footer:after {
+	left: 0;
+	bottom: 0;
+	height: 1px;
+	width: 50px;
+	content: " ";
+	background: #fff;
+	position: absolute;
+}
+
+.footer .heading-footer h2 {
+	color: #fff;
+	font-size: 18px;
+	margin-top: 5px;
+	text-shadow: none;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+/*Sitemap*/
+.footer .footer-sitemap {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.footer .useful-links {
+	margin-bottom: 0;
+}
+
+.footer .useful-links li {
+	padding: 5px 0px;
+	border-top: solid 1px #333;
+}
+
+.footer .useful-links li:first-child {
+	padding-top: 0;
+	border-top: none;
+}
+
+.footer .useful-links li a {
+	color: #999;
+	font-size: 14px;
+	margin-bottom: 3px;
+	text-transform: capitalize;
+}
+
+.footer .useful-links a:hover {
+	color: #FFF;
+}
+
+/*Contact Us*/
+.footer .contact-us {
+	background: url(/img/layout/IMG_f4.png) no-repeat;
+	padding-left: 15px;
+}
+
+.footer .social-icon {
+	padding-left: 15px;
+}
+
+.footer .contact-us address {
+	color: #999;
+	line-height: 23px;
+	font-size: 14px;
+}
+
+.footer .contact-us address i {
+	min-width: 15px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+.footer .contact-us address a {
+	color: #ccc;
+}
+
+/*List-inline icon*/
+.footer .social-icon li {
+	padding-right: 0;
+	margin-bottom: 8px;
+}
+
+.footer .social-icon li:first-child {
+	padding-left: 5px;
+}
+
+.footer .social-icon li i {
+	color: #999;
+	width: 30px;
+	height: 30px;
+	font-size: 14px;
+	padding: 8px 5px;
+	text-align: center;
+	background: #353535;
+	display: inline-block;
+	border-radius: 2px;
+}
+
+.footer .social-icon li i:hover.fa-facebook {
+	color: #fff;
+	background: #3a5795;
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+/*Footer Copyright*/
+.footer-copyright {
+	text-align: center;
+	background: #202020;
+	padding: 10px 0;
+}
+
+.footer-copyright .list-inline {
+	margin: 5px 0 0;
+}
+
+.footer-copyright .list-inline li {
+	color: #fff;
+	font-size: 13px;
+	line-height: 10px;
+}

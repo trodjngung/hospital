@@ -1,0 +1,26 @@
+.product{
+	 
+}
+ hr {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+height: 1px;
+background-color:#f3f6db;
+color:#f3f6db;
+}
+.product .row {
+  margin-right: 30px;
+  margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.product p{
+	float: right;
+    margin: auto;
+
+}
+.product a {
+  color: #000000;
+  text-decoration: underline;
+}

@@ -1,0 +1,79 @@
+.clearBoth {
+	clear: both;
+}
+
+.alignCenter {
+	text-align: center;
+}
+
+.error {
+	color: red;
+}
+
+.succes {
+	color: blue;
+}
+
+.mgt10 {
+	margin-top: 10px;
+}
+
+.mgt20 {
+	margin-top: 20px;
+}
+
+.mgbt10 {
+	margin-bottom: 10px;
+}
+
+.mgbt20 {
+	margin-bottom: 20px;
+}
+
+.mgl10 {
+	margin-left: 10px;
+}
+
+.mgl20 {
+	margin-left: 20px;
+}
+
+.mgr10 {
+	margin-right: 10px;
+}
+
+.mgr20 {
+	margin-right: 20px;
+}
+
+.pdt10 {
+	padding-top: 10px;
+}
+
+.pdt20 {
+	padding-top: 20px;
+}
+
+.pdbt10 {
+	padding-bottom: 10px;
+}
+
+.pdbt20 {
+	padding-bottom: 20px;
+}
+
+.pdl10 {
+	padding-left: 10px;
+}
+
+.pdl20 {
+	padding-left: 20px;
+}
+
+.pdr10 {
+	padding-right: 10px;
+}
+
+.pdr20 {
+	padding-right: 20px;
+}
