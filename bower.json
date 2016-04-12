@@ -1,0 +1,34 @@
+{
+  "name": "Bower",
+  "version": "1.4.1",
+  "description": "Using bower to intall packages quickly",
+  "authors": "minhtq",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.4"
+  },
+  "devDependencies": {
+    "fontawesome": "~4.3.0",
+    "jquery-validation": "~1.13.1"
+  },
+  "exportsOverride": {
+    "bootstrap": {
+      "js": "dist/js/*.js",
+      "css": "dist/css/*.css",
+      "fonts": "dist/fonts/*.*"
+    },
+    "fontawesome": {
+      "css": "css/*.min.css",
+      "fonts": "fonts/*.*"
+    },
+    "jquery-validation": {
+      "": "dist/jquery.validate.min.js"
+    }
+  }
+}
