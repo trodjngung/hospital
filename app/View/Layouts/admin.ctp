@@ -1,16 +1,18 @@
 <?php
 /**
-  * This file is …….
+  * This file is layout of page login and admin.
   * Developed by PHP language program, use Framework Cakephp.
   * Copyright (c) 2016 by  OREGON - VIET INVESTMENT DEVELOPMENT MEDIA TECHNOLOGY COMPANY LIMITED
+  * Everything Copy are infringe copyright and must to have take full responsibility before law.
   * Short name: OREGON CO.,LTD
   * Website: http://vietoregon-tech.com/?lang=eng 
   * Email: vietoregon.tech.com@gmail.com
   * Thanks and best regard !
   * —————————————————————————————————————
-  * Đây là file dùng để ……. 
+  * Đây là file dùng để cung cấp giao diện chung của trang đăng nhập và quản trị. 
   * Phát triển bởi ngôn ngữ lập trình PHP, sử dụng Framework CakePHP
   * Quyền tác giả (c) 2016 CÔNG TY TNHH ĐẦU TƯ PHÁT TRIỂN CÔNG NGHỆ TRUYỀN THÔNG VIỆT-OREGON
+  * Mọi sao chép đều là vi phạm quyền sở hữu trí tuệ và phải chịu trách nhiệm trước pháp luật.
   * Tên ngắn giao dịch: OREGON CO.,LTD
   * Website: http://vietoregon-tech.com/?lang=vn
   * Địa chỉ Email: vietoregon.tech.com@gmail.com

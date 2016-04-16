@@ -3,6 +3,7 @@
   * This file is manage all user, login, logout systems.
   * Developed by PHP language program, use Framework Cakephp.
   * Copyright (c) 2016 by  OREGON - VIET INVESTMENT DEVELOPMENT MEDIA TECHNOLOGY COMPANY LIMITED
+  * Everything Copy are infringe copyright and must to have take full responsibility before law.
   * Short name: OREGON CO.,LTD
   * Website: http://vietoregon-tech.com/?lang=eng 
   * Email: vietoregon.tech.com@gmail.com
@@ -11,12 +12,14 @@
   * Đây là file dùng để quản lí tất cả các người dùng, đăng nhập và thoát.
   * Phát triển bởi ngôn ngữ lập trình PHP, sử dụng Framework CakePHP
   * Quyền tác giả (c) 2016 CÔNG TY TNHH ĐẦU TƯ PHÁT TRIỂN CÔNG NGHỆ TRUYỀN THÔNG VIỆT-OREGON
+  * Mọi sao chép đều là vi phạm quyền sở hữu trí tuệ và phải chịu trách nhiệm trước pháp luật.
   * Tên ngắn giao dịch: OREGON CO.,LTD
   * Website: http://vietoregon-tech.com/?lang=vn
   * Địa chỉ Email: vietoregon.tech.com@gmail.com
   * Cám ơn quý đối tác !
   **/
-
+?>
+<?php
 // app/Controller/UsersController.php
 App::uses('AppController', 'Controller');
 
@@ -153,3 +156,4 @@ class UsersController extends AppController {
         }
     }
 }
+?>

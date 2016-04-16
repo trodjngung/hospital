@@ -1,18 +1,23 @@
 <?php
 /**
- * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
- * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- *
- * Licensed under The MIT License
- * For full copyright and license information, please see the LICENSE.txt
- * Redistributions of files must retain the above copyright notice.
- *
- * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- * @link          http://cakephp.org CakePHP(tm) Project
- * @package       app.View.Layouts
- * @since         CakePHP(tm) v 0.10.0.1076
- * @license       http://www.opensource.org/licenses/mit-license.php MIT License
- */
+  * This file is provided layout of page manage Home page.
+  * Developed by PHP language program, use Framework Cakephp.
+  * Copyright (c) 2016 by  OREGON - VIET INVESTMENT DEVELOPMENT MEDIA TECHNOLOGY COMPANY LIMITED
+  * Everything Copy are infringe copyright and must to have take full responsibility before law.
+  * Short name: OREGON CO.,LTD
+  * Website: http://vietoregon-tech.com/?lang=eng 
+  * Email: vietoregon.tech.com@gmail.com
+  * Thanks and best regard !
+  * —————————————————————————————————————
+  * Đây là file dùng để cung cấp giao diện chung của trang chủ. 
+  * Phát triển bởi ngôn ngữ lập trình PHP, sử dụng Framework CakePHP
+  * Quyền tác giả (c) 2016 CÔNG TY TNHH ĐẦU TƯ PHÁT TRIỂN CÔNG NGHỆ TRUYỀN THÔNG VIỆT-OREGON
+  * Mọi sao chép đều là vi phạm quyền sở hữu trí tuệ và phải chịu trách nhiệm trước pháp luật.
+  * Tên ngắn giao dịch: OREGON CO.,LTD
+  * Website: http://vietoregon-tech.com/?lang=vn
+  * Địa chỉ Email: vietoregon.tech.com@gmail.com
+  * Cám ơn quý đối tác !
+  **/
 ?>
 <!DOCTYPE html>
 <html>
@@ -38,7 +43,6 @@
 		</div>
 	</div>
 	 -->
-         <div style="margin-top: 2cm;"> </div>
 	<!--  ==== End Topic Path ==== -->
 		<?php echo $this->fetch('content')?>
 	<!--  ==== Start Scroll Top ==== -->

@@ -54,12 +54,12 @@ Router::connect('/admin/user/:action/*', array(
 ) );
 
 Router::connect ( '/:action', array (
-		'controller' => 'home' 
+		'controller' => 'hospital' 
 ) );
 
 Router::connect ( '/', array (
-		'controller' => 'home',
-		'action' => 'top',
+		'controller' => 'hospital',
+		'action' => 'index',
 ) );
 
 /**

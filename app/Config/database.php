@@ -5,9 +5,9 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'dandung_lachong',
+		'login' => 'batdongs_chiadt',
 		'password' => 'Chi9nguyen',
-		'database' => 'dandung_lachong_data',
+		'database' => 'batdongs_benhvien',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
