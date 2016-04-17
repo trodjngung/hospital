@@ -29,12 +29,13 @@ class UsersController extends AppController {
 
     public function beforeFilter() {
         parent::beforeFilter();
-        $this->layout = 'admin';  
+        $this->layout = 'hospital';  
 
         $this->Auth->allow('login', 'register', 'edit');
     }
 
     public function login() {
+        $this->layout = 'admin';  
         if ($this->Auth->loggedIn()) {
             return $this->redirect( $this->Auth->redirectUrl());
         }
@@ -55,11 +56,15 @@ class UsersController extends AppController {
     }
 	
     public function index() {
-        $this->isAdmin();
+        // $this->isAdmin();
         $this->User->recursive = 0;
         $this->set('users', $this->paginate());
     }
     public function register() {
+        $this->layout = 'admin';
+        if ($this->Auth->loggedIn()) {
+            return $this->redirect( $this->Auth->redirectUrl());
+        }
         if ($this->request->is('post')) {
             $this->User->create();
             if ($this->User->save($this->request->data)) {
@@ -122,7 +127,7 @@ class UsersController extends AppController {
 
         $this->isAdmin();
         if ($this->Auth->user()['id'] == $id) {
-            $this->redirect(array('controller' => 'documents', 'action' => 'manage'));
+            $this->redirect(array('controller' => 'hospital', 'action' => 'index'));
         }
         
         $this->request->allowMethod('post');
@@ -152,7 +157,7 @@ class UsersController extends AppController {
         $user_data =$this->User->read(null, $user_id)['User'];
 
         if ($user_data["role"] != 'admin') {
-            $this->redirect(array('controller' => 'documents', 'action' => 'manage'));
+            $this->redirect(array('controller' => 'hospital', 'action' => 'index'));
         }
     }
 }

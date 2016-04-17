@@ -1,81 +1,119 @@
-<div class="container mgt20">
-	<h1 class="pull-left">Table User</h1>
+<!-- Page head -->
+<div class="page-head">
+	<h2>Danh sách người dùng</h2>
+	<ol class="breadcrumb">
+		<li>
+			<?php
+				echo $this->Html->link ( 'Trang chủ', array (
+					'controller' => 'hospital',
+					'action' => 'index'
+				) );
+			?>
+		</li>
+		<li class="active">Danh sách người dùng</li>
+	</ol>
 </div>
-<div class="flash alignCenter">
-	<?php echo $this->Session->flash(); ?>
-</div>
-<div class="container">
-	<?php //debug($users)?>
-	<div class="col-md-12">
-		<div class="tab-v1">
-			<ul class="nav nav-tabs">
-				<li class="active" style="float: right;"><?php echo $this->Html->link('Add New User', array ('controller' => 'users', 'action' => 'register'), array('style'=>'cursor: auto!important;')); ?></li>
-			</ul>
-		</div>
-		<div class="panel panel-grey margin-bottom-40">
-			<div class="panel-heading">
-				<h3 class="panel-title">
-				<i class="fa fa-user"></i> You are using user : <span
-				class="color-red"><strong><?php echo $auth['username'];?></strong></span>
-				</h3>
-			</div>
-			<table class="table table-hover">
-				<thead>
-					<tr>
-						<th>ID</th>
-						<th>Username</th>
-						<th>Role</th>
-						<th>Created</th>
-						<th colspan="2" class="alignCenter">Action</th>
-					</tr>
-				</thead>
-				<tbody>
-					<?php foreach ($users as $user): ?>
-					<tr>
-						<td><?php echo $user['User']['id']; ?></td>
-						<td> <?php
-								echo $this->Html->link ( $user ['User'] ['username'], array (
-										'controller' => 'users',
-										'action' => 'view',
-										$user ['User'] ['id']
-								) );
-							?>
-						</td>
-						<td> <?php echo $user ['User'] ['role']; ?></td>
-						<td> <?php echo $user ['User'] ['created']; ?></td>
-						<td>
-							<span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
-							<?php
-								echo $this->Html->link (
-									'Edit',
-									array (
-										'action' => 'edit',
-										$user ['User'] ['id']
-									)
-								);
-							?>
-						</td>
-						<td align="center">
-							<?php
-								if($auth['id'] != $user ['User'] ['id']) {
-									echo '<span class="glyphicon glyphicon-trash" aria-hidden="true"></span> ';
-									echo $this->Form->postLink (
-										'Delete',
-										array (
-											'action' => 'delete',
+<!-- End Page Head-->
+<!-- Page content -->
+<div class="main-content">
+	<div class="row">
+		<!--Responsive table-->
+		<div class="col-sm-12">
+			<div class="widget widget-fullwidth widget-small">
+				<div class="widget-head">
+					<div class="row am-datatable-header">
+						<div class="col-sm-4">
+							<div class="dataTables_length" id="table1_length">
+								<select name="table1_length" aria-controls="table1" class="form-control input-md">
+									<option value="10" selected>10</option>
+									<option value="25">25</option>
+									<option value="50">50</option>
+									<option value="100">100</option>
+								</select>
+								<label class="mgt5">Xem tất cả</label>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div id="table1_filter" class="dataTables_filter"></div>
+							<!-- Search -->
+							<div class="dataTables_length" id="table1_length">
+								<label>
+									<input type="search" class="form-control input-md"placeholder=" Tìm kiếm .... " aria-controls="table1">
+								</label>
+							</div>
+						</div>
+						<!-- End Search -->                 
+					</div>
+				</div>
+				<div class="table-responsive">
+					<table class="table table-striped table-fw-widget table-hover">
+						<col width="10%"></col>
+						<col width="30%"></col>
+						<col width="15%"></col>
+						<col width="25%"></col>
+						<col width="10%"></col>
+						<col width="10%"></col>
+						<thead>
+							<tr>
+								<th>ID</th>
+								<th>Tên</th>
+								<th>Quyền</th>
+								<th>Ngày tạo</th>
+								<th colspan="2" class="number">&nbsp;</th>
+							</tr>
+						</thead>
+						<tbody class="no-border-x">
+							<?php foreach ($users as $user): ?>
+							<tr>
+								<td><?php echo $user['User']['id']; ?></td>
+								<td><?php
+										echo $this->Html->link ( $user ['User'] ['username'], array (
+											'controller' => 'users',
+											'action' => 'view',
 											$user ['User'] ['id']
-										),
-										array (
-											'confirm' => 'Are you sure?'
-										)
-									);
-								}
-							?>
-						</td>
-					</tr>
-				</tbody>
-				<?php endforeach; ?>
-			</table>
+										) );
+									?>
+								</td>
+								<td> <?php echo $user ['User'] ['role']; ?></td>
+								<td> <?php echo $user ['User'] ['created']; ?></td>
+								<td>
+									<?php
+									if( $auth['role'] == 'admin' 
+										|| $auth['id'] == $user ['User'] ['id']) {
+										echo $this->Html->link(
+											'<span class="glyphicon glyphicon-pencil"></span> Sửa ',
+											array (
+												'controller' => 'users',
+												'action' => 'edit',
+												$user ['User'] ['id']
+						                    ),
+						                    array('escape' => FALSE)
+						                ); 
+						            } else echo '&nbsp;'; ?>
+								</td>
+								<td>
+									<?php
+									if( $auth['role'] == 'admin' 
+										&& $auth['id'] != $user ['User'] ['id']) {
+										echo $this->Html->link(
+											'<span class="icon s7-delete-user"></span> Xóa ',
+											array (
+												'controller' => 'users',
+												'action' => 'delete',
+												$user ['User'] ['id']
+						                    ),
+						                    array (
+						                    	'escape' => FALSE,
+												'confirm' => 'Bạn có chắc chắn xóa muốn xóa người dùng này không?'
+											)
+						                ); 
+						            } else echo '&nbsp;'; ?>
+								</td>
+							<?php endforeach; ?>
+						</tbody>
+					</table>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

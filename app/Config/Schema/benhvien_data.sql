@@ -95,3 +95,36 @@ CREATE TABLE `users` (
   `modified` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+
+-- ---------------------------------------
+-- ---------------------------------------
+-- SQL for module1 - Add user, benhnhan --
+-- ---------------------------------------
+-- ---------------------------------------
+
+-- ----------------------------
+-- Table structure for patients
+-- ----------------------------
+DROP TABLE IF EXISTS `patients`;
+CREATE TABLE `patients` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `patient_code` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `first_name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `last_name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `gender` set('femade','made') COLLATE utf8_unicode_ci NOT NULL,
+  `brithday` date NOT NULL COMMENT 'YYYY-MM-DD',
+  `address` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `checkup` int(10) NOT NULL,
+  `medical_report` text COLLATE utf8_unicode_ci NOT NULL,
+  `created` datetime DEFAULT NULL,
+  `modified` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- ----------------------------
+-- Records of patients
+-- ----------------------------
+INSERT INTO `patients` VALUES ('1', 'A09387398', 'Bạch Đằng', 'Hùng', 'made', '1990-03-15', 'Hanoi, Vietnam', '2', 'Quá đẹp trai', '2016-04-17 18:11:55', '2016-04-17 18:11:55');
+INSERT INTO `patients` VALUES ('2', 'A98333932', 'Nguyễn Hữu', 'Chí', 'made', '1990-03-08', 'Mỹ Đức - Hà Nội', '3', 'Vô sinh', '2016-04-17 18:33:56', '2016-04-17 18:33:56');
+

@@ -25,35 +25,16 @@ Router::connect ( '/admin/staffs/:action', array (
 		'controller' => 'staffs' 
 ) );
 
-Router::connect ( '/documents', array (
-		'controller' => 'documents',
-		'action' => 'index' 
-) );
-
-Router::connect ( '/admin/documents/manage', array (
-		'controller' => 'documents',
-		'action' => 'manage' 
-) );
-
-Router::connect ( '/admin/documents/upload', array (
-		'controller' => 'documents',
-		'action' => 'upload' 
-) );
-
-Router::connect ( '/admin/documents/:action/*', array (
-		'controller' => 'documents' 
-) );
-
-Router::connect ( '/admin/user', array (
+Router::connect ( '/user', array (
 		'controller' => 'users',
-		'action' => 'index' 
+		'action' => 'index'
 ) );
 
-Router::connect('/admin/user/:action/*', array(
-	'controller' => 'users'
+Router::connect ( '/user/:action/*', array (
+		'controller' => 'users',
 ) );
 
-Router::connect ( '/:action', array (
+Router::connect ( '/:action/*', array (
 		'controller' => 'hospital' 
 ) );
 
@@ -61,7 +42,6 @@ Router::connect ( '/', array (
 		'controller' => 'hospital',
 		'action' => 'index',
 ) );
-
 /**
  * Load all plugin routes.
  * See the CakePlugin documentation on
