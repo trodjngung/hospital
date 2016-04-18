@@ -9,8 +9,30 @@
             <ul class="nav navbar-nav navbar-right am-user-nav">
               <li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"><img src="https://scontent-sit4-1.xx.fbcdn.net/hphotos-xla1/v/t1.0-9/12360031_965742293492339_239744005739847135_n.jpg?oh=2fd35d530cfbeef2eecd60827fe9b62f&oe=5776C5C7"><span class="user-name">Samantha Amaretti</span><span class="angle-down s7-angle-down"></span></a>
                 <ul role="menu" class="dropdown-menu">
-                  <li><a href="#"> <span class="icon s7-user"></span>Trang cá nhân</a></li>
-                  <li><a href="#"> <span class="icon s7-config"></span>Cài đặt </a></li>
+                  <li>
+                    <?php
+                    echo $this->Html->link(
+                      '<span class="icon s7-user"></span> Trang cá nhân ',
+                      array (
+                        'controller' => 'users',
+                        'action' => 'view',
+                        $auth['id']
+                      ),
+                      array('escape' => FALSE)
+                    ); ?>
+                  </li>
+                  <li>
+                    <?php
+                    echo $this->Html->link(
+                      '<span class="icon s7-config"></span> Cài đặt ',
+                      array (
+                        'controller' => 'users',
+                        'action' => 'edit',
+                        $auth['id']
+                      ),
+                      array('escape' => FALSE)
+                    ); ?>
+                  </li>
                   <li><a href="#"> <span class="icon s7-help1"></span>Trợ giúp</a></li> 
                 </ul>
               </li>
@@ -197,12 +219,17 @@
                 </li>
               </ul>
             </li>
-             <li class="parent"><a href="#"><i class="icon s7-users"></i><span>Người Dùng</span></a>
-              <ul class="sub-menu">
-                <li><a href="/hospital/manage_hospital">Người dùng</a>
-                </li>
-                
-              </ul>
+             <li class="parent">
+              <?php 
+                echo $this->Html->link(
+                  '<i class="icon s7-users"></i> Người dùng ',
+                  array (
+                    'controller' => 'users',
+                    'action' => 'index'
+                  ),
+                  array('escape' => FALSE)
+                );
+              ?>
             </li>
             <li class="parent"><a href="#"><i class="icon s7-browser"></i><span>Giao diện</span></a>
               <ul class="sub-menu">

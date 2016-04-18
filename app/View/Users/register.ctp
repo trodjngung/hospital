@@ -5,7 +5,7 @@
 			<li class="" style="margin-left: 5px;border:1px solid #ccc;">
 				<?php
 					echo $this->Html->link ( 'Login', array (
-						'controller' => 'admin/user',
+						'controller' => 'user',
 						'action' => 'login'
 					) );
 				?>
