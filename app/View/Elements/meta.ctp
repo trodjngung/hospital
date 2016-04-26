@@ -1,7 +1,6 @@
-
-<meta name="description" content="<?php //echo $description_for_meta ?>">
-<meta name="keywords" content="<?php //echo $keyword_for_meta ?>">
-<meta name="author" content="<?php echo __('META_AUTHOR') ?>">
+<meta name="description" content="Dự án quản lý bệnh viện ">
+<meta name="keywords" content="bệnh viên | quản lí bệnh viên">
+<meta name="author" content="Công ty TNHH đầu tư phát triển công nghệ truyền thông Việt-Oregon">
 
 <meta property="og:title" content="<?php echo __("OG_1") ?>" />
 <meta property="og:description" content="<?php echo __("OG_2") ?>" />

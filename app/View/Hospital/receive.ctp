@@ -50,8 +50,10 @@
               </div>
             </div>
             <!-- Print -->
+           
             <div class="col-sm-4 text-right">
               <div class="dt-buttons btn-group">
+               <!--
                 <a class="btn btn-default buttons-copy buttons-flash" tabindex="0" aria-controls="table3">
                   <span>Copy</span>
                   <div style="position: absolute; left: 0px; top: 0px; width: 57px; height: 36px; z-index: 99;">
@@ -70,6 +72,7 @@
                     <embed id="ZeroClipboard_TableToolsMovie_3" src="#" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="50" height="36" name="ZeroClipboard_TableToolsMovie_3" align="middle" allowscriptaccess="always" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="id=3&amp;width=50&amp;height=36" wmode="transparent">
                   </div>
                 </a>
+                -->
                 <a class="btn btn-default buttons-print" tabindex="0" aria-controls="table3">
                   <span>Print</span>
                 </a>
@@ -83,44 +86,126 @@
         
         <div class="table-responsive">
           <table class="table table-bordered table-fw-widget table-hover">
-            <col width="15%"></col>
-            <col width="10%"></col>
             <col width="5%"></col>
-            <col width="10%"></col>
-            <col width="15%"></col>
+            <col width="8%"></col>
             <col width="5%"></col>
-            <col width="25%"></col>
-            <col width="15%"></col>
+            <col width="6%"></col>
+            <col width="8%"></col>
+            <col width="10%"></col>
+            <col width="8%"></col>
+            <col width="8%"></col>
+            <col width="10%"></col>
+            <col width="18%"></col>
+            <col width="5%"></col>
+            <col width="5%"></col>
+
             <thead>
               <tr>
+              <b>
+               <th class="alignCenter">Mã bệnh nhân</th>
                 <th class="alignCenter">Tên Bệnh Nhân</th>
-                <th class="alignCenter">Mã bệnh nhân</th>
                 <th class="alignCenter">Giới tính</th>
                 <th class="alignCenter">Ngày sinh</th>
+                <th class="alignCenter">Số điện thoại</th>
                 <th class="alignCenter">Địa chỉ</th>
-                <th class="alignCenter">Lần khám</th>
-                <th class="alignCenter">Bệnh án</th>
-                <th class="alignCenter"></th>
+                <th class="alignCenter">Bác sỹ chỉ định</th>
+                <th class="alignCenter">KTV chỉ định</th>
+                <th class="alignCenter">Danh mục khám</th>
+                <th class="alignCenter">Lý do khám</th>
+                <th class="alignCenter">Sửa </th>
+                <th class="alignCenter">Xoá </th>
+                </b>
               </tr>
             </thead>
             <tbody class="no-border-x">
               <?php foreach ($patients as $patient): ?>
                 <tr>
-                  <td class="user-avatar"><?php echo $patient['Patient']['first_name'] . ' ' . $patient['Patient']['last_name']; ?></td>
-                  <td align="center"><?php echo $patient['Patient']['patient_code']; ?></td>
+                 <td align="center"><?php echo $patient['Patient']['id']; ?></td>
+                  <td class="user-avatar"><center><?php echo $this->Html->link( $patient['Patient']['hoten'],
+    array(
+        'controller' => 'hospital',
+        'action' => 'view_patient',
+        $patient['Patient']['id']
+    )
+);
+?>
+                </center> </td>
+                 
                   <td align="center">
                     <?php
-                      if($patient['Patient']['gender'] == 'made') {
-                        echo 'Nam';
+                      if($patient['Patient']['gioitinh'] == 'nam') {
+                        $patient['Patient']['gioitinh'] = 'Nam';
                       } else {
-                        echo 'Nữ';
+                       $patient['Patient']['gioitinh'] = 'Nữ';
                       }
                     ?>
+                    <?php echo $this->Html->link( $patient['Patient']['gioitinh'],
+    array(
+        'controller' => 'hospital',
+        'action' => 'view_patient',
+        $patient['Patient']['id']
+    )
+);
+?>
                   </td>
-                  <td align="center"><?php echo $patient['Patient']['brithday']; ?></td>
-                  <td><?php echo $patient['Patient']['address']; ?></td>
-                  <td align="center"><?php echo $patient['Patient']['checkup']; ?></td>
-                  <td><?php echo $patient['Patient']['medical_report']; ?></td>
+                  <td align="center">
+                  <?php echo $this->Html->link( $patient['Patient']['ngaysinh'],
+    array(
+        'controller' => 'hospital',
+        'action' => 'view_patient',
+        $patient['Patient']['id']
+    )
+);
+?>
+                  </td>
+                  <td><?php echo $this->Html->link( $patient['Patient']['phone'],
+    array(
+        'controller' => 'hospital',
+        'action' => 'view_patient',
+        $patient['Patient']['id']
+    )
+);
+?></td>
+                  <td align="center"><?php echo $this->Html->link( $patient['Patient']['diachi'],
+    array(
+        'controller' => 'hospital',
+        'action' => 'view_patient',
+        $patient['Patient']['id']
+    )
+);
+?></td>
+                  <td><?php echo $this->Html->link( $patient['Patient']['bacsy'],
+    array(
+        'controller' => 'hospital',
+        'action' => 'view_patient',
+        $patient['Patient']['id']
+    )
+);
+?></td>
+                   <td><?php echo $this->Html->link( $patient['Patient']['kythuat'],
+    array(
+        'controller' => 'hospital',
+        'action' => 'view_patient',
+        $patient['Patient']['id']
+    )
+);
+?></td>
+                    <td style = "color:red">
+                    <?php $danhmuc = explode(',', $patient['Patient']['danhmuc']);?>
+                    
+<?php foreach ($danhmuc as $key){echo $key.'<br>'; }?>
+                    
+                    
+                    
+        </td>
+        <td><?php echo $this->Html->link( $patient['Patient']['lydo'],
+    array(
+        'controller' => 'hospital',
+        'action' => 'view_patient',
+        $patient['Patient']['id']
+    )
+);
+?></td>
                   <td align="center">
                     <?php
                       echo $this->Html->link(
@@ -136,6 +221,10 @@
                           'escape' => FALSE
                         )
                       );
+                      ?>
+                      </td>
+                      <td>
+                      <?php
                       echo $this->Html->link(
                         '<span class="s7-delete-user"> Xóa ',
                         array (

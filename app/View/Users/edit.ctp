@@ -45,7 +45,7 @@
 			<div class="widget widget-fullwidth widget-small">
 				<div class="col-sm-4 col-md-4 shadow-wrapper">
 					<div class="shadow-effect-2">
-						<img src='<?php echo $base_url; ?>img/staff/cnn.jpg' width="80%" alt="profile picture">
+						<img src='http://phongkham709.com/wp-content/uploads/2015/07/doctor_icon.png' width="80%" alt="profile picture">
 					</div>
 				</div>
 				<div class="col-sm-8 col-md-8">

@@ -31,14 +31,18 @@ class HospitalController extends AppController{
 	}
 
 	public function index(){
-		$this->set ( 'title_for_layout', __ ( 'TITLE_1' ) );
+		$this->set ( 'title_for_layout', __ ( 'Bệnh viện' ) );
 	}
 
 	public function add(){
-		$this->set ( 'title_for_layout', __ ( 'TITLE_2' ) );
+		$this->set ( 'title_for_layout', __ ( 'Thêm mới bệnh nhân' ) );
 		if ($this->request->is('post')) {
+		$this->request->data["Patient"]["trangthai"] = "chưa khám";
+                $this->request->data["Patient"]["danhmuc"]=implode(",", $this->request->data["Patient"]["danhmuc"]);
+
             $this->Patient->create();
             if ($this->Patient->save($this->request->data)) {
+            
                 $this->Session->setFlash(
                     'Hồ sơ bệnh nhân đã được lưu.',
                     'default',
@@ -53,8 +57,35 @@ class HospitalController extends AppController{
             );
         }
 	}
+public function delete($id) {
+    if ($this->request->is('get')) {
+        throw new MethodNotAllowedException();
+    }
+
+    if ($this->Patient->delete($id)) {
+        $this->Flash->success(
+            __('The post with id: %s has been deleted.', h($id))
+        );
+    } else {
+        $this->Flash->error(
+            __('The post with id: %s could not be deleted.', h($id))
+        );
+    }
+
+    return $this->redirect(array('action' => 'receive'));
+}
+public function view_patient($id = null) {
+if (!$id) {
+            return false;
+        }
+        $this->set ( 'title_for_layout', __ ( 'Xem bệnh nhân' ) );
+        $Patient = $this->Patient->findById($id);
+       
+        $this->set('patient', $Patient);
+}
 
 	public function edit($id = null) {
+        $this->set ( 'title_for_layout', __ ( 'Chỉnh sửa bệnh nhân' ) );
         $this->Patient->id = $id;
         if (!$this->Patient->exists()) {
             throw new NotFoundException(__('Bệnh nhân không tồn tại.'));
@@ -62,6 +93,7 @@ class HospitalController extends AppController{
         $this->Patient->set($this->request->data);
         if ($this->Patient->validates()) {
             if ($this->request->is('staff') || $this->request->is('put')) {
+$this->request->data["Patient"]["danhmuc"]=implode(",", $this->request->data["Patient"]["danhmuc"]);
                 if ($this->Patient->save($this->request->data)) {
                     $this->Session->setFlash(
                         'Cập nhật hồ sơ bệnh án thành công.',
@@ -85,45 +117,48 @@ class HospitalController extends AppController{
 
 
 	public function overview(){
-		$this->set ( 'title_for_layout', __ ( 'TITLE_3' ) );
+		$this->set ( 'title_for_layout', __ ( 'Tổng quan' ) );
 	}
 
 	public function receive(){
-		$this->set ( 'title_for_layout', __ ( 'TITLE_4' ) );
+		$this->set ( 'title_for_layout', __ ( 'Tiếp nhận bệnh nhân' ) );
 		$this->Patient->recursive = 0;
         $this->set('patients', $this->paginate());
 	}
 
 	public function conclusion(){
-		$this->set ( 'title_for_layout', __ ( 'TITLE_5' ) );
+		$this->set ( 'title_for_layout', __ ( 'Kết quả' ) );
 	}
 
 	public function list_hospital(){
-		$this->set ( 'title_for_layout', __ ( 'TITLE_6' ) );
+		$this->set ( 'title_for_layout', __ ( 'Danh sách bệnh nhân' ) );
+$this->Patient->recursive = 0;
+        $this->set('patients', $this->paginate());
 	}
 
 	public function search_hospital(){
-		$this->set ( 'title_for_layout', __ ( 'TITLE_7' ) );
+		$this->set ( 'title_for_layout', __ ( 'Tìm kiếm bệnh nhân ' ) );
 	}
 
 	public function manage_hospital(){
-		$this->set ( 'title_for_layout', __ ( 'TITLE_8' ) );
+		$this->set ( 'title_for_layout', __ ( 'Quản lý' ) );
 	}
 
 	public function form_hospital(){
-		$this->set ( 'title_for_layout', __ ( 'TITLE_8' ) );
+		$this->set ( 'title_for_layout', __ ( 'Mẫu' ) );
 	}
 
 	public function hethong(){
-		$this->set ( 'title_for_layout', __ ( 'TITLE_8' ) );
+		$this->set ( 'title_for_layout', __ ( 'Hệ thống' ) );
 	}
 
 	public function makham(){
-		$this->set ( 'title_for_layout', __ ( 'TITLE_8' ) );
+		$this->set ( 'title_for_layout', __ ( 'Mã Khám' ) );
 	}
 
 	public function giaodienquantri(){
-		$this->set ( 'title_for_layout', __ ( 'TITLE_9' ) );
+		$this->set ( 'title_for_layout', __ ( 'Giao diện' ) );
 	}
+       
 }
 ?>

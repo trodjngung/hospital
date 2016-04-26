@@ -3,11 +3,11 @@
         <div class="container-fluid">
           <div class="navbar-header">
             <div class="page-title"><span>
-            </span></div><a href="#" class="am-toggle-left-sidebar navbar-toggle collapsed"><span class="icon-bar"><span></span><span></span><span></span></span></a><a href="index.php" class="navbar-brand"></a>
+            </span></div><a href="#" class="am-toggle-left-sidebar navbar-toggle collapsed"><span class="icon-bar"><span></span><span></span><span></span></span></a><a href="/hospital/overview" class="navbar-brand"></a>
           </div><a href="#" class="am-toggle-right-sidebar"><span class="icon s7-menu2"></span></a><a href="#" data-toggle="collapse" data-target="#am-navbar-collapse" class="am-toggle-top-header-menu collapsed"><span class="icon s7-angle-down"></span></a>
           <div id="am-navbar-collapse" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right am-user-nav">
-              <li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"><img src="https://scontent-sit4-1.xx.fbcdn.net/hphotos-xla1/v/t1.0-9/12360031_965742293492339_239744005739847135_n.jpg?oh=2fd35d530cfbeef2eecd60827fe9b62f&oe=5776C5C7"><span class="user-name">Samantha Amaretti</span><span class="angle-down s7-angle-down"></span></a>
+              <li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"><img src="/img/hospital/bacsynam.png"><span class="user-name">Samantha Amaretti</span><span class="angle-down s7-angle-down"></span></a>
                 <ul role="menu" class="dropdown-menu">
                   <li>
                     <?php
@@ -51,7 +51,8 @@
             <ul class="nav navbar-nav navbar-right am-icons-nav">
              <li><?php echo $this->Html->link('<span class="icon s7-power">
                Thoát </span> ', array ('controller' => 'users', 'action' => 'logout'),array('escape' => FALSE)); ?></li>
-             
+             <!-- Tin Nhắn -->
+             <!--
               <li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"><span class="icon s7-comment"></span></a>
                 <ul class="dropdown-menu am-messages">
                   <li>
@@ -80,6 +81,10 @@
                   </li>
                 </ul>
               </li>
+              -->
+              <!--End Tin nhắn -->
+              <!-- Chú ý -->
+              <!--
               <li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"><span class="icon s7-bell"></span><span class="indicator"></span></a>
                 <ul class="dropdown-menu am-notifications">
                   <li>
@@ -108,6 +113,10 @@
                   </li>
                 </ul>
               </li>
+              -->
+              <!-- End chú ý -->
+              <!-- Kết nối -->
+              <!-- 
               <li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"><span class="icon s7-share"></span></a>
                 <ul class="dropdown-menu am-connections">
                   <li>
@@ -156,6 +165,8 @@
                   </li>
                 </ul>
               </li>
+              -->
+              <!-- End kết nối -->
             </ul>
           </div>
         </div>
@@ -186,7 +197,7 @@
                
               </ul>
             </li>
-            <li class="parent"><a href="charts.php"><i class="icon s7-monitor"></i><span>Kết Luận </span></a>
+            <li class="parent"><a href="#"><i class="icon s7-monitor"></i><span>Kết Luận </span></a>
               <ul class="sub-menu">
               <li><a href="/hospital/conclusion"><span class="label label-primary pull-right">New</span>Hôm nay</a>
                 <li><a href="/hospital/conclusion">Hôm qua</a>

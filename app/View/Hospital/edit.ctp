@@ -27,7 +27,7 @@
         );
       ?>
     </li>
-    <li class="active">Cập nhật bệnh nhân: <b><?php echo $patient['Patient']['first_name'] . ' ' . $patient['Patient']['last_name']; ?></b></li>
+    <li class="active">Cập nhật bệnh nhân: <b><?php echo $patient['Patient']['hoten'] ; ?></b></li>
   </ol>
 </div>
 <!-- End Page Head-->
@@ -47,67 +47,139 @@
                 <div class="widget-head">
                   <h3>Thông tin bệnh nhân:</h3>
                 </div>
+                <!-- Trạng thái-->
                 <div class="form-group">
-                  <label for="inputFirstName" class="col-sm-3 control-label">Họ tên đệm: </label>
+                  <label for="inputGender" class="col-sm-3 control-label">Trạng thái: </label>
                   <div class="col-sm-9">
-                    <input name="data[Patient][first_name]" placeholder="Họ tên đệm " class="form-control" type="text" id="PatientFirstName" value="<?php echo $patient['Patient']['first_name']; ?>" >
+                    <select name="data[Patient][gioitinh]" class="form-control" type="select" id="PatientGender">
+                      <option value="chưa khám" <?php if($patient['Patient']['gioitinh'] == 'chưa khám') echo 'selected'; ?>>Chưa khám </option>
+                      <option value="Đã khám, đang chờ kết luận" <?php if($patient['Patient']['gioitinh'] == 'Đã khám, đang chờ kết luận') echo 'selected'; ?>>Đã khám, đang chờ kết luận</option>
+                      <option value="đã có kết luận" <?php if($patient['Patient']['gioitinh'] == 'đã có kết luận') echo 'selected'; ?>>Đã có kết luận</option>
+                    </select>
                   </div>
                 </div>
+                <!-- End Trạng thái -->
                 <div class="form-group">
-                  <label for="inputLastName" class="col-sm-3 control-label">Tên bệnh nhân: </label>
+                  <label for="inputFirstName" class="col-sm-3 control-label">Họ Và Tên: </label>
                   <div class="col-sm-9">
-                    <input name="data[Patient][last_name]" placeholder="Tên bệnh nhân " class="form-control" type="text" id="PatientLastName" value="<?php echo $patient['Patient']['last_name']; ?>" >
+                    <input name="data[Patient][hoten]" placeholder="Họ tên đệm " class="form-control" type="text" id="PatientFirstName" value="<?php echo $patient['Patient']['hoten']; ?>" >
                   </div>
                 </div>
+                
                 <div class="form-group">
                   <label for="inputGender" class="col-sm-3 control-label">Giới tính: </label>
                   <div class="col-sm-9">
-                    <select name="data[Patient][gender]" class="form-control" type="select" id="PatientGender">
-                      <option value="made" <?php if($patient['Patient']['gender'] == 'made') echo 'selected'; ?>>Nam </option>
-                      <option value="femade" <?php if($patient['Patient']['gender'] == 'femade') echo 'selected'; ?>>Nữ</option>
+                    <select name="data[Patient][gioitinh]" class="form-control" type="select" id="PatientGender">
+                      <option value="nam" <?php if($patient['Patient']['gioitinh'] == 'nam') echo 'selected'; ?>>Nam </option>
+                      <option value="nu" <?php if($patient['Patient']['gioitinh'] == 'nu') echo 'selected'; ?>>Nữ</option>
                     </select>
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="inputBrithday" class="col-sm-3 control-label">Ngày sinh: </label>
                   <div class="col-sm-9">
-                    <input name="data[Patient][brithday]" placeholder="Ngày/tháng/năm" class="form-control" type="date" id="PatientBrithday" value="<?php echo $patient['Patient']['brithday']; ?>" >
+                    <input name="data[Patient][ngaysinh]" placeholder="Ngày/tháng/năm" class="form-control" type="date" id="PatientBrithday" value="<?php echo $patient['Patient']['ngaysinh']; ?>" >
                   </div>
                 </div>
                 <div class="form-group">
-                  <label for="inputAddress" class="col-sm-3 control-label">Ngày sinh: </label>
+                  <label for="inputAddress" class="col-sm-3 control-label">Số điện thoại: </label>
                   <div class="col-sm-9">
-                    <input name="data[Patient][address]" placeholder="Quê quán " class="form-control" type="text" id="PatientAddress" value="<?php echo $patient['Patient']['address']; ?>" >
+                    <input name="data[Patient][phone]" placeholder="Quê quán " class="form-control" type="text" id="PatientPhone" value="<?php echo $patient['Patient']['phone']; ?>" >
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress" class="col-sm-3 control-label">Địa chỉ: </label>
+                  <div class="col-sm-9">
+                    <input name="data[Patient][diachi]" placeholder="Quê quán " class="form-control" type="text" id="PatientAddress" value="<?php echo $patient['Patient']['diachi']; ?>" >
                   </div>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="widget-head">
-                  <h3>Thông tin bệnh án:</h3>
+                  <h3></h3>
                 </div>
+                <!-- Bác sỹ chỉ định -->
                 <div class="form-group">
-                  <label for="inputBrithday" class="col-sm-3 control-label">Mã bệnh nhân: </label>
+                  <label for="inputCheckup" class="col-sm-3 control-label">Bác sỹ chỉ định: </label>
                   <div class="col-sm-9">
-                    <input name="data[Patient][patient_code]" placeholder="Mã bệnh nhân " class="form-control" type="text" id="PatientCode" value="<?php echo $patient['Patient']['patient_code']; ?>" readonly>
+                    <select name="data[Patient][bacsy]" class="form-control" type="select" id="PatientGender" >
+                    <option value="chưa lựa chọn" <?php if($patient['Patient']['bacsy'] == 'chưa lựa chọn') echo 'selected'; ?>>-- Lựa chọn --</option>
+                      <option value="Nguyễn Văn A" <?php if($patient['Patient']['bacsy'] == 'Nguyễn Văn A') echo 'selected'; ?>>Nguyễn Văn A </option>
+                      <option value="Trương Thị Z" <?php if($patient['Patient']['bacsy'] == 'Trương Thị Z') echo 'selected'; ?>>Trương Thị Z</option>
+                    </select>
                   </div>
                 </div>
+                
+                <!-- End Bác Sỹ chỉ định -->
+                <!-- Kỹ thuật viên chỉ định -->
                 <div class="form-group">
-                  <label for="inputCheckup" class="col-sm-3 control-label">Lần khám: </label>
+                  <label for="inputCheckup" class="col-sm-3 control-label">Kỹ thuật viên chỉ định: </label>
                   <div class="col-sm-9">
-                    <input name="data[Patient][checkup]" placeholder="Lần khám " class="form-control" type="text" id="PatientCheckup" value="<?php echo $patient['Patient']['checkup']; ?>" >
+                    <select name="data[Patient][kythuat]" class="form-control" type="select" id="PatientGender">
+                    <option value="chưa lựa chọn" <?php if($patient['Patient']['kythuat'] == 'chưa lựa chọn') echo 'selected'; ?>>-- Lựa chọn --</option>
+                      <option value="Nguyễn Văn A" <?php if($patient['Patient']['kythuat'] == 'Nguyễn Văn A') echo 'selected'; ?>>Nguyễn Văn A </option>
+                      <option value="Trương Thị Z" <?php if($patient['Patient']['kythuat'] == 'Trương Thị Z') echo 'selected'; ?>>Trương Thị Z</option>
+                    </select>
                   </div>
                 </div>
+                
+                <!-- End Kỹ thuật viên chỉ định -->
+                 <!-- Danh mục khám -->
                 <div class="form-group">
-                  <label for="inputCheckup" class="col-sm-3 control-label">Bệnh án: </label>
+                  <label for="inputCheckup" class="col-sm-3 control-label">Danh mục khám: </label>
                   <div class="col-sm-9">
-                    <textarea name="data[Patient][medical_report]" class="form-control" rows="8" id="PatientMedicalReport" ><?php echo $patient['Patient']['medical_report']; ?></textarea>
+                 <?php $danhmuc = explode(',', $patient['Patient']['danhmuc']);?>
+                      <input type="checkbox" name="data[Patient][danhmuc][]" value="Soi trĩ"
+                      <?php foreach ($danhmuc as $key){ if ($key=='Soi trĩ'){echo "checked";} }?>
+                      > [157]Soi trĩ<br>
+                      <input type="checkbox" name="data[Patient][danhmuc][]" value="Siêu âm bụng"
+                      <?php foreach ($danhmuc as $key){ if ($key=='Siêu âm bụng'){echo "checked";} }?>
+                      > [1000] Siêu âm bụng<br>
+                      <input type="checkbox" name="data[Patient][danhmuc][]" value="Siêu âm tim"
+                      <?php foreach ($danhmuc as $key){ if ($key=='Siêu âm tim'){echo "checked";} }?>
+                      > [1001] Siêu âm tim<br>
+                      <input type="checkbox" name="data[Patient][danhmuc][]" value="Siêu âm thai"
+                      <?php foreach ($danhmuc as $key){ if ($key=='Siêu âm thai'){echo "checked";} }?>
+                      > [1004] Siêu âm thai<br>
+                      <input type="checkbox" name="data[Patient][danhmuc][]" value="Siêu âm chân"
+                      <?php foreach ($danhmuc as $key){ if ($key=='Siêu âm chân'){echo "checked";} }?>
+                      > [1008]Siêu âm chân<br>
+                      <input type="checkbox" name="data[Patient][danhmuc][]" value="Quang Ngực Thẳng"
+                      <?php foreach ($danhmuc as $key){ if ($key=='Quang Ngực Thẳng'){echo "checked";} }?>
+                      > [1050]Quang Ngực Thẳng<br>
+                    
                   </div>
                 </div>
+                
+                <!-- End danh mục khám-->
+                 <!-- Lý do khám -->
+                <div class="form-group">
+                  <label for="inputCheckup" class="col-sm-3 control-label">Lý do khám: </label>
+                  <div class="col-sm-9">
+                    <textarea name="data[Patient][lydo]" class="form-control" rows="8" id="PatientLydo" ><?php echo $patient['Patient']['lydo']; ?></textarea>
+                  </div>
+                </div>
+                <!-- End lý do khám -->
+                </div>
+                <!-- Kết luận-->
+                <div class="row">
+              <div class="col-sm-12 alignCenter mgt20 mgbt20">
+              <h3>Kết Luận: </h3>
+              <textarea name="data[Patient][ketluan]" class="form-control" rows="16" id="PatientKetluan" ><?php echo $patient['Patient']['ketluan']; ?></textarea>
               </div>
-            </div>
+              </div>
+                <!-- End Kết Luận -->
             <div class="row">
               <div class="col-sm-12 alignCenter mgt20 mgbt20">
+                <div class="col-sm-4 alignLeft mgt20 mgbt20">
+                </div>
+                   <div class="col-sm-4 alignLeft mgt20 mgbt20">
                   <button type="submit" class="btn btn-primary">Cập nhật</button>
+                  
+                  <a href="/hospital/receive" class="btn btn-primary" role="button">Huỷ Bỏ</a>
+                  </div>
+                 <div class="col-sm-4 alignLeft mgt20 mgbt20">
+              </div
               </div>
             </div>
           </form>
@@ -116,4 +188,5 @@
     </div>
   </div>
 </div>
+
 <!-- End Page content-->

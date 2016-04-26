@@ -8,105 +8,108 @@
         </div>
         <!-- Content -->
         
-        <div class="main-content">
-        
-          <div class="row">
-            <div class="col-md-12">
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h3>Tìm theo chuyên mục</h3>
+       <div class="main-content">
+  <div class="row">
+    <!--Responsive table-->
+    <div class="col-sm-12">
+      <div class="widget widget-fullwidth widget-small">
+        <div class="widget-head">
+          <form action="/hospital/add" class="form-horizontal" id="PatientAddForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"></div>            <div class="row">
+              <div class="col-sm-6">
+                <div class="widget-head">
+                  <h3>Tìm kiếm theo Thông tin bệnh nhân:</h3>
                 </div>
-                <div class="panel-body">
-                  <form action="#" class="form-horizontal group-border-dashed" novalidate="">
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label">Mã bệnh nhân</label>
-                      <div class="col-sm-6">
-                        <input type="text" required="" placeholder="Nhập mã bệnh nhân" class="form-control" data-parsley-id="28">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label">Họ và Tên</label>
-                      <div class="col-sm-6">
-                        <input type="text" required="" data-parsley-minlength="6" placeholder="Nhập họ tên ..." class="form-control" data-parsley-id="30">
-                      </div>
-                    </div>
-                   
-                   
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label">Bác sĩ chỉ định</label>
-                      <div class="col-sm-3">
-                        <input type="text" required="" data-parsley-pattern="#[A-Fa-f0-9]{6}" placeholder="Tên Bác Sỹ" class="form-control" data-parsley-id="42">
-                      </div>
-                    </div>
-                     <div class="form-group">
-                      <label class="col-sm-3 control-label">Kỹ thuật viên chỉ định</label>
-                     <div class="col-sm-3">
-                        <input type="text" required="" data-parsley-pattern="#[A-Fa-f0-9]{6}" placeholder="Tên Kỹ thuật viên" class="form-control" data-parsley-id="42">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label"></label>
-                      <div class="col-sm-3">
-                        <input id="pass2" type="password" required="" placeholder="Password" class="form-control" data-parsley-id="44">
-                      </div>
-                      <div class="col-sm-3">
-                        <input type="password" required="" data-parsley-equalto="#pass2" placeholder="Re-Type Password" class="form-control" data-parsley-id="46">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label">Lựa chọn Bệnh án</label>
-                      <div class="col-sm-6">
-                        <div class="am-checkbox">
-                          <input id="ck1" name="ck1" type="checkbox" data-parsley-multiple="groups" value="bar" data-parsley-mincheck="2" data-parsley-errors-container="#error-container1" data-parsley-id="49">
-                          <label for="ck1">Bệnh án 1</label>
-                        </div>
-                        <div class="am-checkbox">
-                          <input id="ck2" name="ck2" type="checkbox" data-parsley-multiple="groups" value="bar2" data-parsley-mincheck="2" data-parsley-errors-container="#error-container1">
-                          <label for="ck2">Bệnh án 2</label>
-                        </div>
-                        <div class="am-checkbox">
-                          <input id="ck3" name="ck3" type="checkbox" data-parsley-multiple="groups" value="bar3" data-parsley-mincheck="2" required="" data-parsley-errors-container="#error-container1">
-                          <label for="ck3">Bệnh án 3</label>
-                        </div>
-                        <div id="error-container1"></div>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label">Lựa chọn cách điều trị</label>
-                      <div class="col-sm-6">
-                        <div class="am-checkbox">
-                          <input type="checkbox" value="bar" id="e1" data-parsley-multiple="group1" data-parsley-errors-container="#error-container2" data-parsley-id="56">
-                          <label for="e1">Cách 1</label>
-                        </div>
-                        <div class="am-checkbox">
-                          <input type="checkbox" value="bar" id="e2" data-parsley-multiple="group1" data-parsley-errors-container="#error-container2">
-                          <label for="e2">Cách 2</label>
-                        </div>
-                        <div class="am-checkbox">
-                          <input type="checkbox" value="bar" id="e3" data-parsley-multiple="group1" data-parsley-maxcheck="1" data-parsley-errors-container="#error-container2">
-                          <label for="e3">Cách 3</label>
-                        </div>
-                        <div id="error-container2"></div>
-                      </div>
-                    </div>
-                    
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label">Lời ghi chú</label>
-                      <div class="col-sm-6">
-                        <textarea required="" class="form-control" data-parsley-id="72"></textarea>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <div class="col-sm-2 col-sm-10">
-                        <button type="submit" class="btn btn-space btn-primary">Tìm kiếm</button>
-                        <button class="btn btn-space btn-default">Huỷ</button>
-                      </div>
-                    </div>
-                  </form>
+                 <div class="form-group">
+                  <label for="inputLastName" class="col-sm-3 control-label">Mã bệnh nhân: </label>
+                  <div class="col-sm-9">
+                    <input name="data[Patient][Ma]" placeholder="Mã bệnh nhân " class="form-control" type="text" id="PatientLastName">
+                  </div>
                 </div>
+                <div class="form-group">
+                  <label for="inputLastName" class="col-sm-3 control-label">Tên bệnh nhân: </label>
+                  <div class="col-sm-9">
+                    <input name="data[Patient][last_name]" placeholder="Tên bệnh nhân " class="form-control" type="text" id="PatientLastName">
+                  </div>
+                </div>
+             
+      
+              </div>
+              <div class="col-sm-6">
+                <div class="widget-head">
+                  <!-- <h3>Thông tin bệnh án:</h3> -->
+                </div>
+                <!--
+                <div class="form-group">
+                  <label for="inputBrithday" class="col-sm-3 control-label">Mã bệnh nhân: </label>
+                  <div class="col-sm-9">
+                    <input name="data[Patient][patient_code]" placeholder="Mã bệnh nhân " class="form-control" type="text" id="PatientCode">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputCheckup" class="col-sm-3 control-label">Lần khám: </label>
+                  <div class="col-sm-9">
+                    <input name="data[Patient][checkup]" placeholder="Lần khám " class="form-control" type="text" id="PatientCheckup">
+                  </div>
+                </div>
+                -->
+                <!-- Bác sỹ chỉ định -->
+                <div class="form-group">
+                  <label for="inputCheckup" class="col-sm-3 control-label">Bác sỹ chỉ định: </label>
+                  <div class="col-sm-9">
+                    <select name="data[Patient][doctor]" class="form-control" type="select" id="PatientGender">
+                      <option value="1" selected="">Bác sỹ chỉ định 1 </option>
+                      <option value="2">Bác sỹ chỉ định 2</option>
+                    </select>
+                  </div>
+                </div>
+                
+                <!-- End Bác Sỹ chỉ định -->
+                 <!-- Kỹ thuật viên chỉ định -->
+                <div class="form-group">
+                  <label for="inputCheckup" class="col-sm-3 control-label">Kỹ thuật viên chỉ định: </label>
+                  <div class="col-sm-9">
+                    <select name="data[Patient][technician]" class="form-control" type="select" id="PatientGender">
+                      <option value="1" selected="">Kỹ thuật viên chỉ định 1 </option>
+                      <option value="2">Kỹ thuật viên chỉ định 2</option>
+                    </select>
+                  </div>
+                </div>
+                
+                <!-- End Kỹ thuật viên chỉ định -->
+               </div>
+               
+               </div>
+             <div class="row">
+              <div class="col-sm-6">
+                <div class="widget-head">
+                  <h3>Tìm theo Thời gian: </h3>
+                </div>
+                 <div class="form-group">
+                  <label for="inputLastName" class="col-sm-3 control-label">Từ ngày: </label>
+                  <div class="col-sm-9">
+                    <input name="data[Patient][Ma]" placeholder="Từ ngày" class="form-control" type="date" id="PatientLastName">
+                  </div>
+                </div>
+                 <div class="form-group">
+                  <label for="inputLastName" class="col-sm-3 control-label">Tới ngày: </label>
+
+
+                  <div class="col-sm-9">
+                    <input name="data[Patient][Ma]" placeholder="Tới ngày" class="form-control" type="text" id="PatientLastName" value ="<?php echo date("d/m/Y"); ?>">
+                  </div>
+                </div>
+                </div>
+                </div>
+            <div class="row">
+              <div class="col-sm-6 alignRight mgt20 mgbt20">
+                  <button type="submit" class="btn btn-primary">Tìm kiếm</button>
               </div>
             </div>
-          </div>
+          </form>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
         
         <!-- End Content -->

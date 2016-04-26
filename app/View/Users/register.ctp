@@ -31,7 +31,8 @@
 				'label' => false,
 				'options' => array (
 					'admin' => 'Admin',
-					'author' => 'Author'
+					'author' => 'Author',
+                                        
 				),
 				'class' => 'mgt20',
 				'style' => "padding: 7px;"

@@ -16,14 +16,7 @@
   * Địa chỉ Email: vietoregon.tech.com@gmail.com
   * Cám ơn quý đối tác !
   **/
-Router::connect ( '/admin/staffs', array (
-		'controller' => 'staffs',
-		'action' => 'index' 
-) );
 
-Router::connect ( '/admin/staffs/:action', array (
-		'controller' => 'staffs' 
-) );
 
 Router::connect ( '/user', array (
 		'controller' => 'users',
@@ -34,7 +27,7 @@ Router::connect ( '/user/:action/*', array (
 		'controller' => 'users',
 ) );
 
-Router::connect ( '/:action/*', array (
+Router::connect ( '/hospital/:action/*', array (
 		'controller' => 'hospital' 
 ) );
 
@@ -42,6 +35,7 @@ Router::connect ( '/', array (
 		'controller' => 'hospital',
 		'action' => 'index',
 ) );
+
 /**
  * Load all plugin routes.
  * See the CakePlugin documentation on

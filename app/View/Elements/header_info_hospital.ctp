@@ -1,17 +1,23 @@
  <nav class="am-right-sidebar">
         <div class="sb-content">
-          <div class="user-info"><img src="https://scontent-sit4-1.xx.fbcdn.net/hphotos-xla1/v/t1.0-9/12360031_965742293492339_239744005739847135_n.jpg?oh=2fd35d530cfbeef2eecd60827fe9b62f&oe=5776C5C7"><span class="name">Bác Sỹ A<span class="status"></span></span><span class="position">Trưởng khoa</span></div>
+          <div class="user-info"><img src="/img/hospital/bacsynam.png"><span class="name"> <?php echo $auth['username'];?><span class="status"></span></span><span class="position"><?php echo $auth['role'];?></span></div>
+          <!-- Thời tiết -->
+          
           <div class="tab-navigation">
+          <!--
+          
             <ul role="tablist" class="nav nav-tabs nav-justified">
               <li role="presentation" class="active"><a href="#tab1" aria-controls="home" role="tab" data-toggle="tab"> <span class="icon s7-smile"></span></a></li>
               <li role="presentation"><a href="#tab2" aria-controls="profile" role="tab" data-toggle="tab"> <span class="icon s7-chat"></span></a></li>
               <li role="presentation"><a href="#tab3" aria-controls="messages" role="tab" data-toggle="tab"> <span class="icon s7-help2"></span></a></li>
               <li role="presentation"><a href="#tab4" aria-controls="settings" role="tab" data-toggle="tab"> <span class="icon s7-ticket"></span></a></li>
             </ul>
+            -->
           </div>
           <div class="tab-panel">
             <div class="tab-content">
               <div id="tab1" role="tabpanel" class="tab-pane announcement active am-scroller nano">
+               <!--
                 <div class="nano-content">
                   <div class="content">
                     <h2>Thông tin hôm nay</h2>
@@ -31,10 +37,12 @@
                     </ul>
                   </div>
                 </div>
+                -->
                 <div class="search">
                   <input type="text" placeholder="Tìm kiếm..." name="q"><span class="s7-search"></span>
                 </div>
               </div>
+              <!--
               <div id="tab2" role="tabpanel" class="tab-pane chat">
                 <div class="chat-contacts">
                   <div class="chat-sections">
@@ -61,10 +69,12 @@
                       </div>
                     </div>
                   </div>
+                  -->
                   <div class="search">
                     <input type="text" placeholder="Tìm Kiếm..." name="q"><span class="s7-search"></span>
                   </div>
                 </div>
+                <!--
                 <div class="chat-window">
                   <div class="title">
                     <div class="user"><img src="/img/hospital/avatar7.jpg">
@@ -145,6 +155,7 @@
                     </div>
                   </div>
                 </div>
+                -->
                 <div class="search">
                   <input type="text" placeholder="Tìm kiếm..." name="q"><span class="s7-search"></span>
                 </div>
@@ -167,5 +178,6 @@
               </div>
             </div>
           </div>
+          
         </div>
       </nav>

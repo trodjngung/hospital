@@ -15,128 +15,188 @@
             <div class="col-sm-12">
               <div class="widget widget-fullwidth widget-small">
                 <div class="widget-head">
-                  <div class="title">Thêm Bệnh Nhân</div>
+                  <h3>Lựa chọn theo trạng thái </h3>
                    <div class="row am-datatable-header">
                    
                                 
                       <div class="col-sm-4">
                         <div class="dataTables_length" id="table1_length">
                            <label><select name="table1_length" aria-controls="table1" class="form-control input-sm">
-                                <option value="10">10</option>
-                                <option value="25">25</option>
-                                <option value="50">50</option>
-                                <option value="100">100</option>
-                                </select> Xem tất cả</label></div></div><div class="col-sm-4"><div id="table1_filter" class="dataTables_filter">
+                                <option value="Chưa Khám">Chưa Khám</option>
+                                <option value="Đã khám, đang chờ kết luận">Đã khám, đang chờ kết luận</option>
+                                <option value="Đã có kết luận">Đã có kết luận</option>  
+                                </select>                           
                           </div>
-        <!-- Search -->
-                                <div class="col-sm-4">
-                         	<div class="dataTables_length" id="table1_length">
-                                <label><input type="search" class="form-control input-sm" placeholder=" Tìm kiếm .... " aria-controls="table1"></label>
-                                </div>
-                                </div>
-                                <!-- End Search -->                  </div>
-                            
-                                <!-- Print -->
-                                
-                                <div class="col-sm-4 text-right">
-                                	<div class="dt-buttons btn-group">
-                                		<a class="btn btn-default buttons-copy buttons-flash" tabindex="0" aria-controls="table3">
-                                			<span>Copy</span>
-                                				<div style="position: absolute; left: 0px; top: 0px; width: 57px; height: 36px; z-index: 99;">
-                                					<embed id="ZeroClipboard_TableToolsMovie_1" src="#" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="57" height="36" name="ZeroClipboard_TableToolsMovie_1" align="middle" allowscriptaccess="always" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="id=1&amp;width=57&amp;height=36" wmode="transparent"></div></a><a class="btn btn-default buttons-excel buttons-flash" tabindex="0" aria-controls="table3"><span>Excel</span><div style="position: absolute; left: 0px; top: 0px; width: 56px; height: 36px; z-index: 99;">
-                                					<embed id="ZeroClipboard_TableToolsMovie_2" src="#" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="56" height="36" name="ZeroClipboard_TableToolsMovie_2" align="middle" allowscriptaccess="always" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="id=2&amp;width=56&amp;height=36" wmode="transparent"></div></a><a class="btn btn-default buttons-pdf buttons-flash" tabindex="0" aria-controls="table3"><span>PDF</span><div style="position: absolute; left: 0px; top: 0px; width: 50px; height: 36px; z-index: 99;">
-                                					<embed id="ZeroClipboard_TableToolsMovie_3" src="#" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="50" height="36" name="ZeroClipboard_TableToolsMovie_3" align="middle" allowscriptaccess="always" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="id=3&amp;width=50&amp;height=36" wmode="transparent"></div></a><a class="btn btn-default buttons-print" tabindex="0" aria-controls="table3"><span>Print</span></a></div></div>
-                                 <!-- End Print -->
-                   </div>
-                 <!-- End Label-->
-                </div>
+                     </div>
+</div>
                 <!-- Label-->
                
-                <div class="table-responsive">
-                  <table class="table table-striped table-fw-widget table-hover">
-                    <thead>
-                      <tr>
-                        <th width="15%">Tên Bệnh Nhân</th>
-                        <th width="10%">Mã số</th>
-                        <th width="5%">Giới tính</th>
-                        <th width="5%">Tuổi</th>
-                        <th width="20%" class="number">Địa chỉ</th>
-                        <th width="5%" class="number">Lần khám</th>
-                        <th width="30%" class="number">Kết quả</th>
-                        <th width="10%" class="number">Hành động</th>
-                      </tr>
-                    </thead>
-                    <tbody class="no-border-x">
-                      <tr>
-                        <td class="user-avatar"> <img src="/img/hospital/avatar4.jpg">Nguyễn Văn A</td>
-                        <td>101</td>
-                        <td>Nam</td>
-                        <td>35</td>
-                        <td class="number">Xuân Thuỷ, Cầu Giấy, Hà Nội</td>
-                        <td class="number">2</td>
-                        <td class="number">Đau đầu, đau tay, đau chân, đau tứ chi, đêm nằm đau buốt, lúc nào cũng đau..</td>
-                        <td>
-                                            <a href="#" class="btn btn-info btn-sm">
-          					<span class="glyphicon glyphicon-pencil"></span> Sửa 
-       					    </a>
-                                              <a href="#" class="btn btn-info btn-sm">
-          					<span class="s7-trash"></span> Xoá 
-      						  </a>
-                                        </td>
-                      </tr>
-                     <tr>
-                        <td class="user-avatar"> <img src="/img/hospital/avatar5.jpg">Nguyễn Thị B</td>
-                        <td>102</td>
-                        <td>Nữ</td>
-                        <td>29</td>
-                        <td class="number">Đống Đa, Hà Nội</td>
-                        <td class="number">10</td>
-                        <td class="number">Đau đầu, đau tay, đau chân, đau tứ chi, đêm nằm đau buốt, lúc nào cũng đau..</td>
-                        <td>
-                                            <a href="#" class="btn btn-info btn-sm">
-          					<span class="glyphicon glyphicon-pencil"></span> Sửa 
-       					    </a>
-                                              <a href="#" class="btn btn-info btn-sm">
-          					<span class="icon s7-close"></span> Xoá 
-      						  </a>
-                                        </td>
-                      </tr>
-                        <tr>
-                        <td class="user-avatar"> <img src="/img/hospital/avatar6.jpg">Nguyễn Hữu D</td>
-                        <td>107</td>
-                        <td>Nam</td>
-                        <td>62</td>
-                        <td class="number">Thanh Xuân, Hà Nội</td>
-                        <td class="number">49</td>
-                        <td class="number">Đau đầu, đau tay, đau chân, đau tứ chi, đêm nằm đau buốt, lúc nào cũng đau..</td>
-                        <td>
-                                            <a href="#" class="btn btn-info btn-sm">
-          					<span class="glyphicon glyphicon-pencil"></span> Sửa 
-       					    </a>
-                                              <a href="#" class="btn btn-info btn-sm">
-          					<span class="icon s7-close"></span> Xoá 
-      						  </a>
-                                        </td>
-                      </tr>
-                     <tr>
-                        <td class="user-avatar"> <img src="/img/hospital/avatar7.jpg">Nguyễn Thị Lựu</td>
-                        <td>109</td>
-                        <td>Nữ</td>
-                        <td>7</td>
-                        <td class="number">Tây Hồ, Hà Nội</td>
-                        <td class="number">1</td>
-                        <td class="number">Đau đầu, đau tay, đau chân, đau tứ chi, đêm nằm đau buốt, lúc nào cũng đau..</td>
-                        <td>
-                                            <a href="#" class="btn btn-info btn-sm">
-          					<span class="glyphicon glyphicon-pencil"></span> Sửa 
-       					    </a>
-                                              <a href="#" class="btn btn-info btn-sm">
-          					<span class="icon s7-close"></span> Xoá 
-      						  </a>
-                                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+               <div class="table-responsive">
+          <b>
+               </b><table class="table table-bordered table-fw-widget table-hover">
+            <colgroup><col width="5%">
+            <col width="8%">
+            <col width="5%">
+            <col width="6%">
+            <col width="8%">
+            <col width="10%">
+            <col width="12%">
+            <col width="12%">
+            <col width="12%">
+            <col width="5%">
+            <col width="5%">
+            <col width="5%">
+            <col width="5%">
+
+            </colgroup><thead>
+              <tr>
+              <th class="alignCenter">Mã</th>
+                <th class="alignCenter">Tên Bệnh Nhân</th>
+                <th class="alignCenter">Giới tính</th>
+                <th class="alignCenter">Ngày sinh</th>
+                <th class="alignCenter">Số điện thoại</th>
+                <th class="alignCenter">Địa chỉ</th>
+                <th class="alignCenter">Bác sỹ chỉ định</th>
+                <th class="alignCenter">KTV chỉ định</th>
+                <th class="alignCenter">Trạng thái</th>
+                <th class="alignCenter">Thời gian</th>
+                <th class="alignCenter">Sửa </th>
+                <th class="alignCenter">Xoá </th>
+                
+              </tr>
+            </thead>
+            <tbody class="no-border-x">
+                              <?php foreach ($patients as $patient): ?>
+                              <tr>
+                 <td align="center"><?php echo $patient['Patient']['id']; ?></td>
+                  <td class="user-avatar"><center><?php echo $this->Html->link( $patient['Patient']['hoten'],
+    array(
+        'controller' => 'hospital',
+        'action' => 'view_patient',
+        $patient['Patient']['id']
+    )
+);
+?>
+                </center> </td>
+                 
+                  <td align="center">
+<?php
+                      if($patient['Patient']['gioitinh'] == 'nam') {
+                        $patient['Patient']['gioitinh'] = 'Nam';
+                      } else {
+                       $patient['Patient']['gioitinh'] = 'Nữ';
+                      }
+                    ?>
+                    <?php echo $this->Html->link( $patient['Patient']['gioitinh'],
+    array(
+        'controller' => 'hospital',
+        'action' => 'view_patient',
+        $patient['Patient']['id']
+    )
+);
+?>                                        
+               </td>
+                  <td align="center">
+            <?php echo $this->Html->link( $patient['Patient']['ngaysinh'],
+    array(
+        'controller' => 'hospital',
+        'action' => 'view_patient',
+        $patient['Patient']['id']
+    )
+);
+?>                 
+                 </td>
+                  <td><?php echo $this->Html->link( $patient['Patient']['phone'],
+    array(
+        'controller' => 'hospital',
+        'action' => 'view_patient',
+        $patient['Patient']['id']
+    )
+);
+?></td>
+                  <td align="center"><?php echo $this->Html->link( $patient['Patient']['diachi'],
+    array(
+        'controller' => 'hospital',
+        'action' => 'view_patient',
+        $patient['Patient']['id']
+    )
+);
+?></td>
+                  <td><?php echo $this->Html->link( $patient['Patient']['bacsy'],
+    array(
+        'controller' => 'hospital',
+        'action' => 'view_patient',
+        $patient['Patient']['id']
+    )
+);
+?></td>
+                   <td><?php echo $this->Html->link( $patient['Patient']['kythuat'],
+    array(
+        'controller' => 'hospital',
+        'action' => 'view_patient',
+        $patient['Patient']['id']
+    )
+);
+?></td>
+                    <td >
+                                        
+<?php echo $this->Html->link( $patient['Patient']['trangthai'],
+    array(
+        'controller' => 'hospital',
+        'action' => 'view_patient',
+        $patient['Patient']['id']
+    )
+);
+?>
+                                      
+                    
+                    
+        </td>
+        <td><?php echo $this->Html->link( $patient['Patient']['created'],
+    array(
+        'controller' => 'hospital',
+        'action' => 'view_patient',
+        $patient['Patient']['id']
+    )
+);
+?></td>
+                  <td align="center">
+                    <?php
+                      echo $this->Html->link(
+                        '<span class="glyphicon glyphicon-pencil"> Sửa ',
+                        array (
+                          'controller' => 'hospital',
+                          'action' => 'edit',
+                          $patient ['Patient'] ['id']
+                        ),
+                        array(
+                          'class' => 'btn btn-info btn-sm',
+                          'style' => 'margin-right: 3px;',
+                          'escape' => FALSE
+                        )
+                      );
+                      ?>                    </td>
+                      <td>
+                     <?php
+                      echo $this->Html->link(
+                        '<span class="s7-delete-user"> Xóa ',
+                        array (
+                          'controller' => 'hospital',
+                          'action' => 'delete',
+                          $patient ['Patient'] ['id']
+                        ),
+                        array(
+                          'class' => 'btn btn-info btn-sm',
+                          'escape' => FALSE
+                        )
+                      );
+                    ?>                </td>
+                 </tr>
+                              
+                          </tbody>
+<?php endforeach; ?>
+          </table>
+        </div>
                 </div>
               </div>
             </div>

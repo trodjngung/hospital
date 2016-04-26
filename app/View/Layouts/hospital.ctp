@@ -45,7 +45,7 @@
 	</div>
         <?php echo $this->element ( 'js_hospital' ); ?>
         
-        
+    
 	 <script type="text/javascript">
       $(document).ready(function(){
       	//initialize the javascript
@@ -54,9 +54,11 @@
 
       });
     </script>
+
       
        <script type="text/javascript">
       $(document).ready(function(){
+	
         App.emailCompose();
       });
       

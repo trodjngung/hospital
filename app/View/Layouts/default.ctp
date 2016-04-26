@@ -34,7 +34,7 @@
 		?>
 </head>
 <body>
-		<?php echo $this->element('header')?>
+		<?php // echo $this->element('header')?>
 		<!--  ==== Start Topic Path ==== -->
 		<!-- 
 	<div class="topic-path">
@@ -50,7 +50,7 @@
 		<i class="fa fa-chevron-up fa-3"></i>
 	</div>
 	<!--  ==== End Scroll Top ==== -->
-		<?php echo $this->element('footer')?>
+		<?php // echo $this->element('footer')?>
 	</body>
 <?php echo $this->element ( 'author' ); ?>
 </html>

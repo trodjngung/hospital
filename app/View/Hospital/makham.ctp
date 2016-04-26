@@ -37,11 +37,13 @@
                                 
                                 <div class="col-sm-4 text-right">
                                 	<div class="dt-buttons btn-group">
+                                	
                                 		<a class="btn btn-default buttons-copy buttons-flash" tabindex="0" aria-controls="table3">
                                 			<span>Copy</span>
                                 				<div style="position: absolute; left: 0px; top: 0px; width: 57px; height: 36px; z-index: 99;">
                                 					<embed id="ZeroClipboard_TableToolsMovie_1" src="#" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="57" height="36" name="ZeroClipboard_TableToolsMovie_1" align="middle" allowscriptaccess="always" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="id=1&amp;width=57&amp;height=36" wmode="transparent"></div></a><a class="btn btn-default buttons-excel buttons-flash" tabindex="0" aria-controls="table3"><span>Excel</span><div style="position: absolute; left: 0px; top: 0px; width: 56px; height: 36px; z-index: 99;">
                                 					<embed id="ZeroClipboard_TableToolsMovie_2" src="#" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="56" height="36" name="ZeroClipboard_TableToolsMovie_2" align="middle" allowscriptaccess="always" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="id=2&amp;width=56&amp;height=36" wmode="transparent"></div></a><a class="btn btn-default buttons-pdf buttons-flash" tabindex="0" aria-controls="table3"><span>PDF</span><div style="position: absolute; left: 0px; top: 0px; width: 50px; height: 36px; z-index: 99;">
+                                					
                                 					<embed id="ZeroClipboard_TableToolsMovie_3" src="#" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="50" height="36" name="ZeroClipboard_TableToolsMovie_3" align="middle" allowscriptaccess="always" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="id=3&amp;width=50&amp;height=36" wmode="transparent"></div></a><a class="btn btn-default buttons-print" tabindex="0" aria-controls="table3"><span>Print</span></a></div></div>
                                  <!-- End Print -->
                    </div>

@@ -11,7 +11,7 @@
 		</div>
 
 		<div class="apollo-login">
-			<a href="http://vietoregon-tech.com/?lang=vn" class="btn btn-block btn-facebook btn-lg" target="_blank">Thiết kế bởi <strong>Việt Oregon</strong></a>
+			<a href="http://vietoregon-tech.com/?lang=vn" class="btn btn-block btn-facebook btn-lg" target="_blank">Thiết kế bởi <strong>VOT&C</strong></a>
 			<p class="apollo-seperator mgbt20">&nbsp</p>
 			<form action="login" id="UserLoginForm" method="post" accept-charset="utf-8" class="form-signin">
 				<div class="form-group">
