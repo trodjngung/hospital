@@ -27,7 +27,7 @@
 		echo $this->Html->meta ( 'icon', '/favicon.ico' ); // icon
 		echo $this->element ( 'meta_hospital' );
 		echo $this->element ( 'css_hospital' );
-		
+		echo $this->Html->script ( '/js/hospital/jquery/jquery.min.js' ) . PHP_EOL;
 		?>
 	</head>
 	<body>

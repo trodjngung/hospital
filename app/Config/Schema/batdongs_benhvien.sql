@@ -1,44 +1,25 @@
--- phpMyAdmin SQL Dump
--- version 4.0.10.7
--- http://www.phpmyadmin.net
---
--- Host: localhost:3306
--- Generation Time: Apr 26, 2016 at 05:16 AM
--- Server version: 5.5.48-cll
--- PHP Version: 5.4.31
+/*
+Navicat MySQL Data Transfer
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
+Source Server         : Localhost
+Source Server Version : 50505
+Source Host           : localhost:3306
+Source Database       : batdongs_benhvien
 
+Target Server Type    : MYSQL
+Target Server Version : 50505
+File Encoding         : 65001
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
+Date: 2016-04-29 16:47:07
+*/
 
---
--- Database: `batdongs_benhvien`
---
+SET FOREIGN_KEY_CHECKS=0;
 
--- --------------------------------------------------------
-
---
--- Table structure for table `Model`
---
-
-CREATE TABLE IF NOT EXISTS `Model` (
-  `id` int(11) NOT NULL,
-  `name` varchar(60) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  `body` text NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `patients`
---
-
-CREATE TABLE IF NOT EXISTS `patients` (
+-- ----------------------------
+-- Table structure for patients
+-- ----------------------------
+DROP TABLE IF EXISTS `patients`;
+CREATE TABLE `patients` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `ma_benhnhan` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `hoten` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -55,25 +36,39 @@ CREATE TABLE IF NOT EXISTS `patients` (
   `created` datetime DEFAULT NULL,
   `modified` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=8 ;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
---
--- Dumping data for table `patients`
---
+-- ----------------------------
+-- Records of patients
+-- ----------------------------
+INSERT INTO `patients` VALUES ('1', 'A09387398', 'Bạch Đằng Hùng', 'nam', '1990-03-15', 'Hanoi, Vietnam', '948482588', 'Nguyễn Văn A', 'Nguyễn Văn A', '', 'Cảm thấy đau bụng thường xuyên, chóng mặt, buồn nôn.', 'chưa khám', '<p>Call my babe</p>\r\n', '2016-04-17 18:11:55', '2016-04-28 12:48:44');
+INSERT INTO `patients` VALUES ('2', 'A98333932', 'Nguyễn Hữu Chí', 'nam', '1990-03-08', 'Mỹ Đức - Hà Nội', '902458900', 'Nguyễn Văn A', 'Nguyễn Văn A', 'Soi trĩ,Siêu âm bụng', 'Tối qua mất ngủ', 'đã khám, đang chờ kết luận', '<h3><img alt=\"\" src=\"http://img.saostar.vn/2016/01/06/185473/ngoc-trinh-kinh-doanh-thuong-hieu-thoi-trang-sang-trong-va-hop-mot.jpg\" style=\"height:300px; width:200px\" /></h3>\r\n', '2016-04-17 18:33:56', '2016-04-28 12:49:48');
+INSERT INTO `patients` VALUES ('3', '1001', 'Đậu Văn cần', 'nu', '1985-07-12', 'kim liên/nam đàn/nghệ an', '123456789', 'Trương Thị Z', 'Nguyễn Văn A', 'Soi trĩ,Siêu âm bụng', 'bị dẫm phải đinh', 'đã có kết luận', 'uống thuốc vài ngày là khỏi', '2016-04-19 06:39:51', '2016-04-22 14:06:24');
+INSERT INTO `patients` VALUES ('4', 'H132425', 'Nguyễn Đức Huân', 'nam', '1989-12-12', 'Hà Nội', '2147483647', 'Nguyễn Văn A', 'Trương Thị Z', 'Soi trĩ,Siêu âm bụng,Siêu âm tim,Siêu âm thai,Siêu âm chân', 'Hôi chân', 'chưa khám', '', '2016-04-22 13:10:19', '2016-04-22 14:04:47');
+INSERT INTO `patients` VALUES ('5', '', 'Nguyen van A', 'nam', '2016-03-31', 'Hanoi', '987654343', 'Trương Thị Z', 'Nguyễn Văn A', 'Soi trĩ', '1111111111', 'Đã khám', '<p>21e21ee21e21e</p>\r\n', '2016-04-29 06:43:01', '2016-04-29 11:41:09');
 
-INSERT INTO `patients` (`id`, `ma_benhnhan`, `hoten`, `gioitinh`, `ngaysinh`, `diachi`, `phone`, `bacsy`, `kythuat`, `danhmuc`, `lydo`, `trangthai`, `ketluan`, `created`, `modified`) VALUES
-(1, 'A09387398', 'Bạch Đằng Hùng', 'nam', '1990-03-15', 'Hanoi, Vietnam', 948482588, 'Nguyễn Văn A', 'Nguyễn Văn A', 'Soi trĩ,Siêu âm bụng,Siêu âm tim,Siêu âm thai,Siêu âm chân,Quang Ngực Thẳng', 'Cảm thấy đau bụng thường xuyên, chóng mặt, buồn nôn.', 'chưa khám', '', '2016-04-17 18:11:55', '2016-04-26 07:08:35'),
-(2, 'A98333932', 'Nguyễn Hữu Chí', 'nam', '1990-03-08', 'Mỹ Đức - Hà Nội', 902458900, 'Nguyễn Văn A', 'Nguyễn Văn A', 'Soi trĩ,Siêu âm bụng', 'Tối qua mất ngủ', 'đã khám, đang chờ kết luận', '', '2016-04-17 18:33:56', '2016-04-22 14:05:53'),
-(5, '1001', 'Đậu Văn cần', 'nu', '1985-07-12', 'kim liên/nam đàn/nghệ an', 123456789, 'Trương Thị Z', 'Nguyễn Văn A', 'Soi trĩ,Siêu âm bụng', 'bị dẫm phải đinh', 'đã có kết luận', 'uống thuốc vài ngày là khỏi', '2016-04-19 06:39:51', '2016-04-22 14:06:24'),
-(7, '', 'Nguyễn Đức Huân', 'nam', '1989-12-12', 'Hà Nội', 2147483647, 'Nguyễn Văn A', 'Trương Thị Z', 'Soi trĩ,Siêu âm bụng,Siêu âm tim,Siêu âm thai,Siêu âm chân', 'Hôi chân', 'chưa khám', '', '2016-04-22 13:10:19', '2016-04-22 14:04:47');
+-- ----------------------------
+-- Table structure for patient_images
+-- ----------------------------
+DROP TABLE IF EXISTS `patient_images`;
+CREATE TABLE `patient_images` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `patient_id` int(10) unsigned NOT NULL,
+  `image_url` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `created` datetime DEFAULT NULL,
+  `modified` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- --------------------------------------------------------
+-- ----------------------------
+-- Records of patient_images
+-- ----------------------------
 
---
--- Table structure for table `select_options`
---
-
-CREATE TABLE IF NOT EXISTS `select_options` (
+-- ----------------------------
+-- Table structure for select_options
+-- ----------------------------
+DROP TABLE IF EXISTS `select_options`;
+CREATE TABLE `select_options` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `column_name` varchar(128) COLLATE utf8_unicode_ci NOT NULL,
   `select_code` varchar(64) COLLATE utf8_unicode_ci NOT NULL,
@@ -86,33 +81,40 @@ CREATE TABLE IF NOT EXISTS `select_options` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `uni_key` (`column_name`,`select_code`,`display_name`),
   KEY `idx_column_name` (`column_name`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=14 ;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
---
--- Dumping data for table `select_options`
---
+-- ----------------------------
+-- Records of select_options
+-- ----------------------------
+INSERT INTO `select_options` VALUES ('1', 'user_role', 'admin', 'Admin', '1', 'Admintrator', 'N', null, null);
+INSERT INTO `select_options` VALUES ('2', 'user_role', 'bac_sy', 'Bác Sỹ', '2', 'Bác Sỹ', 'N', null, null);
+INSERT INTO `select_options` VALUES ('3', 'user_role', 'ky_thuat_vien', 'Kỹ thuật viên', '3', 'Kỹ thuật viên', 'N', null, null);
 
-INSERT INTO `select_options` (`id`, `column_name`, `select_code`, `display_name`, `display_order`, `memo`, `del_flag`, `created`, `modified`) VALUES
-(2, 'class', '1A', '1A', 1, 'Class 1A', 'N', NULL, NULL),
-(3, 'class', '1B', '1B', 2, 'Class 1B', 'N', NULL, NULL),
-(4, 'class', '1C', '1C', 3, 'Class 1C', 'N', NULL, NULL),
-(5, 'class', '2A', '2A', 4, 'Class 2A', 'N', NULL, NULL),
-(6, 'class', '2B', '2B', 5, 'Class 2B', 'N', NULL, NULL),
-(7, 'class', '2C', '2C', 6, 'Class 2C', 'N', NULL, NULL),
-(8, 'teacher', 'Ms. Oanh Nguyen', 'Ms. Oanh Nguyen', 1, 'Ms. Oanh Nguyen', 'N', NULL, NULL),
-(9, 'teacher', 'Ms. Lan Anh', 'Ms. Lan Anh', 2, 'Ms. Lan Anh', 'N', NULL, NULL),
-(10, 'teacher', 'Ms. Thu Tran', 'Ms. Thu Tran', 3, 'Ms. Thu Tran', 'N', NULL, NULL),
-(11, 'teacher', 'Ms. Mai Phuong', 'Ms. Mai Phuong', 4, 'Ms. Mai Phuong', 'N', NULL, NULL),
-(12, 'teacher', 'Mr. Tuan Anh', 'Mr. Tuan Anh', 5, 'Mr. Tuan Anh', 'N', NULL, NULL),
-(13, 'teacher', 'Mr. Join', 'Mr. Join', 6, 'Mr. Join', 'N', NULL, NULL);
+-- ----------------------------
+-- Table structure for templates
+-- ----------------------------
+DROP TABLE IF EXISTS `templates`;
+CREATE TABLE `templates` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `template_name` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `template_body` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `del_flag` set('N','Y') COLLATE utf8_unicode_ci DEFAULT 'N' COMMENT 'Delete flag',
+  `created` datetime DEFAULT NULL,
+  `modified` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- --------------------------------------------------------
+-- ----------------------------
+-- Records of templates
+-- ----------------------------
+INSERT INTO `templates` VALUES ('1', 'Mẫu Nội Soi', '<h3><img alt=\"\" src=\"http://img.saostar.vn/2016/01/06/185473/ngoc-trinh-kinh-doanh-thuong-hieu-thoi-trang-sang-trong-va-hop-mot.jpg\" style=\"height:300px; width:200px\" /></h3>\r\n', 'N', '2016-04-28 06:34:01', '2016-04-28 10:29:36');
+INSERT INTO `templates` VALUES ('2', 'Mẫu khám lâm sàn', '<ol>\r\n  <li>\r\n  <p><span style=\"font-size:14px\"><strong>T&ecirc;n bệnh nh&acirc;n:</strong>&nbsp;</span></p>\r\n  </li>\r\n <li>\r\n  <p><span style=\"font-size:14px\"><strong>Giới T&iacute;nh:&nbsp;<select name=\" gender\"><option selected=\"selected\" value=\"made\">Nam<', 'N', '2016-04-28 10:05:15', '2016-04-28 10:09:10');
 
---
--- Table structure for table `users`
---
-
-CREATE TABLE IF NOT EXISTS `users` (
+-- ----------------------------
+-- Table structure for users
+-- ----------------------------
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE `users` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `username` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
   `password` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
@@ -121,17 +123,11 @@ CREATE TABLE IF NOT EXISTS `users` (
   `created` datetime DEFAULT NULL,
   `modified` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
---
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `username`, `password`, `role`, `del_flag`, `created`, `modified`) VALUES
-(1, 'admin', '$2a$10$e3bT9vgMN.eaf7x4xWFy7OJJFYlO8fGTR4TvdEI1dc/NbmpzdRf.K', 'admin', 'N', '2016-04-18 02:40:29', '2016-04-18 02:40:29'),
-(2, 'chinguyen', '$2a$10$dyL3WypCafCuS7Ny3wccquUBJZNXyqa5r9kTuMEMWW3zHvtvQyosW', 'admin', 'N', '2016-04-22 16:25:12', '2016-04-22 16:25:12'),
-(3, 'Channguyen', '$2a$10$gpt844cRfkgjbJAN7WYobOebY4Qxdpso5mh2MY0FfHk.rnICQR9Hq', 'author', 'N', '2016-04-22 16:28:23', '2016-04-22 16:28:23');
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+-- ----------------------------
+-- Records of users
+-- ----------------------------
+INSERT INTO `users` VALUES ('1', 'admin', '$2a$10$jH6UQzCjVJWybQ/JyIY14OdwHhs4U6.pQVydSIanq24M0ZikshuCC', 'admin', 'N', '2016-04-16 13:06:14', '2016-04-16 13:06:14');
+INSERT INTO `users` VALUES ('2', 'hungnup', '$2a$10$wheQ/xLTyonVn4wvcxc4ve8y1ki8.mCsQZMCVor5TRutwTMIelpG2', 'admin', 'N', '2016-04-16 17:12:48', '2016-04-16 17:12:48');
+INSERT INTO `users` VALUES ('3', 'hungb4by', '$2a$10$pytYirnukmk9zwEk.Zux4OpjA0/AhQqKllOfSH7EvVRhhiMvBFwh.', 'ky_thuat_vien', 'N', '2016-04-16 17:16:21', '2016-04-17 20:27:19');

@@ -1,3 +1,6 @@
+<div class="flash alignCenter pdbt20  " style="margin-top: -20px;">
+	<?php echo $this->Session->flash(); ?>
+</div>
 <!-- Page head -->
 <div class="page-head">
 	<h2>Danh sách người dùng</h2>

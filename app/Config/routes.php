@@ -27,7 +27,11 @@ Router::connect ( '/user/:action/*', array (
 		'controller' => 'users',
 ) );
 
-Router::connect ( '/hospital/:action/*', array (
+Router::connect ( '/template/:action/*', array (
+    'controller' => 'templates',
+) );
+
+Router::connect ( '/:action/*', array (
 		'controller' => 'hospital' 
 ) );
 

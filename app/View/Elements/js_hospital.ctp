@@ -3,7 +3,6 @@ echo $this->fetch ( 'script' ) . PHP_EOL;
 ?>
 <script async="" src="//www.google-analytics.com/analytics.js"></script>
 <?php
-echo $this->Html->script ( '/js/hospital/jquery/jquery.min.js' ) . PHP_EOL;
 echo $this->Html->script ( '/js/hospital/jquery.nanoscroller/jquery.nanoscroller.min.js' ) . PHP_EOL;
 echo $this->Html->script ( '/js/hospital/main.js' ) . PHP_EOL;
 echo $this->Html->script ( '/js/hospital/bootstrap/bootstrap.min.js' ) . PHP_EOL;

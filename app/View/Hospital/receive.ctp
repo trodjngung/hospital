@@ -1,3 +1,6 @@
+<div class="flash alignCenter pdbt20  " style="margin-top: -20px;">
+  <?php echo $this->Session->flash(); ?>
+</div>
 <!-- Page head -->
 <div class="page-head">
   <h2>Tiếp nhận bệnh nhân</h2>
@@ -233,6 +236,7 @@
                           $patient ['Patient'] ['id']
                         ),
                         array(
+                          'confirm' => 'Bạn có chắc chắn muốn xóa bệnh nhân ' . $patient ['Patient'] ['hoten'] . '?',
                           'class' => 'btn btn-info btn-sm',
                           'escape' => FALSE
                         )

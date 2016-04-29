@@ -1,0 +1,41 @@
+div#MultiFile1_wrap_list {
+    display: inline-block;
+    width: 100%;
+}
+
+span.MultiFile-label {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+a.MultiFile-remove {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+}
+
+div#MultiFile1_wrap_list {
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.MultiFile-label {
+    margin: 15px 0;
+}
+
+span.MultiFile-label > span.MultiFile-title {
+    margin-right: 10px;
+    float: left;
+    width: 35%;
+}
+
+img.MultiFile-preview {
+    float: left;
+    width: 65%;
+}

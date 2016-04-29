@@ -26,6 +26,7 @@ class SelectOption extends AppModel {
     function getOptionByColumnName($column_name = null) {
         $options['fields'] = array(
             'SelectOption.select_code',
+            'SelectOption.display_name',
         );
         $options['conditions']['SelectOption.column_name ='] = $column_name;
         $options['conditions']['SelectOption.del_flag ='] = 'N';

@@ -25,6 +25,10 @@ class Patient extends AppModel {
     public $validate = array(
     );
 
-    public function beforeSave($options = array()) {
+    function getListMax() {
+      $options['fields'] = array(
+          'max(cast(id as signed)) as id'
+      );
+      return $this->find('all', $options);
     }
 }

@@ -25,13 +25,13 @@ App::uses('AppController', 'Controller');
 
 class UsersController extends AppController {
 
-    public $uses = array('User');
+    public $uses = array('User', 'SelectOption');
 
     public function beforeFilter() {
         parent::beforeFilter();
         $this->layout = 'hospital';  
 
-        $this->Auth->allow('login', 'register', 'edit');
+        $this->Auth->allow('login', 'register');
     }
 
     public function login() {
@@ -44,7 +44,7 @@ class UsersController extends AppController {
                 return $this->redirect($this->Auth->redirectUrl());
             }
             $this->Session->setFlash(
-                'Invalid username or password, try again.',
+                'Tên đăng nhập hoặc password sai, vui lòng thử lại.',
                 'default',
                 array('class' => 'error')
             );
@@ -68,24 +68,26 @@ class UsersController extends AppController {
         if ($this->request->is('post')) {
             $this->User->create();
             if ($this->User->save($this->request->data)) {
-                $this->Session->setFlash(
-                    'The user has been saved.',
-                    'default',
-                    array('class' => 'succes')
-                );
                 return $this->redirect(array('action' =>'login'));
             }
             $this->Session->setFlash(
-                'The user could not be saved. Please, try again.',
+                'Không thể tạo tài khoản. Vui lòng thử lại sau.',
                 'default',
                 array('class' => 'error')
             );
         }
+        $userRole = $this->SelectOption->getOptionByColumnName('user_role');
+        $this->set('user_roles', $userRole);
     }
     public function view($id = null) {
     	$this->User->id = $id;
     	if (!$this->User->exists()) {
-    		throw new NotFoundException(__('Invalid user'));
+    		$this->Session->setFlash(
+                'Tài khoản không tồn tại.',
+                'default',
+                array('class' => 'error')
+            );
+            return $this->redirect(array('action' => 'index'));
     	}
     	$this->set('user', $this->User->read(null, $id));
     }
@@ -93,21 +95,26 @@ class UsersController extends AppController {
         // $this->isAdmin();    
         $this->User->id = $id;
         if (!$this->User->exists()) {
-            throw new NotFoundException(__('Invalid user'));
+            $this->Session->setFlash(
+                'Tài khoản không tồn tại.',
+                'default',
+                array('class' => 'error')
+            );
+            return $this->redirect(array('action' => 'index'));
         }
         $this->User->set($this->request->data);
         if ($this->User->validates()) {
             if ($this->request->is('staff') || $this->request->is('put')) {
                 if ($this->User->save($this->request->data)) {
                     $this->Session->setFlash(
-                        'The user has been saved.',
+                        'Cập nhật tài khoản thành công.',
                         'default',
                         array('class' => 'succes')
                     );
                     return $this->redirect(array('action' => 'index'));
                 }
                 $this->Session->setFlash(
-                    'The user could not be saved. Please, try again.',
+                    'Không thể cập nhật tài khoản. Vui lòng thử lại sau.',
                     'default',
                     array('class' => 'error')
                 );
@@ -119,6 +126,8 @@ class UsersController extends AppController {
             $errors = $this->User->validationErrors;
             $this->set('errors', $errors);
         }
+        $userRole = $this->SelectOption->getOptionByColumnName('user_role');
+        $this->set('user_roles', $userRole);
         $this->set('user', $this->User->read(null, $id));
     }
     public function delete($id = null) {
@@ -130,27 +139,35 @@ class UsersController extends AppController {
             $this->redirect(array('controller' => 'hospital', 'action' => 'index'));
         }
         
-        $this->request->allowMethod('post');
+        if (!$this->request->isGet()) {
+            throw new MethodNotAllowedException();
+        }
 
         $this->User->id = $id;
         if (!$this->User->exists()) {
-            throw new NotFoundException(__('Invalid user'));
+            $this->Session->setFlash(
+                'Tài khoản không tồn tại.',
+                'default',
+                array('class' => 'error')
+            );
+            return $this->redirect(array('action' => 'index'));
         }
         if ($this->User->delete()) {
             $this->Session->setFlash(
-                'User deleted.',
+                'Xóa tài khoản thành công.',
                 'default',
                 array('class' => 'succes')
             );
             return $this->redirect(array('action' => 'index'));
         }
         $this->Session->setFlash(
-                'User was not deleted.',
+                'Không thể xóa tài khoản. Vui lòng thử lại sau.',
                 'default',
                 array('class' => 'error')
             );
         return $this->redirect(array('action' => 'index'));
     }
+
     public function isAdmin()
     {
         $user_id = $this->Auth->user()['id'];

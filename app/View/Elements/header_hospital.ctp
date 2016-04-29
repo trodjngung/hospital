@@ -7,7 +7,12 @@
           </div><a href="#" class="am-toggle-right-sidebar"><span class="icon s7-menu2"></span></a><a href="#" data-toggle="collapse" data-target="#am-navbar-collapse" class="am-toggle-top-header-menu collapsed"><span class="icon s7-angle-down"></span></a>
           <div id="am-navbar-collapse" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right am-user-nav">
-              <li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"><img src="/img/hospital/bacsynam.png"><span class="user-name">Samantha Amaretti</span><span class="angle-down s7-angle-down"></span></a>
+              <li class="dropdown">
+                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle">
+                  <img src="<?php echo $base_url;?>/img/hospital/bacsynam.png">
+                    <span class="user-name">Samantha Amaretti</span>
+                    <span class="angle-down s7-angle-down"></span>
+                  </a>
                 <ul role="menu" class="dropdown-menu">
                   <li>
                     <?php
@@ -24,7 +29,7 @@
                   <li>
                     <?php
                     echo $this->Html->link(
-                      '<span class="icon s7-config"></span> Cài đặt ',
+                      '<span class="icon s7-config"></span> Thay đổi password ',
                       array (
                         'controller' => 'users',
                         'action' => 'edit',
@@ -39,6 +44,17 @@
             </ul>
             <ul class="nav navbar-nav am-nav-right">
               <li><a href="#">Trang chủ</a></li>
+              <li>
+              <?php
+                echo $this->Html->link(
+                  'Mẫu ban hành', 
+                  array (
+                    'controller' => 'templates', 
+                    'action' => 'index'
+                  ),
+                  array('escape' => FALSE));
+                ?>
+              </li>
               <li><a href="#">Thông tin </a></li>
               <li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle">Ngôn ngữ - Language <span class="angle-down s7-angle-down"></span></a>
                 <ul role="menu" class="dropdown-menu">
