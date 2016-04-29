@@ -50,30 +50,29 @@
 				</div>
 				<div class="col-sm-8 col-md-8">
 					<?php 
-						echo $this->Form->create('User');
+						echo $this->Form->create('User', array('type' => 'PUT', 'class' => 'form-horizontal'));
 						
 						echo $this->Form->input ( 'username', array('type'=>'text','label'=>false,'placeholder'=>'Username', 'class'=>'form-control required', 'readonly' => 'readonly') );
 
 						echo $this->Form->input ( 'password',array('label'=>false,'placeholder'=>'New Password','class'=>'form-control mgt20 required') );
 
 						echo $this->Form->input ( 'password_confirm',array('label'=>false,'placeholder'=>'Confirm New Password','class'=>'form-control mgt20 required', 'type' => 'password') );
-
-						echo $this->Form->input ( 'role', array (
-							'label' => false,
-							'options' => array (
-								'admin' => 'Admin',
-								'author' => 'Author'
-							),
-							'class' => 'mgt20',
-							'style' => "padding: 7px;"
-						));
-
-						echo $this->Form->input('id', array('type' => 'hidden'));
 					?>
-					<div class="alignCenter mgt20">
-						<button type="submit" class="btn btn-primary">
-							<?php echo __('Update')?>
-						</button>
+					<div class="alignCenter mgt20 pdt20">
+						<button type="submit" class="btn btn-primary mgr20">Cập nhật</button>
+						<?php
+							echo $this->Html->link (
+								'Cancel',
+								array (
+									'controller' => 'users',
+									'action' => 'view',
+									$user['User']['id']
+								),
+								array (
+									'class' => 'btn btn-default'
+								)
+							);
+						?>
 					</div>
 				</div>
 			</div>

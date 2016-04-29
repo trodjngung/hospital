@@ -1,6 +1,6 @@
  <nav class="am-right-sidebar">
         <div class="sb-content">
-          <div class="user-info"><img src="/img/hospital/bacsynam.png"><span class="name"> <?php echo $auth['username'];?><span class="status"></span></span><span class="position"><?php echo $auth['role'];?></span></div>
+          <div class="user-info"><img src="<?php echo $base_url; ?>/img/hospital/bacsynam.png"><span class="name"> <?php echo $auth['username'];?><span class="status"></span></span><span class="position"><?php echo $auth['role'];?></span></div>
           <!-- Thời tiết -->
           
           <div class="tab-navigation">

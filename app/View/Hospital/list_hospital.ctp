@@ -1,4 +1,18 @@
 <!-- Page head -->
+<div class="row alignCenter mgbt10">
+  <div class="">
+    <?php if(isset($errors)) {
+      echo '<ul>';
+      foreach ($errors as $error):
+          echo '<li class="error">'.$error[0].'</li>';
+      endforeach;
+      echo '</ul>';
+    }?>
+  </div>
+  <div class="flash">
+    <?php echo $this->Session->flash(); ?>
+  </div>
+</div>
 <div class="page-head">
           <h2>Danh sách bệnh nhân</h2>
           <ol class="breadcrumb">

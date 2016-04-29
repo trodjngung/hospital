@@ -1,3 +1,6 @@
+<div class="flash alignCenter pdbt20  " style="margin-top: -20px;">
+	<?php echo $this->Session->flash(); ?>
+</div>
 <div class="container content mgbt20">
 	<div class="tab-v1">
 		<ul class="nav nav-tabs">
@@ -27,16 +30,12 @@
 
 			echo $this->Form->input ( 'password_confirm',array('label'=>false,'placeholder'=>'Confirm New Password','class'=>'form-control mgt20 required', 'type' => 'password') );
 
-			echo $this->Form->input ( 'role', array (
-				'label' => false,
-				'options' => array (
-					'admin' => 'Admin',
-					'author' => 'Author',
-                                        
-				),
-				'class' => 'mgt20',
-				'style' => "padding: 7px;"
-			));
+			echo '<select name="data[User][role]" class="mgt20" style="padding: 7px;" id="UserRole" required="required">';
+			echo '<option value=""> --- </option>';
+			foreach($user_roles as $user_role):
+				echo '<option value="' . $user_role["SelectOption"]["select_code"] . '">' . $user_role["SelectOption"]["display_name"] . '</option>';
+			endforeach;
+			echo '</select>';
 		?>
 		<div class="alignCenter mgt20">
 			<button type="submit" class="btn-u"><?php echo __('Create')?></button>
