@@ -66,8 +66,8 @@ class TemplatesController extends AppController {
     	$this->set('template', $template);
     }
     public function edit($id = null) {
-        $template = $this->Template->getTemplateById($id);
-        if (count($template) == 0) {
+        $this->Template->id = $id;
+        if (!$this->Template->exists()) {
             $this->Session->setFlash(
                 'Bản mẫu này không tồn tại.',
                 'default',
@@ -97,6 +97,7 @@ class TemplatesController extends AppController {
             $this->set('errors', $errors);
         }
 
+        $template = $this->Template->getTemplateById($id);
         $this->set('template', $template);
     }
     public function delete($id = null) {
