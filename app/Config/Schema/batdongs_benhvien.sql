@@ -97,7 +97,7 @@ DROP TABLE IF EXISTS `templates`;
 CREATE TABLE `templates` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `template_name` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
-  `template_body` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `template_body` text COLLATE utf8_unicode_ci DEFAULT NULL,
   `del_flag` set('N','Y') COLLATE utf8_unicode_ci DEFAULT 'N' COMMENT 'Delete flag',
   `created` datetime DEFAULT NULL,
   `modified` datetime DEFAULT NULL,
