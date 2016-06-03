@@ -19,7 +19,6 @@
   * Cám ơn quý đối tác !
   **/
 ?>
-<!DOCTYPE html>
 <html>
 <head>
 <title><?php echo 'VOTC | '.$title_for_layout;?></title>

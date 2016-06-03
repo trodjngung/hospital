@@ -135,7 +135,7 @@ class UsersController extends AppController {
         // $this->request->onlyAllow('post');
 
         $this->isAdmin();
-        if ($this->Auth->user()['id'] == $id) {
+        if ($this->Auth->user('id') == $id) {
             $this->redirect(array('controller' => 'hospital', 'action' => 'index'));
         }
         
@@ -170,8 +170,8 @@ class UsersController extends AppController {
 
     public function isAdmin()
     {
-        $user_id = $this->Auth->user()['id'];
-        $user_data =$this->User->read(null, $user_id)['User'];
+        $user_id = $this->Auth->user('id');
+        $user_data =$this->User->read(null, $user_id,'User');
 
         if ($user_data["role"] != 'admin') {
             $this->redirect(array('controller' => 'hospital', 'action' => 'index'));

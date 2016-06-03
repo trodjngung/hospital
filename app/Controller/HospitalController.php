@@ -171,6 +171,10 @@ class HospitalController extends AppController{
 		$this->set ( 'title_for_layout', __ ( 'Tổng quan' ) );
 	}
 
+public function info(){
+		$this->set ( 'title_for_layout', __ ( 'Thông tin' ) );
+	}
+
 	public function receive(){
 		$this->set ( 'title_for_layout', __ ( 'Tiếp nhận bệnh nhân' ) );
 		$this->Patient->recursive = 0;
@@ -179,6 +183,8 @@ class HospitalController extends AppController{
 
 	public function conclusion(){
 		$this->set ( 'title_for_layout', __ ( 'Kết quả' ) );
+$this->Patient->recursive = 0;
+        $this->set('patients', $this->paginate());
 	}
 
 	public function list_hospital(){

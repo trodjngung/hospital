@@ -1,8 +1,17 @@
+<style>
+.main-content {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="/css/photobooth/src/styles.css" />
+<link rel="stylesheet" type="text/css" href="/css/photobooth/fancybox/jquery.fancybox-1.3.4.css" />
 <?php echo $this->Html->script('hospital/hospital');?>
 <?php echo $this->Html->script('hospital/jquery.multifile');?>
 <?php echo $this->Html->css('hospital/hospital');?>
 <div class="page-head">
-  <h2>Thêm bệnh nhân</h2>
+  
   <ol class="breadcrumb">
     <li>
       <?php 
@@ -136,6 +145,38 @@
         </div>
         <div class="row">
           <div class="col-sm-12 mgl10">
+          <!-- Camera -->
+          <div id="camera">
+	<span class="tooltip"></span>
+	<span class="camTop"></span>
+    
+    <div id="screen"></div>
+    <div id="buttons">
+    	<div class="buttonPane">
+        	<a id="shootButton" href="" class="blueButton">Shoot!</a>
+        </div>
+        <div class="buttonPane">
+        	<a id="cancelButton" href="" class="blueButton">Cancel</a> <a id="uploadButton" href="" class="greenButton">Upload!</a>
+        </div>
+    </div>
+    
+    <span class="settings"></span>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
+    <script src="assets/fancybox/jquery.easing-1.3.pack.js"></script>
+<script src="assets/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script src="assets/webcam/webcam.js"></script>
+<script src="assets/js/script.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+ <div id="fancybox-tmp"></div>
+ <div id="fancybox-loading"><div></div></div>
+ <div id="fancybox-overlay"></div>
+ <div id="fancybox-wrap"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div>
+    <!-- End Camera -->
+    
+    
+    
+</div>
             <label for="inputImg"  class="control-label">Ảnh liên quan <span class="text-danger">(* Chỉ nên chọn tối đa 5 ảnh)</span>: </label>
           </div>
           <div class="col-sm-12 mgl10">
@@ -145,7 +186,7 @@
         </div>
         <div class="row">
           <div class="col-sm-12">
-            <div class="row alignCenter mgt20 pdt20 pdbt20">
+            <div class="row alignLeft mgt20 pdt20 pdbt20">
                 <button type="submit" class="btn btn-primary mgr20">Thêm mới</button>
                 <a href="/hospital/receive" class="btn btn-primary" role="button">Huỷ Bỏ</a>
             </div>

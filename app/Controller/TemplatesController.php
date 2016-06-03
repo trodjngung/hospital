@@ -1,6 +1,6 @@
 <?php
 /**
-  * This file is …….
+  * This file is managed Templates.
   * Developed by PHP language program, use Framework Cakephp.
   * Copyright (c) 2016 by  OREGON - VIET INVESTMENT DEVELOPMENT MEDIA TECHNOLOGY COMPANY LIMITED
   * Short name: OREGON CO.,LTD
@@ -8,7 +8,7 @@
   * Email: vietoregon.tech.com@gmail.com
   * Thanks and best regard !
   * —————————————————————————————————————
-  * Đây là file dùng để ……. 
+  * Đây là file dùng để quản lý mẫu giao diện
   * Phát triển bởi ngôn ngữ lập trình PHP, sử dụng Framework CakePHP
   * Quyền tác giả (c) 2016 CÔNG TY TNHH ĐẦU TƯ PHÁT TRIỂN CÔNG NGHỆ TRUYỀN THÔNG VIỆT-OREGON
   * Tên ngắn giao dịch: OREGON CO.,LTD

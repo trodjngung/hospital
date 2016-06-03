@@ -43,11 +43,11 @@
               </li>
             </ul>
             <ul class="nav navbar-nav am-nav-right">
-              <li><a href="#">Trang chủ</a></li>
+              <li><a href="/">Trang chủ</a></li>
               <li>
               <?php
                 echo $this->Html->link(
-                  'Mẫu ban hành', 
+                  'Mẫu Khám', 
                   array (
                     'controller' => 'templates', 
                     'action' => 'index'
@@ -55,7 +55,15 @@
                   array('escape' => FALSE));
                 ?>
               </li>
-              <li><a href="#">Thông tin </a></li>
+              <li><?php
+                echo $this->Html->link(
+                  'Thông Tin', 
+                  array (
+                    'controller' => 'hospital', 
+                    'action' => 'info'
+                  ),
+                  array('escape' => FALSE));
+                ?></li>
               <li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle">Ngôn ngữ - Language <span class="angle-down s7-angle-down"></span></a>
                 <ul role="menu" class="dropdown-menu">
                   <li><a href="#">Tiếng Việt</a></li>
@@ -193,56 +201,29 @@
         <div class="content">
           <div class="am-logo"></div>
           <ul class="sidebar-elements">
-            <li class="parent"><a href="#"><i class="icon s7-home"></i><span>Tổng Quan</span></a>
-              <ul class="sub-menu">
-              <li><a href="/hospital/overview"><span class="label label-primary pull-right">New</span>Hôm nay</a>
-                </li>
-                <li><a href="/hospital/overview"><span class="label label-primary pull-right">New</span>Hôm qua</a>
-                <li class="active"><a href="/hospital/overview">Ngày 12/2/2016 </a>
-                </li>
-                <li><a href="/hospital/overview">Ngày 11/2/2016 </a>
-                </li>
-                
-                </li>
-              </ul>
+            <li class="parent"><a href="/hospital/overview"><i class="icon s7-home"></i><span>Tổng Quan</span></a>
+              
             </li>
-            <li class="parent"><a href="#"><i class="icon s7-note"></i><span>Tiếp Nhận Bệnh Nhân </span></a>
-              <ul class="sub-menu">
-                <li><a href="/hospital/receive">Tiếp Nhận Bệnh Nhân</a>
-                </li>
-               
-              </ul>
+            <li class="parent"><a href="/hospital/receive"><i class="icon s7-note"></i><span>Tiếp Nhận Bệnh Nhân </span></a>
+              
             </li>
-            <li class="parent"><a href="#"><i class="icon s7-monitor"></i><span>Kết Luận </span></a>
-              <ul class="sub-menu">
-              <li><a href="/hospital/conclusion"><span class="label label-primary pull-right">New</span>Hôm nay</a>
-                <li><a href="/hospital/conclusion">Hôm qua</a>
-                </li>
-                
-                </li>
-              </ul>
+            <li class="parent"><a href="/hospital/list_hospital"><i class="icon s7-ribbon"></i><span>Danh sách bệnh nhân </span></a>
+              
             </li>
-            <li class="parent"><a href="#"><i class="icon s7-ribbon"></i><span>Danh sách bệnh nhân </span></a>
-              <ul class="sub-menu">
-                <li><a href="/hospital/list_hospital">Danh Sách Bệnh Nhân</a>
-                </li>
-              </ul>
+            <li class="parent"><a href="/hospital/conclusion"><i class="icon s7-monitor"></i><span>Kết Luận </span></a>
+             
             </li>
-            <li class="parent"><a href="#"><i class="icon s7-search"></i><span>Tìm kiếm bệnh nhân </span></a>
-              <ul class="sub-menu">
-                <li><a href="/hospital/search_hospital">Tìm kiếm bệnh nhân</a>
-                </li>
-                
-              </ul>
-            </li>
+            
+            <li class="parent"><a href="/hospital/search_hospital"><i class="icon s7-search"></i><span>Tìm kiếm bệnh nhân </span></a>
+                         </li>
            
             <li class="parent"><a href="#"><i class="icon s7-settings"></i><span>Quản lý</span></a>
               <ul class="sub-menu">
-                <li><a href="/hospital/form_hospital"><span class="label label-primary pull-right">New</span>Mẫu</a>
+                <li><a href="/hospital/form_hospital">Mẫu Khám</a>
                 </li>
-                <li><a href="/hospital/makham"><span class="label label-primary pull-right">New</span>Mã khám</a>
+                <li><a href="/hospital/makham">Mã khám</a>
                 </li>
-                <li><a href="/hospital/hethong"><span class="label label-primary pull-right">New</span>Thiết lập hệ thống</a>
+                <li><a href="/hospital/hethong">Thiết lập hệ thống</a>
                 </li>
               </ul>
             </li>
@@ -258,6 +239,7 @@
                 );
               ?>
             </li>
+            <!--
             <li class="parent"><a href="#"><i class="icon s7-browser"></i><span>Giao diện</span></a>
               <ul class="sub-menu">
                 <li><a href="/hospital/giaodienquantri">Giao diện Quản trị</a>
@@ -266,7 +248,9 @@
                
               </ul>
             </li>
+            -->
             <li class="parent"><a href="#"><i class="icon s7-map-marker"></i><span>Địa chỉ</span></a>
+            <!--
               <ul class="sub-menu">
                 <li><a href="#">Google Maps</a>
                 </li>
@@ -275,6 +259,8 @@
               </ul>
             </li>
           </ul>
+          -->
+          
           <!--Sidebar bottom content-->
         </div>
       </div>

@@ -26,6 +26,9 @@ Router::connect ( '/user', array (
 Router::connect ( '/user/:action/*', array (
 		'controller' => 'users',
 ) );
+Router::connect ( '/hospital/:action/*', array (
+    'controller' => 'hospital',
+) );
 
 Router::connect ( '/template/:action/*', array (
     'controller' => 'templates',

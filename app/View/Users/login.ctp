@@ -2,7 +2,7 @@
 	<div class="apollo-container clearfix">
 		<div class="apollo-facebook">
 			<div class="apollo-image">
-				<img src="https://lh5.googleusercontent.com/-ZKTAOOi0jjk/Vp9erM_nU3I/AAAAAAAAABI/iXhcVa5K6WQtTJAnl_gDXcvYGgLNIpr8ACL0B/w95-h96-no/logovc.jpg" width="100%">
+				<img src="https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/12348116_783924005070645_4446486889320328393_n.jpg?oh=5510ab5356d0a428daef00bd024dc614&oe=579A235D" width="100%">
 			</div>
 		</div>
 
@@ -11,7 +11,7 @@
 		</div>
 
 		<div class="apollo-login">
-			<a href="http://vietoregon-tech.com/?lang=vn" class="btn btn-block btn-facebook btn-lg" target="_blank">Thiết kế bởi <strong>VOT&C</strong></a>
+			<a href="http://vietoregon-tech.com/?lang=vn" class="btn btn-block btn-facebook btn-lg" target="_blank"> <strong>VOTC Company</strong></a>
 			<p class="apollo-seperator mgbt20">&nbsp</p>
 			<form action="login" id="UserLoginForm" method="post" accept-charset="utf-8" class="form-signin">
 				<div class="form-group">

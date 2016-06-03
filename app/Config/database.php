@@ -5,9 +5,9 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'batdongs_chiadt',
+		'login' => 'jquanly3_g7',
 		'password' => 'Chi9nguyen',
-		'database' => 'batdongs_benhvien',
+		'database' => 'jquanly3_g7',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);

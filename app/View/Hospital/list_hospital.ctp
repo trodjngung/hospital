@@ -153,6 +153,7 @@
 );
 ?></td>
                     <td >
+            
                                         
 <?php echo $this->Html->link( $patient['Patient']['trangthai'],
     array(
@@ -162,11 +163,10 @@
     )
 );
 ?>
-                                      
-                    
+      
                     
         </td>
-        <td><?php echo $this->Html->link( $patient['Patient']['created'],
+        <td><?php echo $this->Html->link( date( "H:i:s d-m-Y", strtotime($patient['Patient']['created'])),
     array(
         'controller' => 'hospital',
         'action' => 'view_patient',
