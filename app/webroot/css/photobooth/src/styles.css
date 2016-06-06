@@ -1,87 +1,19 @@
-*{
-	margin:0;
-	padding:0;
-}
-
-html{
-	background:url('../img/bg.jpg') center top repeat-y #202020;
-	
-}
-
-body{
-	font:14px/1.3 'Segoe UI',Arial, sans-serif;
-	color:#888;
-}
-
-
-/*--------------------------
-	Top Bar with Headings
----------------------------*/
-
-
-h1,h2{
-	color: #fff;
-	line-height: 1;
-	background-color: #222222;
-	font-family: 'Segoe UI Light','Segoe UI',Arial,sans-serif;
-	font-weight: normal;
-	margin: 0 auto;
-	position: absolute;
-	left: 50%;
-	margin-left: -446px;
-}
-
-h1{
-	font-size: 33px;
-	padding: 5px 15px 10px;
-	top: 34px;
-}
-
-h2{
-	font-size: 14px;
-	padding: 4px 13px 9px 11px;
-	top: 82px;
-}
-
-#topBar{
-	background:url('../img/top_bar_bg.jpg') repeat-x;
-	height:163px;
-}
-
-
 /*-------------------
 	Photo area
 --------------------*/
 
 
-#photos{
-	margin: 60px auto 100px;
+.photos{
+	margin: 6px auto 100px;
 	overflow: hidden;
-	width: 880px;
+	width: 480px;
 }
-
-#photos:hover a{
-	opacity:0.5;
-}
-
-#photos a,
-#loadMore{
-	background-position: center center;
-	background-color: rgba(14, 14, 14, 0.3);
+.photos img {
 	float: left;
 	height: 110px;
 	margin: 1px 1px 0 0;
 	overflow: hidden;
 	width: 145px;
-	
-	-moz-transition:0.25s;
-	-webkit-transition:0.25s;
-	-o-transition:0.25s;
-	transition:0.25s;
-}
-
-#photos a:hover{
-	opacity:1;
 }
 
 #loadMore{
@@ -209,20 +141,4 @@ h2{
 
 .hidden{
 	display:none;
-}
-
-
-/*-------------------------
-	Generic styles
---------------------------*/
-
-
-a, a:visited {
-	text-decoration:none;
-	outline:none;
-	color:#54a6de;
-}
-
-a:hover{
-	text-decoration:underline;
 }

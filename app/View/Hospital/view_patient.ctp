@@ -1,6 +1,6 @@
 <?php echo $this->Html->script('ckeditor/ckeditor');?>
-<link rel="stylesheet" type="text/css" href="/css/photobooth/src/styles.css" />
-<link rel="stylesheet" type="text/css" href="/css/photobooth/fancybox/jquery.fancybox-1.3.4.css" />
+<?php echo $this->Html->css('photobooth/src/styles.css'); ?>
+<?php echo $this->Html->css('photobooth/fancybox/jquery.fancybox-1.3.4.css'); ?>
 <?php echo $this->Html->script('hospital/hospital');?>
 <?php echo $this->Html->script('hospital/jquery.multifile');?>
 <?php echo $this->Html->css('hospital/hospital');?>
@@ -86,6 +86,18 @@
 						<div class="col-sm-3 col-md-3">
 						</div>
 					</div>
+					<div class="row">
+						<!-- show images camera -->
+						<div class="photos">
+							<?php
+								if (isset($patientImages) && !empty($patientImages)) {
+									foreach ($patientImages as $key => $value) {
+										echo $this->Html->image($value['PatientImage']['image_url']);
+									}
+								}
+							?>
+						</div>
+					</div>
 				</div>
 				<div class="col-sm-6 col-md-6">
 					<table class="table table-striped table-fw-widget table-hover">
@@ -156,50 +168,28 @@
 			
 		<div class="col-sm-6 alignCenter">
 	          <!-- Camera -->
-		          <div id="camera">
+	        <div id="camera">
 				<span class="tooltip"></span>
-					<span class="camTop"></span>
-		    
-		   			 <div id="screen"></div>
-		  			  <div id="buttons">
-		    				<div class="buttonPane">
-		        				<a id="shootButton" href="" class="blueButton">Shoot!</a>
-		       				 </div>
-		       			       <div class="buttonPane">
-		        				<a id="cancelButton" href="" class="blueButton">Cancel</a> <a id="uploadButton" href="" class="greenButton">Upload!</a>
-		       			      </div>
-		  		  	</div>
-		    
-		    		<span class="settings"></span>
-		 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-				<script src="assets/fancybox/jquery.easing-1.3.pack.js"></script>
-				<script src="assets/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-				<script src="assets/webcam/webcam.js"></script>
-				<script src="assets/js/script.js"></script>
-		 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-		 		<div id="fancybox-tmp"></div>
-		 	<div id="fancybox-loading"><div></div></div>
-		 	<div id="fancybox-overlay"></div>
-		 	<div id="fancybox-wrap">
-		 		<div id="fancybox-outer">
-		 			<div class="fancybox-bg" id="fancybox-bg-n"></div>
-		 			<div class="fancybox-bg" id="fancybox-bg-ne"></div>
-		 			<div class="fancybox-bg" id="fancybox-bg-e">
-		 			</div><div class="fancybox-bg" id="fancybox-bg-se"></div>
-		 			<div class="fancybox-bg" id="fancybox-bg-s"></div>
-		 			<div class="fancybox-bg" id="fancybox-bg-sw"></div>
-		 			<div class="fancybox-bg" id="fancybox-bg-w"></div>
-		 			<div class="fancybox-bg" id="fancybox-bg-nw"></div>
-		 			<div id="fancybox-content"></div><a id="fancybox-close"></a>
-		 			<div id="fancybox-title"></div>
-		 			<a href="javascript:;" id="fancybox-left">
-		 				<span class="fancy-ico" id="fancybox-left-ico"></span>
-		 			</a>
-		 			<a href="javascript:;" id="fancybox-right">
-		 				<span class="fancy-ico" id="fancybox-right-ico"></span>
-		 			</a>
-		 		</div>
-		 	</div>
+				<span class="camTop"></span>
+			    
+			    <div id="screen"></div>
+			    <div id="buttons">
+			    	<div class="buttonPane">
+			        	<a id="shootButton" href="" class="blueButton">Shoot!</a>
+			        </div>
+			        <div class="buttonPane" style="display: none">
+			        	<a id="cancelButton" href="" class="blueButton">Cancel</a> <a id="uploadButton" href="" class="greenButton">Upload!</a>
+			        </div>
+			    </div>
+			    
+			    <span class="settings"></span>
+			</div>
+			
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+			<?php echo $this->Html->script('hospital/camera/fancybox/jquery.easing-1.3.pack.js');?>
+			<?php echo $this->Html->script('hospital/camera/fancybox/jquery.fancybox-1.3.4.pack.js');?>
+			<?php echo $this->Html->script('hospital/camera/webcam/webcam.js');?>
+			<?php echo $this->Html->script('hospital/camera/js/script.js');?>
     <!-- End Camera -->
    		</div>
 		
@@ -247,7 +237,8 @@
 											<div class="alignCenter">
 												<span>Bệnh nhân :<b> <?php echo $patient['Patient']['hoten']; ?> </b></span>
 											</div>
-										</div> <!-- End Image -->
+										</div>
+										<!-- End Image -->
 									</div>
 								</div>
 								<div class="row">
