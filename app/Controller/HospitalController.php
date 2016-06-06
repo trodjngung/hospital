@@ -100,6 +100,7 @@ class HospitalController extends AppController{
     }
 
     public function view_patient($id = null) {
+        $this->Session->write('patientId',$id);
         $this->set ( 'title_for_layout', __ ( 'Xem bệnh nhân' ) );
         $this->Patient->id = $id;
         if (!$this->Patient->exists()) {
@@ -114,6 +115,8 @@ class HospitalController extends AppController{
         $this->set('patient', $patient);
         $template = $this->Template->getAllTemplates();
         $this->set('templates', $template);
+        $patientImages = $this->PatientImage->find('all', array('conditions'=>array('patient_id'=>$id)));
+        $this->set('patientImages', $patientImages);
     }
 
 	public function edit($id = null) {
@@ -325,5 +328,62 @@ $this->Patient->recursive = 0;
     function removeImg($file_path = null) {
         unlink($file_path);
     }
+    //function upload images camera
+    function uploadCamera()
+    {
+        if(strtolower($_SERVER['REQUEST_METHOD']) != 'post'){
+            exit;
+        }
+
+        $folder = WWW_ROOT.'img\uploads\\';
+        // $folder = 'C:\xampp\htdocs\hospital\app\webroot\img\uploads\\';
+        $filename = md5($_SERVER['REMOTE_ADDR'].rand()).'.jpg';
+
+        $original = $folder.$filename;
+
+        // The JPEG snapshot is sent as raw input:
+        $input = file_get_contents('php://input');
+
+        if(md5($input) == '7d4df9cc423720b7f1f3d672b89362be'){
+            // Blank image. We don't need this one.
+            exit;
+        }
+
+        $result = file_put_contents($original, $input);
+        if (!$result) {
+            echo '{
+                "error"     : 1,
+                "message"   : "Failed save the image. Make sure you chmod the uploads folder and its subfolders to 777."
+            }';
+            exit;
+        }
+
+        $info = getimagesize($original);
+        if($info['mime'] != 'image/jpeg'){
+            unlink($original);
+            exit;
+        }
+
+        // Moving the temporary file to the originals folder:
+        rename($original,$folder.$filename);
+        $original = $folder.$filename;
+        //Save data in patient_images
+        $requestData['PatientImage']['patient_id'] = $this->Session->read('patientId');
+        $requestData['PatientImage']['image_url'] = '/img/uploads/'.$filename;
+        $this->PatientImage->create();
+        $this->PatientImage->save($requestData);
+
+        // Using the GD library to resize 
+        // the image into a thumbnail:
+
+        $origImage  = imagecreatefromjpeg($original);
+        //$newImage = imagecreatetruecolor(154,110);
+        //imagecopyresampled($newImage,$origImage,0,0,0,0,154,110,520,370); 
+
+        //imagejpeg($newImage,'uploads/thumbs/'.$filename);
+
+        echo '{"status":1,"message":"Success!","filename":"'.$filename.'"}';
+    }
+   
 }
 ?>
