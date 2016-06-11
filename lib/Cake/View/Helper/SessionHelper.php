@@ -158,5 +158,17 @@ class SessionHelper extends AppHelper {
 	public function valid() {
 		return CakeSession::valid();
 	}
+/**
+ * Used to delete is a session key has been set
+ *
+ * In your view: `$this->Session->delete('Controller.sessKey');`
+ *
+ * @param string $name Session key to delete.
+ * @return bool
+ * @link http://book.cakephp.org/2.0/en/core-libraries/helpers/session.html#SessionHelper::delete
+ */
+	public function delete($name = null) {
+		return CakeSession::delete($name);
+	}
 
 }

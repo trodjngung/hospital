@@ -219,11 +219,15 @@
 										<div class="col-sm-8 col-md-8 ">
 											<div class="form-group">
 												<label>Chọn mấu</label>
-												<select class="form-control template" data-target="editor1000" id="select_template" onchange="selectTemplate();">
-													<option value="">Hãy chọn mẫu</option>
+												<select name="data[templateId]" class="form-control template" data-target="editor1000" id="select_template" onchange="selectTemplate();">
+													<option value="" <?php if ($patient['Patient']['template_id'] == NULL) {echo 'selected';} ?>>Hãy chọn mẫu</option>
 													<?php
 														foreach($templates as $template):
-															echo "<option value='" . $template['Template']['id'] . "'>" . $template['Template']['template_name'] . "</option>";
+															if ($patient['Patient']['template_id'] == $template['Template']['id'] ) {
+																echo "<option selected value='" . $template['Template']['id'] . "'>" . $template['Template']['template_name'] . "</option>";
+															} else {
+																echo "<option value='" . $template['Template']['id'] . "'>" . $template['Template']['template_name'] . "</option>";
+															}	
 														endforeach;
 													?>
 												</select>
@@ -261,7 +265,8 @@
 								        
 									<div class="col-sm-12 col-md-12 alignCenter">
 										<div class="modal-footer alignCenter">
-											<button type="submit" class="btn btn-primary">Lưu</button>
+											<input type="submit" name="save" value="Lưu" class="btn btn-primary"></input>
+											<input type="submit" name="save_print" value="Lưu và In" class="btn btn-primary"></input>
 											<button type="button" class="btn btn-default"
 												data-dismiss="modal">Close</button>
 										</div>
@@ -278,4 +283,11 @@
 	<!-- End Modal  -->
 	<!-- Input hidden -->
 	<input type="hidden" value="<?php echo $appRoot; ?>" id="appRoot"></input>
+	<input type="hidden" value="<?php echo $patient['Patient']['id']; ?>" id="patientId"></input>
+	<?php
+		if ($this->Session->check('checkPrint') && $this->Session->read('checkPrint') == 1) {
+			$this->Session->delete('checkPrint');
+			echo '<input type="hidden" value="1" id="checkPrint"></input>';
+		}
+	?>
 </div>
