@@ -131,3 +131,7 @@ CREATE TABLE `users` (
 INSERT INTO `users` VALUES ('1', 'admin', '$2a$10$jH6UQzCjVJWybQ/JyIY14OdwHhs4U6.pQVydSIanq24M0ZikshuCC', 'admin', 'N', '2016-04-16 13:06:14', '2016-04-16 13:06:14');
 INSERT INTO `users` VALUES ('2', 'hungnup', '$2a$10$wheQ/xLTyonVn4wvcxc4ve8y1ki8.mCsQZMCVor5TRutwTMIelpG2', 'admin', 'N', '2016-04-16 17:12:48', '2016-04-16 17:12:48');
 INSERT INTO `users` VALUES ('3', 'hungb4by', '$2a$10$pytYirnukmk9zwEk.Zux4OpjA0/AhQqKllOfSH7EvVRhhiMvBFwh.', 'ky_thuat_vien', 'N', '2016-04-16 17:16:21', '2016-04-17 20:27:19');
+-- -------------
+-- Add colum template_id in table patients
+-- --------------
+ALTER TABLE patients ADD template_id INT(10);

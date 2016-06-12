@@ -25,6 +25,7 @@ App::uses('Folder', 'Utility');
 
 class HospitalController extends AppController{
     public $uses = array('Patient', 'Template','PatientImage');
+    public $components = array('Mpdf');
 
 	public function beforeFilter() {
 		parent::beforeFilter();
@@ -241,12 +242,16 @@ $this->Patient->recursive = 0;
         if ($this->request->is('staff') || $this->request->is('put')) {
             $requestData['Patient']['id'] = $id;
             $requestData['Patient']['ketluan'] = $this->request->data['ketluan'];
+            $requestData['Patient']['template_id'] = $this->request->data['templateId'];
             if ($this->Patient->save($requestData['Patient'])) {
                 $this->Session->setFlash(
                     'Hồ sơ bệnh nhân đã được lưu.',
                     'default',
                     array('class' => 'succes')
                 );
+                if (isset($_POST['save_print'])) {
+                    $this->Session->write('checkPrint',1);
+                }
             }
         } else {
             $this->Session->setFlash(
@@ -255,6 +260,7 @@ $this->Patient->recursive = 0;
                 array('class' => 'error')
             );
         }
+
         return $this->redirect(array('action' =>'view_patient', $id));
     }
 
@@ -383,6 +389,34 @@ $this->Patient->recursive = 0;
         //imagejpeg($newImage,'uploads/thumbs/'.$filename);
 
         echo '{"status":1,"message":"Success!","filename":"'.$filename.'"}';
+    }
+
+    // print file Pdf
+    public function printToPdf($id)
+    {
+        
+        $this->layout = '';
+        //Khởi tạo pdf
+        $this->Mpdf->init(array('margin_left' => 20,
+        'margin_right' => 20,
+        'margin_top' => 25,
+        'margin_bottom' => 25,
+        'margin_header' => 15,
+        'margin_footer' => 15,
+        'format' => 'A4',
+        'font' => 'utf8')
+        );
+        
+        $this->Mpdf->setFilename('test.pdf');
+        $this->Mpdf->setOutput('I');
+        $patient = $this->Patient->findById($id);
+        $temp = explode('-', $patient['Patient']['ngaysinh']);
+        $patient['Patient']['age'] = date('Y') - $temp[0];
+        $this->set('patient', $patient);
+        $template = $this->Template->findById($patient['Patient']['template_id']);
+        $this->set('template', $template);
+        $patientImages = $this->PatientImage->find('all', array('conditions'=>array('patient_id'=>$id), 'limit' => '4'));
+        $this->set('patientImages', $patientImages);
     }
    
 }

@@ -1,4 +1,8 @@
 $( document ).ready(function() {
+    if ($('#checkPrint').length > 0) {
+        var appRoot = $('#appRoot').val();
+        window.open(appRoot+"/printToPdf/"+$('#patientId').val(), '_blank');
+    };
    
 });
 
@@ -30,17 +34,21 @@ function removeImg(input) {
 function selectTemplate() {
     var appRoot = $('#appRoot').val();
     var template_id = $('#select_template').val();
-
-    $.ajax({
-        type: "POST",
-        url: appRoot+"/getTemplateById/" + template_id,
-        success: function(data){
-            if (data != null && data != "") {
-                var myjson='';
-                eval("myjson=" + data + ";");
-                var str = myjson['Template']['template_body'];              
-                CKEDITOR.instances.ketluan.setData(str);
+    if (template_id == '') {
+        CKEDITOR.instances.ketluan.setData('');
+    } else {
+        $.ajax({
+            type: "POST",
+            url: appRoot+"/getTemplateById/" + template_id,
+            success: function(data){
+                if (data != null && data != "") {
+                    var myjson='';
+                    eval("myjson=" + data + ";");
+                    var str = myjson['Template']['template_body'];              
+                    CKEDITOR.instances.ketluan.setData(str);
+                }
             }
-        }
-    });
+        });
+    };
+    
 }
