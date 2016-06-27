@@ -88,7 +88,7 @@
 					</div>
 					<div class="row">
 						<!-- show images camera -->
-						<div class="photos">
+						<div class="photos" id="photos">
 							<?php
 								if (isset($patientImages) && !empty($patientImages)) {
 									foreach ($patientImages as $key => $value) {

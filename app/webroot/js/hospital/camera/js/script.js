@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	
 	var camera = $('#camera'),
-		//photos = $('#photos'),
+		photos = $('#photos'),
 		screen =  $('#screen');
 
 	var template = '<a href="uploads/original/{src}" rel="cam" '
@@ -12,7 +12,7 @@ $(document).ready(function(){
 	----------------------------------*/
 
 	webcam.set_swf_url('/hospital/js/hospital/camera/webcam/webcam.swf');
-	webcam.set_api_url('/hospital/hospital/uploadCamera');	// The upload script
+	webcam.set_api_url('/hospital/uploadCamera');	// The upload script
 	webcam.set_quality(80);				// JPEG Photo Quality
 	webcam.set_shutter_sound(true, '/hospital/js/hospital/camera/webcam/shutter.mp3');
 
@@ -49,6 +49,7 @@ $(document).ready(function(){
 		webcam.upload();
 		webcam.reset();
 		togglePane();
+		updateShow();
 		return false;
 	});
 
@@ -104,7 +105,6 @@ $(document).ready(function(){
 		// JSON object format:
 		
 		msg = $.parseJSON(msg);
-		
 		if(msg.error){
 			alert(msg.message);
 		}
@@ -222,5 +222,21 @@ $(document).ready(function(){
 		return template.replace(/{([^}]+)}/g,function(match,group){
 			return data[group.toLowerCase()];
 		});
+	}
+
+	function updateShow () {
+		var appRoot = $('#appRoot').val();
+		var patientId = $('#patientId').val();
+		$.ajax({
+            type: "POST",
+            url: appRoot+"/getPatientImages/" + patientId,
+            success: function(data){
+                if (data != null && data != "") {
+                    var myjson=JSON.parse(data);
+                    var temp = myjson[myjson.length-1]['PatientImage']['image_url'];
+                    photos.append('<img src="'+appRoot+temp+'" alt="">');
+                }
+            }
+        });
 	}
 });
