@@ -418,6 +418,14 @@ $this->Patient->recursive = 0;
         $patientImages = $this->PatientImage->find('all', array('conditions'=>array('patient_id'=>$id), 'limit' => '4'));
         $this->set('patientImages', $patientImages);
     }
+
+    //function get patient image
+    public function getPatientImages($patientId = null) {
+        $patientImages = $this->PatientImage->find('all', array('conditions'=>array('patient_id'=>$patientId), 'order'=>array('id'=>'desc'), 'limit'=>'1'));
+        $myjson = $this->my_json_encode($patientImages);
+        echo $myjson;
+        exit;
+    }
    
 }
 ?>
