@@ -52,3 +52,22 @@ function selectTemplate() {
     };
     
 }
+
+function deleteImage(id) {
+    var temp = '#image'+id;
+    var appRoot = $('#appRoot').val();
+    var r = confirm("Bạn có chắc chắn muốn xóa ảnh này!");
+    if (r==true) {
+        $.ajax({
+            type: "POST",
+            url: appRoot+"/deleteImage/"+id,
+            success: function(data){
+                if (data == 'success') {
+                   $(temp).remove();
+                } else {
+                    alert('Lỗi hệ thống xin bạn thử lại.');
+                }
+            }
+        })
+    }
+}

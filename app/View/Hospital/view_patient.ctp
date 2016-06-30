@@ -92,7 +92,10 @@
 							<?php
 								if (isset($patientImages) && !empty($patientImages)) {
 									foreach ($patientImages as $key => $value) {
+										echo "<div id='image".$value['PatientImage']['id']."' class='show-image'>";
 										echo $this->Html->image($value['PatientImage']['image_url']);
+										echo '<input class="delete" type="button" value="Delete" onclick="deleteImage('.$value['PatientImage']['id'].');"/>';
+										echo "</div>";
 									}
 								}
 							?>

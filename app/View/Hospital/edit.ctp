@@ -168,6 +168,25 @@
                   <!-- End lý do khám -->
                   </div>
               </div>
+              <div class="row mgt20 pdt20 mgbt20 pdbt20">
+                <div class="col-sm-12">
+                  <label for="inputImg"  class="control-label">Ảnh liên quan: </label>
+                </div>
+                <div class="col-sm-12">
+                  <div class="photos">
+                    <?php
+                      if (isset($patientImgs) && !empty($patientImgs)) {
+                        foreach ($patientImgs as $key => $value) {
+                          echo "<div id='image".$value['PatientImage']['id']."' class='show-image'>";
+                          echo $this->Html->image($value['PatientImage']['image_url']);
+                          echo '<input class="delete" type="button" value="Delete" onclick="deleteImage('.$value['PatientImage']['id'].');"/>';
+                          echo "</div>";
+                        }
+                      }
+                    ?>
+                </div>
+                </div>
+              </div>
               <div class="row">
                 <!-- Kết luận-->
                   <div class="col-sm-12">
@@ -184,28 +203,6 @@
                   </div>
                 <!-- End Kết Luận -->
               </div>
-              <div class="row mgt20 pdt20 mgbt20 pdbt20">
-                <div class="col-sm-12">
-                  <label for="inputImg"  class="control-label">Ảnh liên quan <span class="text-danger">(* Chỉ nên chọn tối đa 5 ảnh)</span>: </label>
-                </div>
-                <div class="col-sm-12">
-                  <!-- <input type="file" name="data[PatientImage][image][]" class="patientImgs" class="mgt20" accept="image/*" style="display: block;" > -->
-                  <div class="MultiFile-list" id="MultiFile1_wrap_list">
-                    <input type="file" name="data[PatientImage][image][]" class="multi with-preview mgt20" multiple accept="image/*" />
-                    <?php
-                      foreach($patientImgs as $patientImg):
-                        echo '<div class="MultiImg-label" id="oldImg' . $patientImg['PatientImage']['id'] . '" data-id="' . $patientImg['PatientImage']['id'] . '">';
-                        echo '<a class="MultiFile-remove" href="javascript:void(0);" onclick="removeImg(this);">Xóa</a>';
-                        echo '<span class="MultiFile-label">';
-                        echo '<span class="MultiFile-title">' . $patientImg['PatientImage']['image_url'] . '</span>';
-                        echo '<img class="MultiFile-preview" style="max-width: 250px;max-height:200px;" src="' . $base_url . 'img/hospital/' . $patientImg['PatientImage']['image_url'] . '" title="">';
-                        echo '</span></span></div>';
-                      endforeach;
-                    ?>
-                </div>
-                </div>
-              </div>
-          </div>
         </div>
         <div class="row alignCenter">
             <button type="submit" class="btn btn-primary mgr20">Cập nhật</button>
@@ -227,4 +224,5 @@
     </div>
   </div>
 </div>
+<input type="hidden" value="<?php echo $appRoot; ?>" id="appRoot"></input>
 <!-- End Page content-->

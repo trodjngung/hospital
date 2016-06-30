@@ -39,3 +39,35 @@ img.MultiFile-preview {
     float: left;
     width: 65%;
 }
+
+div.show-image {
+    position: relative;
+    float:left;
+}
+div.show-image:hover img{
+    opacity:0.5;
+}
+div.show-image:hover input {
+    display: block;
+}
+div.show-image input {
+    position:absolute;
+    display:none;
+}
+div.show-image input.delete {
+    bottom:39%;
+    left:34%;
+}
+
+.photos{
+    margin: 6px auto 100px;
+    overflow: hidden;
+    width: 480px;
+}
+.photos img {
+    float: left;
+    height: 110px;
+    margin: 1px 1px 0 0;
+    overflow: hidden;
+    width: 145px;
+}
