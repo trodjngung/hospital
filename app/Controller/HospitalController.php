@@ -426,6 +426,20 @@ $this->Patient->recursive = 0;
         echo $myjson;
         exit;
     }
-   
+
+    //function delete image in view
+    public function deleteImage($id) {
+        $PatientImage = $this->PatientImage->findById($id);
+        if ($this->PatientImage->delete($id)) {
+            if (file_exists(WWW_ROOT.$PatientImage['PatientImage']['image_url'])) {
+                $this->removeImg(WWW_ROOT.$PatientImage['PatientImage']['image_url']);
+            }
+            echo 'success';
+        } else {
+            echo 'error';
+        }
+        exit();
+        
+    }
 }
 ?>
