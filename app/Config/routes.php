@@ -40,7 +40,7 @@ Router::connect ( '/:action/*', array (
 
 Router::connect ( '/', array (
 		'controller' => 'hospital',
-		'action' => 'index',
+		'action' => 'overview',
 ) );
 
 /**

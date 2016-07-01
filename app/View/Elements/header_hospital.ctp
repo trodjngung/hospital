@@ -217,15 +217,8 @@
             <li class="parent"><a href="/hospital/search_hospital"><i class="icon s7-search"></i><span>Tìm kiếm bệnh nhân </span></a>
                          </li>
            
-            <li class="parent"><a href="#"><i class="icon s7-settings"></i><span>Quản lý</span></a>
-              <ul class="sub-menu">
-                <li><a href="/hospital/form_hospital">Mẫu Khám</a>
-                </li>
-                <li><a href="/hospital/makham">Mã khám</a>
-                </li>
-                <li><a href="/hospital/hethong">Thiết lập hệ thống</a>
-                </li>
-              </ul>
+            <li class="parent"><a href="/user"><i class="icon s7-settings"></i><span>Quản lý</span></a>
+             
             </li>
              <li class="parent">
               <?php 

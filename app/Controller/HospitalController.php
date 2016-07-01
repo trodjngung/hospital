@@ -341,7 +341,7 @@ $this->Patient->recursive = 0;
             exit;
         }
 
-        $folder = WWW_ROOT.'img\uploads\\';
+        $folder = WWW_ROOT.'img/uploads/';
         // $folder = 'C:\xampp\htdocs\hospital\app\webroot\img\uploads\\';
         $filename = md5($_SERVER['REMOTE_ADDR'].rand()).'.jpg';
 

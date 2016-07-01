@@ -44814,3 +44814,2721 @@ Stack Trace:
 #1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
 #2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2016-06-30 23:06:01 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:06:06 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/avatar.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:06:06 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/pattern.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:06:06 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/loader.gif
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:06:09 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:06:12 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:06:15 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:06:27 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:06:33 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:06:33 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:06:33 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:06:33 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:06:33 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:06:33 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:09:38 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/loader.gif
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:09:38 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/pattern.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:09:38 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/avatar.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:09:41 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:09:41 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:09:41 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:09:42 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:09:42 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:09:44 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:09:44 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:09:44 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:09:44 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:09:45 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:09:46 Error: [MissingActionException] Action HospitalController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'js',
+)
+Request URL: /hospital/js/hospital/camera/webcam/webcam.swf
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:11:22 Error: [MissingActionException] Action HospitalController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'js',
+)
+Request URL: /hospital/js/hospital/camera/webcam/webcam.swf
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:11:24 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/pattern.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:11:59 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:11:59 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:11:59 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:11:59 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:11:59 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:11:59 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:12:01 Error: [MissingActionException] Action HospitalController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'js',
+)
+Request URL: /hospital/js/hospital/camera/webcam/webcam.swf
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:17:59 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/0
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:18:01 Error: [MissingActionException] Action HospitalController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'js',
+)
+Request URL: /hospital/js/hospital/camera/webcam/webcam.swf
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:18:44 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:18:44 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:18:44 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:18:44 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:18:44 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:18:44 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:18:46 Error: [MissingActionException] Action HospitalController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'js',
+)
+Request URL: /hospital/js/hospital/camera/webcam/webcam.swf
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:19:23 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:21:36 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:21:36 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:21:36 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:21:37 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:21:37 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:21:37 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:21:39 Error: [MissingActionException] Action HospitalController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'js',
+)
+Request URL: /hospital/js/hospital/camera/webcam/webcam.swf
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:21:53 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:21:57 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:21:57 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:21:57 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:21:57 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:21:57 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:21:57 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:21:58 Error: [MissingActionException] Action HospitalController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'js',
+)
+Request URL: /hospital/js/hospital/camera/webcam/webcam.swf
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:22:35 Error: [MissingActionException] Action HospitalController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'js',
+)
+Request URL: /hospital/js/hospital/camera/webcam/webcam.swf
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:22:36 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/pattern.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:25:26 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:25:26 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:25:26 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:25:26 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:25:26 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:25:27 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:26:17 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:26:17 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:26:17 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:26:17 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:26:17 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:26:18 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:28:45 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:28:45 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:28:46 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:28:46 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:28:46 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:28:54 Error: [MissingActionException] Action HospitalController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'js',
+)
+Request URL: /hospital/js/hospital/camera/webcam/webcam.swf
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:30:49 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:30:52 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:30:55 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:30:55 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:30:55 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:30:55 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:30:55 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:30:55 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:30:55 Error: [MissingActionException] Action HospitalController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'js',
+)
+Request URL: /hospital/js/hospital/camera/webcam/webcam.swf
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:31:44 Error: [MissingActionException] Action HospitalController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'js',
+)
+Request URL: /hospital/js/hospital/camera/webcam/webcam.swf
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:31:45 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/pattern.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:34:33 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:34:33 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:34:33 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:34:33 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:34:33 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:34:33 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:34:35 Error: [MissingActionException] Action HospitalController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'js',
+)
+Request URL: /hospital/js/hospital/camera/webcam/shutter.mp3
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:35:02 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:35:03 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:35:03 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:35:03 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:35:03 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:35:03 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:35:29 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:35:32 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:35:37 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:35:47 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:35:54 Error: [MissingViewException] View file "Hospital/upload_camera.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Hospital/upload_camera.ctp',
+)
+Request URL: /hospital/uploadCamera
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/jquanly37mo/public_html/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#4 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-30 23:35:54 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/245db8f0bded5689c3bc618ebdf05e25.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:38:52 Error: [MissingViewException] View file "Hospital/upload_camera.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Hospital/upload_camera.ctp',
+)
+Request URL: /hospital/uploadCamera
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/jquanly37mo/public_html/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#4 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-30 23:38:53 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/b11b3294abf0535f1c1bde1ca984c826.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:39:56 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /hospital/img/uploads/245db8f0bded5689c3bc618ebdf05e25.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:42:11 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/245db8f0bded5689c3bc618ebdf05e25.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:42:48 Error: [MissingActionException] Action HospitalController::m() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'm',
+)
+Request URL: /m//img/uploads/245db8f0bded5689c3bc618ebdf05e25.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:43:54 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/b11b3294abf0535f1c1bde1ca984c826.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:43:54 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/245db8f0bded5689c3bc618ebdf05e25.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:43:54 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:49:24 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/b11b3294abf0535f1c1bde1ca984c826.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:49:24 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/245db8f0bded5689c3bc618ebdf05e25.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:49:24 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:49:32 Error: [MissingViewException] View file "Hospital/upload_camera.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Hospital/upload_camera.ctp',
+)
+Request URL: /hospital/uploadCamera
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/jquanly37mo/public_html/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#4 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-30 23:49:32 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/461a8b2f7d661a52ec91420e77694cc1.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:49:38 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/461a8b2f7d661a52ec91420e77694cc1.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:49:38 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/245db8f0bded5689c3bc618ebdf05e25.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:49:38 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/b11b3294abf0535f1c1bde1ca984c826.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:49:39 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:51:04 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:51:04 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:51:04 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:51:04 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:51:04 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:51:16 Error: [MissingViewException] View file "Hospital/upload_camera.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Hospital/upload_camera.ctp',
+)
+Request URL: /hospital/uploadCamera
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/jquanly37mo/public_html/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#4 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-30 23:51:16 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:52:57 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:52:57 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:52:57 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:52:57 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:52:57 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:52:57 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c60b1ef2001ca311017e48bf02b96185.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:52:58 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:54:22 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:54:22 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:54:22 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:54:22 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:54:22 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:54:22 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c60b1ef2001ca311017e48bf02b96185.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:54:23 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:54:33 Error: [MissingViewException] View file "Hospital/upload_camera.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Hospital/upload_camera.ctp',
+)
+Request URL: /hospital/uploadCamera
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/jquanly37mo/public_html/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#4 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-30 23:54:39 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:54:39 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:54:39 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:54:39 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/d8c90969954e6fcac08afd02bd3ecd97.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:54:39 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:54:39 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:54:39 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c60b1ef2001ca311017e48bf02b96185.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:54:40 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:55:37 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:55:37 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:55:37 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c60b1ef2001ca311017e48bf02b96185.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:55:37 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:55:37 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:55:37 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:55:37 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/d8c90969954e6fcac08afd02bd3ecd97.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:55:37 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:55:47 Error: [MissingViewException] View file "Hospital/upload_camera.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Hospital/upload_camera.ctp',
+)
+Request URL: /hospital/uploadCamera
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/jquanly37mo/public_html/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#4 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-30 23:55:47 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/7ce8814e72b5a75d119b68aba59171b2.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:55:52 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:55:52 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:55:52 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:55:52 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/d8c90969954e6fcac08afd02bd3ecd97.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:55:52 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/7ce8814e72b5a75d119b68aba59171b2.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:55:52 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c60b1ef2001ca311017e48bf02b96185.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:55:52 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:55:52 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:55:52 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:58:21 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:58:21 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:58:21 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:58:21 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c60b1ef2001ca311017e48bf02b96185.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:58:21 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/d8c90969954e6fcac08afd02bd3ecd97.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:58:21 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:58:21 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/7ce8814e72b5a75d119b68aba59171b2.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:58:21 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:58:22 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:58:32 Error: [MissingViewException] View file "Hospital/upload_camera.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Hospital/upload_camera.ctp',
+)
+Request URL: /hospital/uploadCamera
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/jquanly37mo/public_html/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#4 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-30 23:58:39 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:58:39 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:58:39 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:58:39 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c60b1ef2001ca311017e48bf02b96185.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:58:39 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/d8c90969954e6fcac08afd02bd3ecd97.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:58:39 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:58:39 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:58:39 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/7ce8814e72b5a75d119b68aba59171b2.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:58:40 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:59:53 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:59:53 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/da163a1447615797e321ccd69e5c735f.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:59:54 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c60b1ef2001ca311017e48bf02b96185.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:59:54 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/bdf1e7640301c9c413d99eed67bca911.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:59:54 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/c63d8e1d3bb2b170234da5e07bc26147.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:59:54 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/6d0bf31760d49fed2540f08081ae421b.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:59:54 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/uploads/d8c90969954e6fcac08afd02bd3ecd97.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:59:54 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/7ce8814e72b5a75d119b68aba59171b2.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-30 23:59:54 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/e2d0b23d0fcc3c9cf6df0bb0f5e2aea3.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 00:00:26 Error: [MissingViewException] View file "Hospital/upload_camera.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Hospital/upload_camera.ctp',
+)
+Request URL: /hospital/uploadCamera
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/jquanly37mo/public_html/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#4 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-01 00:00:32 Error: [MissingViewException] View file "Hospital/upload_camera.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Hospital/upload_camera.ctp',
+)
+Request URL: /hospital/uploadCamera
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/jquanly37mo/public_html/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#4 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-01 00:01:22 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/461a8b2f7d661a52ec91420e77694cc1.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 00:01:22 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/b11b3294abf0535f1c1bde1ca984c826.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 00:01:22 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: //img/uploads/245db8f0bded5689c3bc618ebdf05e25.jpg
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 00:01:25 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 00:01:32 Error: [MissingViewException] View file "Hospital/upload_camera.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Hospital/upload_camera.ctp',
+)
+Request URL: /hospital/uploadCamera
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/jquanly37mo/public_html/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#4 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-01 00:01:45 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 00:01:51 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 00:02:09 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 00:02:14 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 00:02:22 Error: [MissingViewException] View file "Hospital/upload_camera.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Hospital/upload_camera.ctp',
+)
+Request URL: /hospital/uploadCamera
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/jquanly37mo/public_html/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#4 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-01 00:02:45 Error: [MissingViewException] View file "Hospital/upload_camera.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Hospital/upload_camera.ctp',
+)
+Request URL: /hospital/uploadCamera
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/jquanly37mo/public_html/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#4 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-01 00:03:13 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 00:03:17 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 00:03:27 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 00:03:31 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 00:05:03 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 00:05:07 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 00:07:40 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 00:07:43 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 00:07:47 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 00:07:53 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 00:08:16 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 00:08:19 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 00:09:04 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 07:21:26 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/loader.gif
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 07:21:26 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/pattern.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 07:21:26 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/avatar.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 07:21:38 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 07:23:26 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/loader.gif
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 07:23:26 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/avatar.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 07:23:26 Error: [MissingActionException] Action HospitalController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'img',
+)
+Request URL: /img/pattern.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 07:23:35 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 07:23:41 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 07:24:07 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 07:25:05 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 07:25:53 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 07:27:07 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-01 07:27:18 Error: [MissingActionException] Action HospitalController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalController',
+  'action' => 'css',
+)
+Request URL: /css/hospital/img/logo-full-retina.png
+Stack Trace:
+#0 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/jquanly37mo/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalController), Object(CakeRequest))
+#2 /home/jquanly37mo/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
