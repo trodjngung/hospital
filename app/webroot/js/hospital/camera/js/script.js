@@ -233,8 +233,10 @@ $(document).ready(function(){
             success: function(data){
                 if (data != null && data != "") {
                     var myjson=JSON.parse(data);
-                    var temp = myjson[myjson.length-1]['PatientImage']['image_url'];
-                    photos.append('<img src="'+appRoot+temp+'" alt="">');
+                    var url = myjson[myjson.length-1]['PatientImage']['image_url'];
+                    var id = myjson[myjson.length-1]['PatientImage']['id'];
+                    
+                    photos.append('<div id="image'+id+'" class="show-image"><img src="'+appRoot+url+'" alt=""><input class="delete" type="button" value="Delete" onclick="deleteImage('+id+');"/></div>');
                 }
             }
         });

@@ -2,6 +2,8 @@
 <?php echo $this->Html->script('hospital/jquery.multifile');?>
 <?php echo $this->Html->script('hospital/hospital');?>
 <?php echo $this->Html->css('hospital/hospital');?>
+<?php echo $this->Html->css('photobooth/src/styles.css'); ?>
+<?php echo $this->Html->css('photobooth/fancybox/jquery.fancybox-1.3.4.css'); ?>
 <!-- Page head -->
 <div class="row">
   <div class="alignCenter">
@@ -173,12 +175,12 @@
                   <label for="inputImg"  class="control-label">Ảnh liên quan: </label>
                 </div>
                 <div class="col-sm-12">
-                  <div class="photos">
+                  <div class="photos" id="photos">
                     <?php
                       if (isset($patientImgs) && !empty($patientImgs)) {
                         foreach ($patientImgs as $key => $value) {
                           echo "<div id='image".$value['PatientImage']['id']."' class='show-image'>";
-                          echo $this->Html->image($value['PatientImage']['image_url']);
+                          echo $this->Html->image($base_url.$value['PatientImage']['image_url']);
                           echo '<input class="delete" type="button" value="Delete" onclick="deleteImage('.$value['PatientImage']['id'].');"/>';
                           echo "</div>";
                         }
@@ -224,5 +226,32 @@
     </div>
   </div>
 </div>
+<div class="col-sm-6 alignCenter">
+            <!-- Camera -->
+          <div id="camera">
+        <span class="tooltip"></span>
+        <span class="camTop"></span>
+          
+          <div id="screen"></div>
+          <div id="buttons">
+            <div class="buttonPane">
+                <a id="shootButton" href="" class="blueButton">Shoot!</a>
+              </div>
+              <div class="buttonPane" style="display: none">
+                <a id="cancelButton" href="" class="blueButton">Cancel</a> <a id="uploadButton" href="" class="greenButton">Upload!</a>
+              </div>
+          </div>
+          
+          <span class="settings"></span>
+      </div>
+      
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+      <?php echo $this->Html->script('hospital/camera/fancybox/jquery.easing-1.3.pack.js');?>
+      <?php echo $this->Html->script('hospital/camera/fancybox/jquery.fancybox-1.3.4.pack.js');?>
+      <?php echo $this->Html->script('hospital/camera/webcam/webcam.js');?>
+      <?php echo $this->Html->script('hospital/camera/js/script.js');?>
+    <!-- End Camera -->
+      </div>
 <input type="hidden" value="<?php echo $appRoot; ?>" id="appRoot"></input>
+<input type="hidden" value="<?php echo $patient['Patient']['id']; ?>" id="patientId"></input>
 <!-- End Page content-->
